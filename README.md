@@ -54,9 +54,9 @@ The CRC is an annual event in Quebec. For more information, visit their
 #### Team <a id="team"></a>
 
 ##### Note: 
-Instead of hardcoding the team page, information of each of the team
-member will be stored in one single json file as raw data which will only be fetched and
-iterated if requested.
+* Information of each of the team member will be stored in one single json file
+* Data can be iterated by using ng-repeat
+* Data file will only be fetched if requested
 
 ```javascript
   // Not real code, will be written in json
@@ -84,7 +84,7 @@ iterated if requested.
 
 #### Tutorial <a id="tut" ></a>
 
-* All tutorials will be required in markdown which can be subsequently
+* All tutorials will be written in markdown which can be subsequently
   [converted to html on the client side](https://github.com/Hypercubed/angular-marked). 
 * There will be a json file contains all the info of articles in the "database".
 
