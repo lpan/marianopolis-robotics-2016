@@ -12,6 +12,7 @@ Website for CRC Pythagorium 2016
    * [Timeline(robot)](#rob)
    * [Tutorials](#tut)
 4. [Marianopolis Robotics](#mari)
+5. [License](#lic)
 
 ## About This site <a id="about"></a>
 ##### Written by 
@@ -111,3 +112,6 @@ The CRC is an annual event in Quebec. For more information, visit their
 
 Follow us on [twitter](https://twitter.com/MariRobotics) and check out our 
 [github](http://github.com/marianopolis-robotics)!
+
+## License <a id="lic"></a>
+MIT License
