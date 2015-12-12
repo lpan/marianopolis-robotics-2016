@@ -1,22 +1,17 @@
 # MarioKart 2016
 Website for CRC Pythagorium 2016
 
-### Marianopolis Robotics Team
-* [twitter](https://twitter.com/MariRobotics)
-* [github](http://github.com/marianopolis-robotics)
-
 ## Table of Contents
 1. [About](#about)
 2. [CRC Robotics Competition](#crc)
 3. [Pages](#pages)
-      * Welcome
-      * Home
-      * About College
-      * Team
-      * Timeline(robot)
-      * Tutorials
-4. [Directory structure](#dir)
-5. [Algorithms](#algorithms)
+   * [Welcome](#wel)
+   * [Home](#home)
+   * [Game & College](#game)
+   * [Team](#team)
+   * [Timeline(robot)](#rob)
+   * [Tutorials](#tut)
+4. [Marianopolis Robotics](#mari)
 
 ## About This site <a id="about"></a>
 ##### Written by 
@@ -25,8 +20,7 @@ Website for CRC Pythagorium 2016
 
 This website has no backend. It is built strictly following the [DRY
 principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
-with [angularjs](https://angularjs.org/) and [bootstrap](http://getbootstrap.com/) 
-frameworks. Check out the [algorithms]() section of this doc for more details.
+with [angularjs](https://angularjs.org/) and [bootstrap](http://getbootstrap.com/).
 
 For security and and confidentiality purposes, this website is currently 
 hosted on a private repository. It will be **opensourced** after the
@@ -38,7 +32,7 @@ The CRC is an annual event in Quebec. For more information, visit their
 [github](https://github.com/robo-crc)
 
 
-## Pages <a id="layouts"></a>
+## Pages <a id="pages"></a>
 
 ##### Partials(Things that will stay no matter what)
 
@@ -46,27 +40,18 @@ The CRC is an annual event in Quebec. For more information, visit their
 * Language Switcher => reassign value to global var $lang
 
 
-#### Welcome
+#### Welcome <a id="wel"></a>
 
-```javascript
-   include: {
-     buttons: [English, French]
-   }
-   mainPurpose: "Assign value to global var $LANG"
-```
+* English/French button
+* Assign value to global variable $lang
 
-#### Home
+#### Home <a id="home"></a>
 
-```javascript
-  include: [ 
-             navBar,
-             navAssistant(mushroom),
-             social media links
-           ],
-  mainPurpose: "Home page"
-```
+* navBar,
+* navAssistant(mushroom),
+* social media links
 
-#### Team
+#### Team <a id="team"></a>
 
 ##### Note: 
 Instead of hardcoding the team page, information of each of the team
@@ -74,8 +59,7 @@ member will be stored in one single json file as raw data which will only be fet
 iterated if requested.
 
 ```javascript
-  // Just a demo
-  // In Json format
+  // Not real code, will be written in json
   // Can be iterated by ng-repeat
   function Member () {
     this.name = 'John Doe';
@@ -86,9 +70,44 @@ iterated if requested.
   }
 ```
 
-#### Game
+#### Game & School <a id="game"></a>
+
+* Static page
+* May be two pages
+
+#### Robot(timeline) <a id="rob"></a>
+
+1. Steps making the robot
+2. Problems encountered + corresponding solutions
+3. conception, prototypes, drawing, etc
+4. photo of the robot
+
+#### Tutorial <a id="tut" ></a>
+
+* All tutorials will be required in markdown which can be subsequently
+  [converted to html on the client side](https://github.com/Hypercubed/angular-marked). 
+* There will be a json file contains all the info of articles in the "database".
 
 ```javascript
-  static: true
-  mainPurpose: "Explanation of the game"
+  // Just a demo
+  var articles = [
+    {
+      name: 'How to make your robot happy',
+      author: 'Lawrence Pan',
+      tag: ['robot', 'happy', 'howto']
+      // alternatively, if tags are to complicated
+      type: 'robot'
+      location: '/path/to/article.md'
+    },
+    {
+      // Another article
+    }
+  ]
 ```
+
+
+## Marianopolis Robotics Team <a id="mari"></a>
+> The Marianopolis Robotics Team is a College tradition and a source of pride.
+
+Follow us on [twitter](https://twitter.com/MariRobotics) and check out our 
+[github](http://github.com/marianopolis-robotics)!
