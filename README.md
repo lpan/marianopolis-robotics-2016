@@ -1,6 +1,8 @@
 # MarioKart 2016
 Website for CRC Pythagorium 2016
 
+[![forthebadge](http://forthebadge.com/images/badges/does-not-contain-treenuts.svg)](http://forthebadge.com)
+
 ## Table of Contents
 1. [About](#about)
 2. [CRC Robotics Competition](#crc)
@@ -19,9 +21,7 @@ Website for CRC Pythagorium 2016
 * [Lawrence Pan](http://github.com/lorix-lpan "Lawrence's Github")
 * [Yixuan Wang](http://github.com/yixuanwang "Yixuan's Github")
 
-This website has no backend. It is built strictly following the [DRY
-principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
-with [angularjs](https://angularjs.org/) and [bootstrap](http://getbootstrap.com/).
+Powered by [angularjs](https://angularjs.org/) and [bootstrap](http://getbootstrap.com/).
 
 For security and and confidentiality purposes, this website is currently 
 hosted on a private repository. It will be **opensourced** after the
