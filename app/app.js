@@ -1,5 +1,13 @@
 var app = angular.module('marioKart', ['ngRoute']);
 
+app.run(function ($rootScope) {
+  // Default language is english
+  $rootScope.lang = 'en';
+  $rootScope.setLang = function (lang) {
+    $rootScope.lang = lang;
+  };
+});
+
 app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
   $routeProvider.
     when('/', {
@@ -14,3 +22,6 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
       redirectTo: '/'
     });
 }]);
+
+//app.controller('welcomeController', function ($rootScope, $scope) {
+
