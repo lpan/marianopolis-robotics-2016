@@ -3,9 +3,6 @@ var app = angular.module('marioKart', ['ngRoute']);
 app.run(function ($rootScope) {
   // Default language is english
   $rootScope.lang = 'en';
-  $rootScope.setLang = function (lang) {
-    $rootScope.lang = lang;
-  };
 });
 
 app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
@@ -23,5 +20,14 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
     });
 }]);
 
-//app.controller('welcomeController', function ($rootScope, $scope) {
-
+app.controller('welcomeController', function ($rootScope, $scope, $location) {
+  $scope.setLang = function (lang) {
+    $rootScope.lang = lang;
+  };
+  $scope.gotoPage = function (path) {
+    $location.path(path);
+  };
+  $rootScope.$watch('lang', function () {
+    $scope.START = $rootScope.lang === 'en' ? 'Start' : 'Commencer';
+  });
+});
