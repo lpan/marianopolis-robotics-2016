@@ -59,7 +59,7 @@ var en = {
     DESCRIPTION: 'This is Marianopolis college...'
   }
   // ...
-}
+};
 
 var fr = {
   welcome: {
@@ -69,7 +69,7 @@ var fr = {
   school: {
     DESCRIPTION: 'C'est Marianopolis'
   }
-}
+};
 ```
 
 * English/French button
