@@ -43,8 +43,39 @@ The CRC is an annual event in Quebec. For more information, visit their
 
 #### Welcome <a id="wel"></a>
 
+##### Bilingual
+* Global var $rootScope.lang contains 'en' or 'fr'
+* two json files contain english and french texts respectively
+* Event listener on $rootScope.lang, update content when value changes
+
+###### Sample json
+```javascript
+var en = {
+  welcome: {
+    GREET: 'Hi',
+    START: 'Start'
+  }
+  school: {
+    DESCRIPTION: 'This is Marianopolis college...'
+  }
+  // ...
+}
+
+var fr = {
+  welcome: {
+    GREET: 'Bonjour',
+    START: 'Commencer'
+  }
+  school: {
+    DESCRIPTION: 'C'est Marianopolis'
+  }
+}
+```
+
 * English/French button
+* Start button -> only appears if global var is set
 * Assign value to global variable $lang
+* Background image => blue stars mosaic
 
 #### Home <a id="home"></a>
 
