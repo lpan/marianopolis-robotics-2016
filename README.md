@@ -17,13 +17,13 @@ Website for CRC Pythagorium 2016
 5. [License](#lic)
 
 ## About This site <a id="about"></a>
-##### Written by 
+##### Written by
 * [Lawrence Pan](http://github.com/lorix-lpan "Lawrence's Github")
 * [Yixuan Wang](http://github.com/yixuanwang "Yixuan's Github")
 
 Powered by [angularjs](https://angularjs.org/) and [bootstrap](http://getbootstrap.com/).
 
-For security and and confidentiality purposes, this website is currently 
+For security and and confidentiality purposes, this website is currently
 hosted on a private repository. It will be **opensourced** after the
 submission deadline(Feburary 8, 2016).
 
@@ -85,7 +85,7 @@ var fr = {
 
 #### Team <a id="team"></a>
 
-##### Note: 
+##### Note:
 * Information of each of the team member will be stored in one single json file
 * Data can be iterated by using ng-repeat
 * Data file will only be fetched if requested
@@ -117,7 +117,7 @@ var fr = {
 #### Tutorial <a id="tut" ></a>
 
 * All tutorials will be written in markdown which can be subsequently
-  [converted to html on the client side](https://github.com/Hypercubed/angular-marked). 
+  [converted to html on the client side](https://github.com/Hypercubed/angular-marked).
 * There will be a json file contains all the info of articles in the "database".
 
 ```javascript
@@ -141,8 +141,9 @@ var fr = {
 ## Marianopolis Robotics Team <a id="mari"></a>
 > The Marianopolis Robotics Team is a College tradition and a source of pride.
 
-Follow us on [twitter](https://twitter.com/MariRobotics) and check out our 
+Follow us on [twitter](https://twitter.com/MariRobotics) and check out our
 [github](http://github.com/marianopolis-robotics)!
+Don't forget to like our [facebook](https://www.facebook.com/crcteam006/?fref=ts) page as well!
 
 ## License <a id="lic"></a>
 MIT License
