@@ -1,5 +1,6 @@
 <div class="container">
-  <div class="row"></div>
+  <div class="row">
+  </div>
   <div class="row">
     <div class="col-sm-6 text-center">
       <button class="btn btn-primary" ng-click="setLang('en')">
@@ -13,10 +14,10 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-12 text-center">
-      <button class="btn btn-warning" ng-click="gotoPage('/home')">
-      {{ START }}
-      </button>
+    <div class="round-button col-md-12 text-center">
+	    <div class="round-button-circle">
+	    	<a ng-click="gotoPage('/home')" class="round-button">{{ START }}</a>
+	    </div>
     </div>
   </div>
 </div>
