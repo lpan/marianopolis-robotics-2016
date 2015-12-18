@@ -11,9 +11,9 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
       templateUrl: 'app/views/welcome.html',
       controller: 'welcomeController'
     }).
-    when('/test'), {
+    when('/test', {
       templateUrl: 'app/views/test.html',
-    }
+    });
     when('/home', {
       templateUrl: 'app/views/home.html',
       controller: 'homeController'
