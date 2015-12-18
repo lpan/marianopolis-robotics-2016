@@ -67,7 +67,7 @@ var fr = {
     START: 'Commencer'
   }
   school: {
-    DESCRIPTION: 'C'est Marianopolis'
+    DESCRIPTION: 'Cest Marianopolis....'
   }
 };
 ```
