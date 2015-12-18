@@ -13,7 +13,7 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
     }).
     when('/test', {
       templateUrl: 'app/views/test.html',
-    });
+    }).
     when('/home', {
       templateUrl: 'app/views/home.html',
       controller: 'homeController'
