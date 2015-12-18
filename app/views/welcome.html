@@ -1,10 +1,17 @@
-<h1>Welcome</h1>
-<button class="btn btn-primary" ng-click="setLang('en')">
-English
-</button>
-<button class="btn btn-primary" ng-click="setLang('fr')">
-French
-</button>
-<button class="btn btn-warning" ng-click="gotoPage('/home')">
-{{ START }}
-</button>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 col-md-offset-3">
+      <button class="btn btn-primary" ng-click="setLang('en')">
+      English
+      </button>
+    </div>
+    <div class="col-md-3 col-md-offset-3">
+      <button class="btn btn-primary" ng-click="setLang('fr')">
+      French
+      </button>
+    </div>
+  </div>
+  <button class="btn btn-warning" ng-click="gotoPage('/home')">
+  {{ START }}
+  </button>
+</div>
