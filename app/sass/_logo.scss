@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Monoton);
+// @import url(https://fonts.googleapis.com/css?family=Monoton);
 #mario-face {
   background: url("../img/welcome/mario.png") center;
   background-size: auto 150%;
@@ -7,7 +7,20 @@
   display: inline-block;
 }
 
+@font-face {
+  font-family: marioFont;
+  src: url("../fonts/SuperMario256.ttf");
+}
+
 h1 {
-  font-family: 'Monoton';
+  font-family: 'marioFont';
   color: yellow;
+}
+
+.languageBtn {
+  font-family: 'marioFont';
+}
+
+#startText {
+  font-family: 'marioFont';
 }

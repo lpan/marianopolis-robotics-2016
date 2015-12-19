@@ -1,5 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Monoton);
-@import url(https://fonts.googleapis.com/css?family=Monoton);
 .languageBtn {
   cursor: pointer;
   border-radius: 5px;
@@ -41,9 +39,9 @@
   cursor: pointer;
   display: inline-block;
   margin: 10px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
   -webkit-box-shadow: 0 8px 0 #990000, 0 15px 20px rgba(0, 0, 0, 0.35);
   -moz-box-shadow: 0 8px 0 #990000, 0 15px 20px rgba(0, 0, 0, 0.35);
   box-shadow: 0 8px 0 #990000, 0 15px 20px rgba(0, 0, 0, 0.35);
@@ -62,9 +60,9 @@
   background-image: -webkit-linear-gradient(rgba(250, 158, 192, 0.8), rgba(247, 110, 160, 0.2));
   background-image: -moz-linear-gradient(rgba(250, 158, 192, 0.8), rgba(247, 110, 160, 0.2));
   background-image: -o-linear-gradient(rgba(250, 158, 192, 0.8), rgba(247, 110, 160, 0.2));
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
   -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.15);
   -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.15);
   box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.15);
@@ -98,9 +96,18 @@
   width: 50px;
   display: inline-block; }
 
+@font-face {
+  font-family: marioFont;
+  src: url("../fonts/SuperMario256.ttf"); }
 h1 {
-  font-family: 'Monoton';
+  font-family: 'marioFont';
   color: yellow; }
+
+.languageBtn {
+  font-family: 'marioFont'; }
+
+#startText {
+  font-family: 'marioFont'; }
 
 html, body {
   height: 100%;
