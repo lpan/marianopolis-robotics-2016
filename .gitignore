@@ -1,2 +1,2 @@
 assets/libs/*
-*.scssc
+/.sass-cache/
