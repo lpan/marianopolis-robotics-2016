@@ -1,8 +1,8 @@
 var app = angular.module('marioKart', ['ngRoute']);
 
 app.run(function ($rootScope) {
-  // Default language is english
-  $rootScope.lang = 'en';
+  // Initialize global var lang
+  $rootScope.lang = 'unset';
 });
 
 app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {

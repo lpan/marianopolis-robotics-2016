@@ -1,13 +1,18 @@
 <div class="container">
   <div class="row">
+    <h1 style="color:white">I am the logo</h1>
   </div>
   <div class="row">
-    <a class="button">
-        <span>press me</span>
-    </a>
+    <div class="col-sm-4 col-md-offset-2 text-center">
+      <div class="languageBtn langorange" ng-click="setLang('en')">English</div>
+      <img class="img-responsive" src="../../assets/img/welcome/mario.png" alt="ERROR">
+    </div>
+    <div class="col-sm-4 text-center">
+      <div class="languageBtn langorange" ng-click="setLang('fr')">French</div>
+      <img class="img-responsive" src="../../assets/img/welcome/mario.png" alt="ERROR">
+    </div>
   </div>
-  <div class="row">
-    <p>dfdf</p>
-    <button class="btn btn-warning">This is a button</button>
+  <div class="row text-center" ng-hide="lang === 'unset'">
+    <div class="startBtn shake"><span>{{ START }}</span></div>
   </div>
 </div>
