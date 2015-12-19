@@ -1,2 +1,4 @@
-assets/libs/*
-/.sass-cache/
+assets/libs/
+.*
+!/.gitignore
+!/.bowerrc
