@@ -1,14 +1,11 @@
-
 @import 'langButton';
 @import 'startButton';
+@import 'logo';
+@import url(https://fonts.googleapis.com/css?family=Monoton);
 
 html, body {
   height: 100%;
   width: 100%;
   background: url("../img/welcome/marioBackground.jpg") center repeat-x;
   background-size: auto 100%;
-}
-
-.img-responsive {
-    margin: 0 auto;
 }

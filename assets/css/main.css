@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Monoton);
+@import url(https://fonts.googleapis.com/css?family=Monoton);
 .languageBtn {
   cursor: pointer;
   border-radius: 5px;
@@ -89,11 +91,19 @@
   -o-transform: translate(0, 4px);
   transform: translate(0, 4px); }
 
+#mario-face {
+  background: url("../img/welcome/mario.png") center;
+  background-size: auto 150%;
+  height: 50px;
+  width: 50px;
+  display: inline-block; }
+
+h1 {
+  font-family: 'Monoton';
+  color: yellow; }
+
 html, body {
   height: 100%;
   width: 100%;
   background: url("../img/welcome/marioBackground.jpg") center repeat-x;
   background-size: auto 100%; }
-
-.img-responsive {
-  margin: 0 auto; }
