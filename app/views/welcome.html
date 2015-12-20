@@ -1,12 +1,10 @@
 <div class="container">
-  <div class="row">
+  <div class="row animated lightSpeedIn">
     <div class="col-sm-12 text-center">
-      <h1 arc-logo>MARIANOPOLIS</h1>
-      <span id="mario-face"></span>
-      <h1>Robotics</h1>
+      <wel-logo></wel-logo>
     </div>
   </div>
-  <div class="row">
+  <div class="row animated fadeIn">
     <div class="col-sm-4 col-md-offset-2 text-center">
       <div class="languageBtn langorange" ng-click="setLang('en')">English</div>
     </div>
@@ -15,6 +13,6 @@
     </div>
   </div>
   <div class="row text-center" ng-hide="lang === 'unset'">
-    <div class="startBtn shake-slow shake-constant"><span id="startText">{{ START }}</span></div>
+    <div class="startBtn animated infinite rubberBand"><span id="startText">{{ START }}</span></div>
   </div>
 </div>

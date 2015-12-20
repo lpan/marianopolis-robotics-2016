@@ -7,6 +7,7 @@
     "angular-route": "latest",
     "bootstrap": "~3.1.1",
     "csshake": "latest",
-    "arctext-js": "latest"
+    "arctext-js": "latest",
+    "animate.css": "latest"
   }
 }
