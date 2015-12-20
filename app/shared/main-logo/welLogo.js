@@ -7,7 +7,7 @@ app.directive('welLogo', function () {
     $(element).find('span').addClass('shake-slow');
   };
   return {
-    templateUrl: 'app/directives/wel-logo.html',
+    templateUrl: 'app/shared/main-logo/wel-logo.html',
     restrict: 'E',
     link: link
   };
