@@ -8,14 +8,14 @@ app.run(function ($rootScope) {
 app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
   $routeProvider.
     when('/', {
-      templateUrl: 'app/components/welcome/welcome.html',
+      templateUrl: 'app/components/welcome/welcomeView.html',
       controller: 'welcomeController'
     }).
     when('/test', {
       templateUrl: 'app/components/test/test.html'
     }).
     when('/home', {
-      templateUrl: 'app/components/home/home.html',
+      templateUrl: 'app/components/home/homeView.html',
       controller: 'homeController'
     }).
     otherwise({
