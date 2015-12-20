@@ -6,13 +6,6 @@
     animation:         $animations;
 }
 
-@mixin transform($transforms) {
-    -webkit-transform: $transforms;
-    -moz-transform: $transforms;
-    -o-transform: $transforms;
-    transform: $transforms;
-}
-
 @mixin keyframes($animationName) {
     @-webkit-keyframes #{$animationName} {
         @content;
