@@ -1,4 +1,4 @@
-var app = angular.module('marioKart', ['ngRoute']);
+var app = angular.module('marioKart', ['ngAnimate', 'ngRoute']);
 
 app.run(function ($rootScope) {
   // Initialize global var lang
@@ -11,12 +11,9 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
       templateUrl: 'app/components/welcome/welcomeView.html',
       controller: 'welcomeController'
     }).
-    when('/test', {
-      templateUrl: 'app/components/test/test.html'
-    }).
-    when('/home', {
-      templateUrl: 'app/components/home/homeView.html',
-      controller: 'homeController'
+    when('/info', {
+      templateUrl: 'app/components/info/infoView.html',
+      controller: 'infoController'
     }).
     otherwise({
       redirectTo: '/'
