@@ -1,0 +1,43 @@
+.tb5 {
+	border:2px solid #456879;
+	border-radius: 30px;
+	height: 22px;
+	width: 230px;
+}
+#button1 {
+	position: fixed;
+	top: 10%;
+	left: 70%;
+}
+
+#button2 {
+	position: fixed;
+	top: 60%;
+	left: 20%;
+}
+
+#textBox
+{
+box-shadow:1px 1px 45px #333;
+transition: 200ms all ease;
+border:none;
+padding: 5px 5px;
+position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+width: 75%;
+height: 75%;
+background: url('../../../assets/img/info/map.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#textBox:hover
+{
+box-shadow: 12px 13px 0px rgba(204, 211, 51, 0.38),
+-11px -14px 0px rgba(241, 96, 0, 0.28),
+18px -24px 0px rgba(0, 0, 0, 0.34),
+33px -6px 0px rgba(39, 74, 214, 0.28);
+}
