@@ -1,8 +1,8 @@
 #box {
   background-color: white;
-  opacity: 0.4;
-  width: 75%;
-  height: 75%;
+  opacity: 0.8;
+  width: 80%;
+  height: 80%;
   position: absolute;
   top: 12.5%;
   left: 12.5%;
@@ -20,7 +20,7 @@
 .border {
   border-collapse: separate;
   border: solid 10px;
-  border-color: silver blue;
+  border-color: black green;
   -webkit-box-shadow: 24px -20px 22px 10px rgba(0,0,0,0.75);
   -moz-box-shadow: 24px -20px 22px 10px rgba(0,0,0,0.75);
   box-shadow: 24px -20px 22px 10px rgba(0,0,0,0.75);
