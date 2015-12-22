@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+
+      .row {
+        background-color:black
+      }
+
+      .glass::before {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-image: url('http://i.funny.pho.to/preview/snow_effect/falling_snow_effect.jpeg');
+      background-size: cover;
+      content: ' ';
+      opacity: 0.4;
+      }
+      .glass {
+          background-color: white;
+      }
+    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="../jquery.circular-carousel.css">
+
+    <title>JQuery Circular Carousel</title>
+  </head>
+  <body>
+
+    <div class="row glass">
+      <ul class="carousel" style="background-color: black">
+        <li class="item active"></li>
+        <li class="item"></li>
+        <li class="item"></li>
+        <li class="item"></li>
+        <li class="item"></li>
+        <li class="item"></li>
+        <li class="item"></li>
+        <li class="item"></li>
+        <li class="item"></li>
+        <li class="item"></li>
+        <li class="item"></li>
+      </ul>
+    </div>
+
+    <div class="controls">
+      <a href="#" class="previous">Previous</a>
+      <a href="#" class="next">Next</a>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <script src="../jquery.circular-carousel.js"></script>
+
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
