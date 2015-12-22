@@ -15,6 +15,10 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
       templateUrl: 'app/components/info/infoView.html',
       controller: 'infoController'
     }).
+    when('/team', {
+      templateUrl: 'app/components/team/teamView.html',
+      controller: 'teamController'
+    }).
     otherwise({
       redirectTo: '/'
     });
