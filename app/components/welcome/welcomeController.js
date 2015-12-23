@@ -1,11 +1,30 @@
-app.controller('welcomeController', function ($rootScope, $scope, $location) {
-  $scope.setLang = function (lang) {
-    $rootScope.lang = lang;
+app.controller('welcomeController', ['$rootScope', '$scope', function ($rootScope, $scope) {
+  // Bilingual algorithm
+  var languages = {
+    en: {
+      START: 'Start'
+    },
+    fr: {
+      START: 'Commencer'
+    }
   };
-  $scope.gotoPage = function (path) {
-    $location.path(path);
+  // set class for background image
+  $scope.pageClass = 'page-welcome full-screen';
+  // determines if should display start button
+  $scope.displayStart = false;
+  // show start + change language
+  $scope.showStart = function (lang) {
+    // setLang inherited from rootscope
+    $scope.setLang(lang);
+    $scope.displayStart = true;
   };
-  $rootScope.$watch('lang', function () {
-    $scope.START = $rootScope.lang === 'en' ? 'Start' : 'Commencer';
+  // Update var when language is changed
+  // Default lang is english
+  $rootScope.$watch('lang', function (newVal) {
+    if (newVal === 'fr') {
+      $scope.START = languages.fr.START;
+    } else {
+      $scope.START = languages.en.START;
+    }
   });
-});
+}]);

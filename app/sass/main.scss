@@ -1,15 +1,14 @@
+@import 'backgrounds';
+@import 'helpers/transition';
 @import 'welcome/langButton';
 @import 'welcome/startButton';
 @import 'welcome/logo';
 @import 'team/carousel';
-@import 'helpers/transition';
-@import 'mushroom/navMap';
 @import 'school/textArea';
 @import 'mushroom/chatBox';
+@import 'mushroom/navMap';
 
 html, body {
   height: 100%;
   width: 100%;
-  background: url("../img/shared/welcomeBackground.jpg") center repeat-x;
-  background-size: auto 100%;
 }
