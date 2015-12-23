@@ -3,9 +3,10 @@
   "description": "Website for Marianopolis Robotics",
   "private": true,
   "dependencies": {
-    "angular": "latest",
-    "angular-route": "latest",
-    "angular-animate": "latest",
+    "angular": "1.4.x",
+    "angular-route": "1.4.x",
+    "angular-animate": "1.4.x",
+    "angular-css": "latest",
     "bootstrap": "~3.1.1",
     "csshake": "latest",
     "arctext-js": "latest",

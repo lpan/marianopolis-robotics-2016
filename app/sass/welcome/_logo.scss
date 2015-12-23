@@ -1,7 +1,11 @@
 // @import url(https://fonts.googleapis.com/css?family=Monoton);
 #mario-face {
-  background: url("../img/welcome/mario.png") center;
-  background-size: auto 150%;
+  background: {
+    image: image-url("welcome/mario.png");
+    repeat: no-repeat;
+    position: center;
+    size: auto 150%;
+  };
   height: 50px;
   width: 50px;
   display: inline-block;
@@ -9,7 +13,7 @@
 
 @font-face {
   font-family: marioFont;
-  src: url("../fonts/SuperMario256.ttf");
+  src: font-url("SuperMario256.ttf");
 }
 
 h1 {

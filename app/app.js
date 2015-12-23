@@ -1,4 +1,4 @@
-var app = angular.module('marioKart', ['ngAnimate', 'ngRoute']);
+var app = angular.module('marioKart', ['ngAnimate', 'ngRoute', 'door3.css']);
 
 app.run(['$rootScope', '$location', function ($rootScope, $location) {
   // set language
@@ -16,11 +16,13 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
   $routeProvider.
     when('/', {
       templateUrl: 'app/components/welcome/welcomeView.html',
-      controller: 'welcomeController'
+      controller: 'welcomeController',
+      css: ['assets/css/main.css', 'assets/css/welcome/index.css']
     }).
     when('/info', {
       templateUrl: 'app/components/info/infoView.html',
-      controller: 'infoController'
+      controller: 'infoController',
+      css: ['assets/css/main.css']
     }).
     when('/team', {
       templateUrl: 'app/components/team/teamView.html',
