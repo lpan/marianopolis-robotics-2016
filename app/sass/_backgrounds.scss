@@ -2,7 +2,13 @@
   height: 100%;
   width: 100%;
 }
+
 .page-welcome {
-  background: url("../img/backgrounds/welcomeBackground.jpg") center repeat-x;
-  background-size: auto 100%;
+  @extend .full-screen;
+  background: {
+    image: image-url("backgrounds/welcomeBackground.jpg");
+    repeat: repeat-x;
+    position: center;
+    size: auto 100%;
+  }
 }

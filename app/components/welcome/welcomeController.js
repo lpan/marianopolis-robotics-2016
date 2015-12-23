@@ -9,7 +9,7 @@ app.controller('welcomeController', ['$rootScope', '$scope', function ($rootScop
     }
   };
   // set class for background image
-  $scope.pageClass = 'page-welcome full-screen';
+  $scope.pageClass = 'page-welcome';
   // determines if should display start button
   $scope.displayStart = false;
   // show start + change language
