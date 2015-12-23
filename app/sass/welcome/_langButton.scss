@@ -8,37 +8,24 @@
   color: #fff;
   position: relative;
   display: inline-block;
-}
-
-.languageBtn:active {
-  transform: translate(0px, 5px);
-  -webkit-transform: translate(0px, 5px);
-  box-shadow: 0px 1px 0px 0px;
+  &:active {
+    @include transform(translate(0px, 5px));
+    box-shadow: 0px 1px 0px 0px;
+  }
 }
 
 .langred {
   background-color: #e74c3c;
   box-shadow: 0px 5px 0px 0px #CE3323;
-}
-
-.langred:hover {
-  background-color: #FF6656;
+  &:hover {
+    background-color: #FF6656;
+  }
 }
 
 .langorange {
   background-color: #e67e22;
   box-shadow: 0px 5px 0px 0px #CD6509;
-}
-
-.langorange:hover {
-  background-color: #FF983C;
-}
-
-.langyellow {
-  background-color: #f1c40f;
-  box-shadow: 0px 5px 0px 0px #D8AB00;
-}
-
-.langyellow:hover {
-  background-color: #FFDE29;
+  &:hover {
+    background-color: #FF983C;
+  }
 }

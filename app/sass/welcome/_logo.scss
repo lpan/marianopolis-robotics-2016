@@ -11,22 +11,8 @@
   display: inline-block;
 }
 
-@font-face {
-  font-family: marioFont;
-  src: font-url("SuperMario256.ttf");
-}
-
 h1 {
-  font-family: 'marioFont';
   font-size: 40px;
   color: yellow;
   text-shadow: 2px 2px black;
-}
-
-.languageBtn {
-  font-family: 'marioFont';
-}
-
-#startText {
-  font-family: 'marioFont';
 }
