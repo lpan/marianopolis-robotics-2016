@@ -11,10 +11,10 @@
 }
 
 #textBox {
+  @include border-radius(30px);
+  @include box-shadow(1px 1px 45px #333);
+  @include transition(200ms all ease);
   border:2px solid #456879;
-  border-radius: 30px;
-  box-shadow:1px 1px 45px #333;
-  transition: 200ms all ease;
   border:none;
   padding: 5px 5px;
   position: absolute;
@@ -26,11 +26,11 @@
   background: url('../../../assets/img/info/map.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-}
+  &:hover {
+    @include box-shadow(12px 13px 0px rgba(204, 211, 51, 0.38),
+                        -11px -14px 0px rgba(241, 96, 0, 0.28),
+                        18px -24px 0px rgba(0, 0, 0, 0.34),
+                        33px -6px 0px rgba(39, 74, 214, 0.28));
+  }
 
-#textBox:hover {
-box-shadow: 12px 13px 0px rgba(204, 211, 51, 0.38),
--11px -14px 0px rgba(241, 96, 0, 0.28),
-18px -24px 0px rgba(0, 0, 0, 0.34),
-33px -6px 0px rgba(39, 74, 214, 0.28);
 }

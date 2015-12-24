@@ -1,6 +1,8 @@
-app.controller('welcomeController', ['$rootScope', '$scope', function ($rootScope, $scope) {
+app.controller('welcomeController', ['$scope', 'languageService', 
+
+function ($scope, language) {
   // Bilingual algorithm
-  var languages = {
+  var translate = {
     en: {
       START: 'Start'
     },
@@ -14,17 +16,15 @@ app.controller('welcomeController', ['$rootScope', '$scope', function ($rootScop
   $scope.displayStart = false;
   // show start + change language
   $scope.showStart = function (lang) {
-    // setLang inherited from rootscope
-    $scope.setLang(lang);
+    language.setLang(lang);
     $scope.displayStart = true;
   };
   // Update var when language is changed
   // Default lang is english
-  $rootScope.$watch('lang', function (newVal) {
-    if (newVal === 'fr') {
-      $scope.START = languages.fr.START;
-    } else {
-      $scope.START = languages.en.START;
-    }
+  $scope.$watch(function () {
+    return language.lang;
+  }, function (newVal) {
+    var lang = language.lang.toString();
+    $scope.START = translate[lang].START;
   });
 }]);
