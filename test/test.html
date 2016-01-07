@@ -1,0 +1,44 @@
+<style>
+#bg{
+  background-color:black
+}
+#opaque{
+  width:85%;
+  height: 85%;
+  background-color:white;
+  position:absolute;
+  top:8%;
+  left:8%;
+  box-shadow: 0 0 20px 20px black inset;
+  opacity: 0.5
+}
+#box{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+#textarea{
+  width: 65%;
+  height: 40%;
+  position: fixed;
+  top: 25%;
+  left: 20%;
+  border: 3px solid white;
+}
+/* use the blurry edge for image and/or textbox*/
+.blurry-edge {
+    background-image: url('http://lorempixel.com/200/200/city/9s');
+    width: 200px;
+    height: 200px;
+    /* match the shadow color to the backgrounddddddddd */
+    box-shadow: 0 0 8px 8px black inset;
+}
+</style>
+<body id="bg">
+  <div id="box">
+  <img style="width: 100%; height=100%" alt="doesnt work" src="lol.png">
+  <p id="textarea">lalalal</p>
+</div>
+</body>
