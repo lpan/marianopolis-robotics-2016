@@ -1,7 +1,6 @@
 app.directive('teamCarousel', function () {
   var link = function (scope, element, attrs) {
-    var carousel = angular.element(element.children()[0]);
-    $(carousel).Cloud9Carousel({
+    $('#carousel').Cloud9Carousel({
       autoPlay: 1,
       bringToFront: true,
     });

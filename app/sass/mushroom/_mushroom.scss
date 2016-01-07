@@ -1,3 +1,12 @@
+.info-container {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  margin: -250px 0 0 -250px;
+  top: 50%;
+  left: 50%;
+}
+
 .mushroom-container {
   height: 100px;
   width: 100px;
@@ -6,6 +15,24 @@
 }
 
 .mushroom-center {
+  line-height: 1,5;
   top: 50%;
   left: 50%;
+}
+
+.mushroom-move {
+  @include transition(all 1s ease-in-out 0.4s);
+}
+
+.mushroom-talk {
+  line-height: 1,5;
+  top: 60%;
+  left: 40%;
+}
+
+.dialog-position {
+  line-height: 1,5;
+  position: absolute;
+  top: 28%;
+  left: 38%;
 }

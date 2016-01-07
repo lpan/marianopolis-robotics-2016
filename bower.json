@@ -8,10 +8,10 @@
     "angular-animate": "1.4.x",
     "angular-css": "latest",
     "bootstrap": "~3.1.1",
-    "csshake": "latest",
     "arctext-js": "latest",
     "animate.css": "latest",
     "letteringjs": "latest",
-    "cloud9carousel": "latest"
+    "cloud9carousel": "latest",
+    "typed.js": "latest"
   }
 }
