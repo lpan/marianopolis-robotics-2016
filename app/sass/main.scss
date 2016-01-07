@@ -1,6 +1,7 @@
 // Global css shared among most pages
 @import 'compass/css3';
 @import 'backgrounds';
+@import 'clouds';
 @import 'school/textArea';
 @import 'mushroom/mushroom';
 @import 'mushroom/chatBox';
@@ -9,4 +10,5 @@
 html, body {
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
