@@ -2,14 +2,16 @@ app.controller('welcomeController', ['$scope', 'languageService',
 
 function ($scope, language) {
   // Bilingual algorithm
-  var translate = {
-    en: {
-      START: 'Start'
-    },
-    fr: {
-      START: 'Commencer'
-    }
+  var trans = language.trans.welcome;
+  var update = function () {
+    $scope.START = trans[language.lang.toString()].START;
   };
+  update();
+  $scope.$watch(function () {
+    return language.lang;
+  }, function () {
+    update();
+  });
   // set class for background image
   $scope.pageClass = 'page-welcome';
   // determines if should display start button
@@ -19,12 +21,4 @@ function ($scope, language) {
     language.setLang(lang);
     $scope.displayStart = true;
   };
-  // Update var when language is changed
-  // Default lang is english
-  $scope.$watch(function () {
-    return language.lang;
-  }, function (newVal) {
-    var lang = language.lang.toString();
-    $scope.START = translate[lang].START;
-  });
 }]);

@@ -5,6 +5,6 @@ app.directive('navMap', function() {
   return {
     restrict: 'E',
     link: link,
-    templateUrl: 'app/shared/nav-map/nav-map.html'
+    templateUrl: 'app/shared/navigation/nav-map/nav-map.html'
   };
 });

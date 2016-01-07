@@ -8,7 +8,7 @@ app.directive('teamCarousel', function () {
   };
   return {
     restrict: 'E',
-    templateUrl: 'app/shared/team-carousel/team-carousel.html',
+    templateUrl: 'app/components/team/team-carousel/team-carousel.html',
     link: link
   };
 });
