@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="../assets/libs/bootstrap/dist/css/bootstrap.min.css">
+
+</head>
+<style>
+html, body {
+  height: 100%;
+  width: 100%;
+}
+#map {
+  width: 90%;
+  height: 57%;
+  position: relative;
+  border: 3px solid black;
+  background-image: url("map.jpg");
+  background-size: contain
+}
+
+span {
+  margin: 0 10px;
+}
+
+.btn-blue {
+  background: #108FE8;
+  border: 3px solid #fff;
+  border-radius: 100%;
+  box-shadow: 0 -2px 0 3px #0d72b8 inset, 0 5px 5px rgba(3, 25, 41, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 5vw;
+  width: 5vw;
+}
+.btn-blue:hover {
+  background: #333;
+  box-shadow: 0 -2px 0 3px #1a1a1a inset, 0 5px 5px rgba(0, 0, 0, 0.17), 0 15px rgba(255, 255, 255, 0.32) inset;
+}
+
+.btn-red {
+  background: #E53030;
+  border: 3px solid #fff;
+  border-radius: 100%;
+  box-shadow: 0 -2px 0 3px #c91919 inset, 0 5px 5px rgba(65, 8, 8, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  cursor: pointer;
+  display: inline-block;
+  height: 5vw;
+  width: 5vw;
+}
+.btn-red:hover {
+  background: #333;
+  box-shadow: 0 -2px 0 3px #1a1a1a inset, 0 5px 5px rgba(0, 0, 0, 0.17), 0 15px rgba(255, 255, 255, 0.32) inset;
+}
+</style>
+<body>
+  <div id="map">
+    <span class="btn-blue"></span>
+    <span class="btn-red"></span>
+    <span class="btn-blue"></span>
+    <span class="btn-blue"></span>
+    <span class="btn-blue"></span>
+    <span class="btn-blue"></span>
+    <span class="btn-blue"></span>
+  </div>
+</body>
+</html>
