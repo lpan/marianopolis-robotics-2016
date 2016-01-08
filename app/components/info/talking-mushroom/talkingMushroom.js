@@ -2,6 +2,32 @@ app.directive('talkingMushroom', ['languageService', '$timeout', function (langu
   
   var link = function(scope, element, attrs) {
     var trans = language.trans.speech;
+    var update = function () {
+      var intro = language.trans.speech[language.lang.toString()].INTRO;
+    };
+    // assign value to intro variable
+    update();
+    scope.$watch(function () {
+      return language.lang;
+    }, function () {
+      update();
+    });
+    // update text according to counter
+    scope.counter = 0;
+    scope.next = function () {
+      if (counter !== 4)
+        counter ++;
+    };
+    scope.previous = function () {
+      if (counter !== 0)
+        counter --;
+    };
+    var goAhead = function () {
+      var text = intro[counter];
+    };
+    scope.$watch('counter', function () {
+      goAhead();
+    });
     var mushroom = $('.mushroom-container');
     var dialog = $('.speech-bubble');
     var speech = $('#mushroom-speech');
@@ -10,11 +36,6 @@ app.directive('talkingMushroom', ['languageService', '$timeout', function (langu
       mushroom.addClass('animated bounce');
     }, function () {
       mushroom.removeClass('animated bounce');
-    });
-    dialog.hover(function () {
-      dialog.addClass('bounce');
-    }, function () {
-      dialog.removeClass('bounce');
     });
     mushroom.addClass('mushroom-center');
     mushroom.addClass('animated bounceInUp');
@@ -26,7 +47,7 @@ app.directive('talkingMushroom', ['languageService', '$timeout', function (langu
       $timeout(function () {
         scope.moved = true;
         dialog.addClass('animated fadeIn');
-        speech.html(trans[language.lang].FIRST);
+        speech.html(trans[language.lang].INTRO[0]);
       }, 1500);
     }, 1000);
   };
