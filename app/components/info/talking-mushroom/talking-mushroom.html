@@ -8,5 +8,8 @@
     <div class="bubble-arrow bubble-bottom"></div>
     <p id="mushroom-speech"></p>
   </div>
-  <button ng-click="next()">Continue</button>
+  <div ng-cloak class="flow-buttons" ng-show="moved">
+    <div ng-click="previous()">Prev</div>
+    <div ng-click="next()">Next</div>
+  </div>
 </div>

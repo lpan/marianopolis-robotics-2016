@@ -36,3 +36,15 @@
   top: 28%;
   left: 38%;
 }
+
+.flow-buttons {
+  position: absolute;
+  top: 51%;
+  left: 53%;
+
+  div {
+    cursor: pointer;
+    display: inline-block;
+  }
+}
+

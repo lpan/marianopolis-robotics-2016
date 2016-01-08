@@ -1,9 +1,9 @@
 app.directive('talkingMushroom', ['languageService', '$timeout', function (language, $timeout) {
   
   var link = function(scope, element, attrs) {
-    var trans = language.trans.speech;
+    var intro;
     var update = function () {
-      var intro = language.trans.speech[language.lang.toString()].INTRO;
+      intro = language.trans.speech[language.lang.toString()].INTRO;
     };
     // assign value to intro variable
     update();
@@ -15,15 +15,16 @@ app.directive('talkingMushroom', ['languageService', '$timeout', function (langu
     // update text according to counter
     scope.counter = 0;
     scope.next = function () {
-      if (counter !== 4)
-        counter ++;
+      if (scope.counter !== intro.length-1)
+        scope.counter ++;
     };
     scope.previous = function () {
-      if (counter !== 0)
-        counter --;
+      if (scope.counter !== 0)
+        scope.counter --;
     };
     var goAhead = function () {
-      var text = intro[counter];
+      scope.text = intro[scope.counter];
+      speech.html(scope.text);
     };
     scope.$watch('counter', function () {
       goAhead();
@@ -45,9 +46,9 @@ app.directive('talkingMushroom', ['languageService', '$timeout', function (langu
       mushroom.addClass('mushroom-talk');
       dialog.addClass('dialog-position');
       $timeout(function () {
+        goAhead();
         scope.moved = true;
         dialog.addClass('animated fadeIn');
-        speech.html(trans[language.lang].INTRO[0]);
       }, 1500);
     }, 1000);
   };
