@@ -21,7 +21,7 @@
 }
 
 .mushroom-move {
-  @include transition(all 1s ease-in-out 0.4s);
+  @include transition(all 1s ease-in-out 0.5s);
 }
 
 .mushroom-talk {
@@ -29,6 +29,13 @@
   top: 60%;
   left: 40%;
 }
+
+.mushroom-corner {
+  position: fixed;
+  bottom: 2%;
+  left: 6%;
+}
+
 
 .dialog-position {
   line-height: 1,5;
@@ -40,8 +47,7 @@
 .flow-buttons {
   position: absolute;
   top: 51%;
-  left: 53%;
-
+  left: 60%;
   div {
     cursor: pointer;
     display: inline-block;
