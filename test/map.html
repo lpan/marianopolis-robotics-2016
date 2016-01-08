@@ -9,19 +9,57 @@ html, body {
   height: 100%;
   width: 100%;
 }
-#map {
-  width: 90%;
-  height: 57%;
+#mapdiv {
+  width: 85%;
+  height: 60%;
   position: relative;
   border: 3px solid black;
-  background-image: url("map.jpg");
-  background-size: contain
+  left: 7.5%;
+  top:20%;
+}
+#map{
+  width: 100%;
+  height: 100%;
 }
 
 span {
   margin: 0 10px;
 }
-
+.b1 {
+  position: absolute;
+  left: 24%;
+  top: 59%;
+}
+.b2 {
+  position: absolute;
+  left: 13%;
+  top: 59%;
+}
+.b3 {
+  position: absolute;
+  left: 36%;
+  top: 59%
+}
+.b4 {
+  position:absolute;
+  left: 59%;
+  top: 59%;
+}
+.b5 {
+  position: absolute;
+  left: 82%;
+  top: 59%;
+}
+.b6 {
+  position: absolute;
+  left: 48%;
+  top: 43%;
+}
+.b7 {
+  position: absolute;
+  left: 70%;
+  top: 78%
+}
 .btn-blue {
   background: #108FE8;
   border: 3px solid #fff;
@@ -53,14 +91,15 @@ span {
 }
 </style>
 <body>
-  <div id="map">
-    <span class="btn-blue"></span>
-    <span class="btn-red"></span>
-    <span class="btn-blue"></span>
-    <span class="btn-blue"></span>
-    <span class="btn-blue"></span>
-    <span class="btn-blue"></span>
-    <span class="btn-blue"></span>
+  <div id="mapdiv">
+    <img src="map.jpg" id="map" class="img-responsive" alt="doesnt work">
+    <span class="btn-blue b1"></span>
+    <span class="btn-red b2"></span>
+    <span class="btn-blue b3"></span>
+    <span class="btn-blue b4"></span>
+    <span class="btn-blue b5"></span>
+    <span class="btn-blue b6"></span>
+    <span class="btn-blue b7"></span>
   </div>
 </body>
 </html>
