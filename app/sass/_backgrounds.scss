@@ -1,4 +1,6 @@
 .full-screen {
+  position: fixed;
+  z-index: -1;
   height: 100%;
   width: 100%;
 }
@@ -11,4 +13,15 @@
     position: center;
     size: auto 100%;
   }
+}
+
+.page-info {
+  @extend .full-screen;
+  background: {
+    image: image-url("backgrounds/welcomeBackground.jpg");
+    repeat: repeat-x;
+    position: center;
+    size: auto 100%;
+  }
+  @include filter(blur(5px));
 }

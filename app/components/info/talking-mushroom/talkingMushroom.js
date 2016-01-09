@@ -42,10 +42,14 @@ app.directive('talkingMushroom', ['languageService', '$timeout', function (langu
       dialog.addClass('animated fadeOut');
       speech.addClass('animated fadeOut');
       // move mushroom
-      mushroom.removeClass('mushroom-talk');
-      mushroom.addClass('mushroom-corner');
+      mushroom.addClass('animated fadeOut');
       // show map after 1 sec
       $timeout(function () {
+        mushroom.removeClass('mushroom-talk');
+        mushroom.removeClass('mushroom-move');
+        mushroom.addClass('mushroom-corner');
+        mushroom.removeClass('fadeOut');
+        mushroom.addClass('fadeIn');
         scope.cornered = true;
         $('nav-map').addClass('animated fadeIn');
         dialog.removeClass('animated fadeOut');
