@@ -2,8 +2,10 @@ app.directive('talkingMushroom', ['languageService', '$timeout', function (langu
   
   var link = function(scope, element, attrs) {
     var intro;
+    var trans = language.trans.speech;
     var update = function () {
-      intro = language.trans.speech[language.lang.toString()].INTRO;
+      intro = trans[language.lang.toString()].INTRO;
+      scope.info = trans[language.lang.toString()].MAP_INFO;
     };
     // assign value to intro variable
     update();
@@ -23,23 +25,41 @@ app.directive('talkingMushroom', ['languageService', '$timeout', function (langu
         scope.counter --;
     };
     var goAhead = function () {
-      scope.text = intro[scope.counter];
       speech.addClass('animated fadeOut');
       $timeout(function () {
-        speech.html(scope.text);
+        update();
+        scope.text = intro[scope.counter];
         speech.removeClass('animated fadeOut');
         speech.addClass('animated fadeIn');
       }, 500);
     };
     // move mushroom to the corner
+    // show map
     var moveHide = function () {
       // hide dialog box and stuff
       scope.moved = false;
+      scope.textBubble = false;
       dialog.addClass('animated fadeOut');
       speech.addClass('animated fadeOut');
       // move mushroom
       mushroom.removeClass('mushroom-talk');
       mushroom.addClass('mushroom-corner');
+      // show map after 1 sec
+      $timeout(function () {
+        scope.cornered = true;
+        $('nav-map').addClass('animated fadeIn');
+        dialog.removeClass('animated fadeOut');
+        dialog.removeClass('dialog-position');
+        dialog.addClass('dialog-cornered');
+        $timeout(function () {
+          dialog.addClass('animated fadeIn');
+          scope.speechBubble = true;
+          $timeout(function () {
+            dialog.removeClass('animated fadeIn');
+            dialog.addClass('animated fadeOut');
+          }, 3000);
+        },500);
+      }, 1500);
     };
 
     scope.$watch('counter', function () {

@@ -15,14 +15,16 @@ app.config(['languageServiceProvider', function (language) {
             "Hello, my name is Toad. Welcome to MARIOnopolis",
             "I will be your navigator on this site",
             "Click me whenever you need help"
-          ]
+          ],
+          "MAP_INFO": "This is the Map! Feel free to navigate the world"
         },
         "fr": {
           "INTRO": [
-            "Hello, my name is Toad. Welcome to MARIOnopolis",
+            "Bonjour, j m'appele Toad. Welcome to Mariaonsdfdf",
             "I will be your navigator on this site",
             "Click me whenever you need help"
-          ]
+          ],
+          "MAP_INFO": "This is the Map! Feel free to navigate the world"
         }
       }
     });

@@ -12,6 +12,7 @@
   width: 100px;
   position: absolute;
   margin: -50px 0 0 -50px;
+  z-index: 99999;
 }
 
 .mushroom-center {
@@ -43,6 +44,15 @@
   top: 28%;
   left: 38%;
 }
+
+.dialog-cornered {
+  line-height: 1,5;
+  position: fixed;
+  bottom: 20%;
+  left: 6%;
+  z-index: 9999;
+}
+
 
 .flow-buttons {
   position: absolute;
