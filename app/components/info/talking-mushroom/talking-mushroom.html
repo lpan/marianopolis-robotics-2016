@@ -1,12 +1,8 @@
 <div class="info-container">
-  <div class="mushroom-container">
-    <div class="container-fluid">
-      <img src="../../../../assets/img/info/mushroom.png" class="img-responsive"/>
-    </div>
-  </div>
+  <mushroom-head></mushroom-head>
   <div ng-cloak class="speech-bubble" ng-show="moved">
     <div class="bubble-arrow bubble-bottom"></div>
-    <p id="mushroom-speech">{{ text }}</p>
+    <p class="mushroom-speech">{{ text }}</p>
   </div>
   <div ng-cloak class="flow-buttons" ng-show="moved">
     <div ng-click="previous()">Prev</div>
@@ -15,6 +11,6 @@
 </div>
 <div ng-cloak class="speech-bubble dialog-cornered" ng-show="speechBubble">
   <div class="bubble-arrow bubble-bottom"></div>
-  <p id="mushroom-info">{{ info }}</p>
+  <p style="font-size: 20px">{{ info }}</p>
 </div>
 <nav-map ng-cloak ng-show="cornered"></nav-map>

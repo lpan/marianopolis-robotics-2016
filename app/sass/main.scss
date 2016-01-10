@@ -6,8 +6,14 @@
 @import 'mushroom/chatBox';
 @import 'mushroom/navMap';
 
+@include font-face("marioFont", font-files("SuperMario256.ttf"));
+
 html, body {
   height: 100%;
   width: 100%;
   overflow: hidden;
+}
+
+* {
+  font-family: marioFont;
 }

@@ -12,11 +12,18 @@ nav-map {
   left: 50%;
 }
 
-.mushroom-container {
-  height: 100px;
-  width: 100px;
+mushroom-head {
+  background: {
+    image: image-url("info/mushroom.png");
+    repeat: no-repeat;
+    position: center;
+    size: cover;
+  };
+  height: 130px;
+  width: 130px;
   position: absolute;
-  margin: -50px 0 0 -50px;
+  margin: -65px 0 0 -65px;
+  cursor: pointer;
   z-index: 99999;
 }
 
@@ -46,7 +53,7 @@ nav-map {
 .dialog-position {
   line-height: 1,5;
   position: absolute;
-  top: 28%;
+  top: 15%;
   left: 38%;
 }
 
@@ -58,11 +65,15 @@ nav-map {
   z-index: 9999;
 }
 
+.mushroom-speech {
+  font-size: 22px;
+}
 
 .flow-buttons {
+  font-size: 18px;
   position: absolute;
-  top: 51%;
-  left: 60%;
+  top: 47%;
+  left: 75%;
   div {
     cursor: pointer;
     display: inline-block;

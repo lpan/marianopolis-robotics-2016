@@ -1,6 +1,7 @@
 app.directive('talkingMushroom', ['languageService', '$timeout', function (language, $timeout) {
   
   var link = function(scope, element, attrs) {
+    // translation
     var intro;
     var trans = language.trans.speech;
     var update = function () {
@@ -24,6 +25,7 @@ app.directive('talkingMushroom', ['languageService', '$timeout', function (langu
       if (scope.counter !== 0)
         scope.counter --;
     };
+    // when counter is updated goAhead is invoked
     var goAhead = function () {
       speech.addClass('animated fadeOut');
       $timeout(function () {
@@ -33,6 +35,7 @@ app.directive('talkingMushroom', ['languageService', '$timeout', function (langu
         speech.addClass('animated fadeIn');
       }, 500);
     };
+    // when counter reaches max length, moveHide()
     // move mushroom to the corner
     // show map
     var moveHide = function () {
@@ -48,8 +51,11 @@ app.directive('talkingMushroom', ['languageService', '$timeout', function (langu
         mushroom.removeClass('mushroom-talk');
         mushroom.removeClass('mushroom-move');
         mushroom.addClass('mushroom-corner');
-        mushroom.removeClass('fadeOut');
-        mushroom.addClass('fadeIn');
+        mushroom.removeClass('animated fadeOut');
+        mushroom.addClass('animated fadeIn');
+        $timeout(function () {
+          mushroom.removeClass('animated fadeIn');
+        }, 500);
         scope.cornered = true;
         $('nav-map').addClass('animated fadeIn');
         dialog.removeClass('animated fadeOut');
@@ -80,16 +86,10 @@ app.directive('talkingMushroom', ['languageService', '$timeout', function (langu
       }
     });
 
-    var mushroom = $('.mushroom-container');
+    var mushroom = $('mushroom-head');
     var dialog = $('.speech-bubble');
-    var speech = $('#mushroom-speech');
+    var speech = $('.mushroom-speech');
     var button2Text = $('.flow-buttons > div:nth-child(2)');
-    // hover effect
-    mushroom.hover(function () {
-      mushroom.addClass('animated tada');
-    }, function () {
-      mushroom.removeClass('animated tada');
-    });
     // center the mushroom
     mushroom.addClass('mushroom-center');
     mushroom.addClass('animated bounceInUp');
