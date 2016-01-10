@@ -19,10 +19,10 @@ mushroom-head {
     position: center;
     size: cover;
   };
-  height: 130px;
-  width: 130px;
+  height: 6vw;
+  width: 6vw;
   position: absolute;
-  margin: -65px 0 0 -65px;
+  margin: -3vw 0 0 -3vw;
   cursor: pointer;
   z-index: 99999;
 }
@@ -66,14 +66,14 @@ mushroom-head {
 }
 
 .mushroom-speech {
-  font-size: 22px;
+  font-size: 1.2vw;
 }
 
 .flow-buttons {
   font-size: 18px;
   position: absolute;
   top: 47%;
-  left: 75%;
+  left: 71%;
   div {
     cursor: pointer;
     display: inline-block;
