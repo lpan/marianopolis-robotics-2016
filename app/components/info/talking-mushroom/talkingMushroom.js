@@ -67,6 +67,7 @@ app.directive('talkingMushroom', ['languageService', '$timeout', function (langu
           $timeout(function () {
             dialog.removeClass('animated fadeIn');
             dialog.addClass('animated fadeOut');
+            dialog.css({zIndex: '-1'});
           }, 3000);
         },500);
       }, 1500);
