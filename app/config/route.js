@@ -18,7 +18,7 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
     when('/school', {
       templateUrl: 'app/components/school/schoolView.html',
       controller: 'schoolController',
-      css: ['assets/css/main.css']
+      css: ['assets/css/main.css', 'assets/css/school/index.css']
     }).
     otherwise({
       redirectTo: '/'
