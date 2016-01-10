@@ -45,49 +45,51 @@
 
 .b1 {
   position: absolute;
-  left: 26%;
+  left: 27%;
   top: 62%;
 }
 .b2 {
   position: absolute;
-  left: 14.3%;
+  left: 15.3%;
   top: 62%;
 }
 .b3 {
   position: absolute;
-  left: 37.6%;
+  left: 38.6%;
   top: 62%;
 }
 .b4 {
   position:absolute;
-  left: 60%;
+  left: 61%;
   top: 62%;
 }
 .b5 {
   position: absolute;
-  left: 83%;
+  left: 84%;
   top: 62%;
 }
 .b6 {
   position: absolute;
-  left: 49.5%;
-  top: 44%;
+  left: 50.5%;
+  top: 45.5%;
 }
 .b7 {
   position: absolute;
-  left: 71.5%;
-  top: 78.5%
+  left: 72.5%;
+  top: 80%;
 }
+
 .btn-blue {
   background: #108FE8;
   border: 3px solid #fff;
   border-radius: 100%;
+  position: absolute;
   @include box-shadow(0 -2px 0 3px #0d72b8 inset,
                       0 5px 5px rgba(3, 25, 41, 0.17),
                       0 15px rgba(255, 255, 255, 0.25) inset);
   cursor: pointer;
-  height: 2.5vw;
-  width: 4vw;
+  height: 2vw;
+  width: 3vw;
   &:hover {
     background: #333;
     @include box-shadow(0 -2px 0 3px #1a1a1a inset,
@@ -100,12 +102,13 @@
   background: #E53030;
   border: 3px solid yellow;
   border-radius: 100%;
+  position: absolute;
   @include box-shadow(0 -2px 0 3px #c91919 inset,
                       0 5px 5px rgba(65, 8, 8, 0.17),
                       0 15px rgba(255, 255, 255, 0.25) inset);
   cursor: pointer;
-  height: 2.5vw;
-  width: 4vw;
+  height: 2vw;
+  width: 3vw;
   &:hover {
     background: #333;
     @include box-shadow(0 -2px 0 3px #1a1a1a inset,
@@ -113,3 +116,12 @@
                         0 15px rgba(255, 255, 255, 0.32) inset);
   }
 }
+
+.label-position {
+  cursor: default;
+  text-shadow: 1px 1px black;
+  font-size: 1vw;
+  position: absolute;
+  top: 2.3vw;
+}
+  

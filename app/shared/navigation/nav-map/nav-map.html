@@ -1,10 +1,5 @@
-  <div id="mapdiv">
-    <img src="../../../assets/img/info/map.jpg" id="map" class="img-responsive" alt="img doesnt work">
-    <span class="btn-blue b1"></span>
-    <span class="btn-red b2"></span>
-    <span class="btn-blue b3"></span>
-    <span class="btn-blue b4"></span>
-    <span class="btn-blue b5"></span>
-    <span class="btn-blue b6"></span>
-    <span class="btn-blue b7"></span>
-  </div>
+<div id="mapdiv">
+  <img src="../../../assets/img/info/map.jpg" id="map" class="img-responsive" alt="img doesnt work">
+  <nav-map-button ng-repeat="button in buttons" button="button">
+  </nav-map-button>
+</div>
