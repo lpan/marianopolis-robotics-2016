@@ -1,6 +1,6 @@
-app.controller('welcomeController', ['$scope', 'languageService', 
+app.controller('welcomeController', ['$scope', '$location', 'languageService', 
 
-function ($scope, language) {
+function ($scope, $location, language) {
   // Bilingual algorithm
   var trans = language.trans.welcome;
   var update = function () {
@@ -16,6 +16,9 @@ function ($scope, language) {
   $scope.pageClass = 'page-welcome';
   // determines if should display start button
   $scope.displayStart = false;
+  $scope.gotoPage = function (path) {
+    $location.path(path);
+  };
   // show start + change language
   $scope.showStart = function (lang) {
     language.setLang(lang);

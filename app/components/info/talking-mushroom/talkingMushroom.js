@@ -48,9 +48,9 @@ app.directive('talkingMushroom', ['languageService', '$timeout', function (langu
       mushroom.addClass('animated fadeOut');
       // show map after 1 sec
       $timeout(function () {
-        mushroom.removeClass('mushroom-talk');
-        mushroom.removeClass('mushroom-move');
-        mushroom.addClass('mushroom-corner');
+        // remove centered
+        container.removeClass('info-container-center');
+        container.addClass('info-container-corner');
         mushroom.removeClass('animated fadeOut');
         mushroom.addClass('animated fadeIn');
         $timeout(function () {
@@ -59,8 +59,6 @@ app.directive('talkingMushroom', ['languageService', '$timeout', function (langu
         scope.cornered = true;
         $('nav-map').addClass('animated fadeIn');
         dialog.removeClass('animated fadeOut');
-        dialog.removeClass('dialog-position');
-        dialog.addClass('dialog-cornered');
         $timeout(function () {
           dialog.addClass('animated fadeIn');
           scope.speechBubble = true;
@@ -88,16 +86,17 @@ app.directive('talkingMushroom', ['languageService', '$timeout', function (langu
     });
 
     var mushroom = $('mushroom-head');
+    var container = $('.info-container');
     var dialog = $('.speech-bubble');
     var speech = $('.mushroom-speech');
     var button2Text = $('.flow-buttons > div:nth-child(2)');
     // center the mushroom
+    container.addClass('info-container-center');
     mushroom.addClass('mushroom-center');
     mushroom.addClass('animated bounceInUp');
     $timeout(function () {
       // avoid conflict between css transition and animate.css
       mushroom.removeClass('animated bounceInUp');
-      mushroom.removeClass('mushroom-center');
       mushroom.addClass('mushroom-move');
       mushroom.addClass('mushroom-talk');
       dialog.addClass('dialog-position');

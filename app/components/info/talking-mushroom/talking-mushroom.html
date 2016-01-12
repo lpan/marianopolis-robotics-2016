@@ -2,15 +2,15 @@
   <mushroom-head></mushroom-head>
   <div ng-cloak class="speech-bubble" ng-show="moved">
     <div class="bubble-arrow bubble-bottom"></div>
-    <p class="mushroom-speech">{{ text }}</p>
+    <p class="mushroom-text mushroom-speech">{{ text }}</p>
+    <div ng-cloak class="flow-buttons" ng-show="moved">
+      <div class="mushroom-text" ng-click="previous()">Prev</div>
+      <div class="mushroom-text" ng-click="next()">Next</div>
+    </div>
   </div>
-  <div ng-cloak class="flow-buttons" ng-show="moved">
-    <div ng-click="previous()">Prev</div>
-    <div ng-click="next()">Next</div>
+  <div ng-cloak class="speech-bubble" ng-show="speechBubble">
+    <div class="bubble-arrow bubble-bottom"></div>
+    <p class="mushroom-text">{{ info }}</p>
   </div>
+  <nav-map ng-cloak ng-show="cornered"></nav-map>
 </div>
-<div ng-cloak class="speech-bubble dialog-cornered" ng-show="speechBubble">
-  <div class="bubble-arrow bubble-bottom"></div>
-  <p style="font-size: 1.1vw">{{ info }}</p>
-</div>
-<nav-map ng-cloak ng-show="cornered"></nav-map>
