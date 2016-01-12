@@ -8,7 +8,7 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
     when('/info', {
       templateUrl: 'app/components/info/infoView.html',
       controller: 'infoController',
-      css: ['assets/css/main.css']
+      css: ['assets/css/main.css', 'assets/css/info/talk-mushroom.css']
     }).
     when('/team', {
       templateUrl: 'app/components/team/teamView.html',

@@ -1,26 +1,3 @@
-nav-map {
-  position: fixed;
-  top: 30%;
-}
-
-.info-container {
-  position: absolute;
-  height: 3em;
-  width: 3em;
-  margin: -1.5em 0 0 -1.5em;
-}
-
-.info-container-center {
-  top: 50%;
-  left: 50%;
-}
-
-.info-container-corner {
-  left: 5em;
-  bottom: 4em;
-}
-
-
 mushroom-head {
   background: {
     image: image-url("info/mushroom.png");
@@ -30,44 +7,18 @@ mushroom-head {
   };
   height: 4em;
   width: 4em;
-  position: absolute;
   margin: -1.5em 0 0 -1.5em;
   cursor: pointer;
   z-index: 99999;
+  position: absolute
 }
 
-.mushroom-center {
-  top: 50%;
-  left: 50%;
-}
-
-.mushroom-move {
-  @include transition(all 1s ease-in-out 0.5s);
-}
-
-.mushroom-talk {
-  top: 120%;
-  left: -20%;
-}
-
-.dialog-position {
-  z-index: 9999;
-  position: absolute;
-  top: -190%;
-  left: -38%;
-}
-
-.mushroom-text {
-  font-size: 0.9em;
-}
-
-.flow-buttons {
-  font-size: 18px;
-  position: absolute;
-  bottom: -23%;
-  right: 10%;
-  div {
-    cursor: pointer;
-    display: inline-block;
+nav-mushroom {
+  position: fixed;
+  bottom: 6em;
+  left: 3em;
+  mushroom-head {
+    position: absolute;
+    bottom: -5em;
   }
 }

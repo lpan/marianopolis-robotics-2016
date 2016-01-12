@@ -1,0 +1,61 @@
+@import 'compass/css3';
+
+nav-map {
+  position: fixed;
+  top: 30%;
+}
+
+.info-container {
+  position: absolute;
+  height: 3em;
+  width: 3em;
+  margin: -1.5em 0 0 -1.5em;
+}
+
+.info-container-center {
+  top: 50%;
+  left: 50%;
+}
+
+.info-container-corner {
+  left: 5em;
+  bottom: 4em;
+}
+
+.mushroom-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.mushroom-move {
+  @include transition(all 1s ease-in-out 0.5s);
+}
+
+.mushroom-talk {
+  position: absolute;
+  top: 120%;
+  left: -20%;
+}
+
+.dialog-position {
+  z-index: 9999;
+  position: absolute;
+  top: -190%;
+  left: -38%;
+}
+
+.mushroom-text {
+  font-size: 0.9em;
+}
+
+.flow-buttons {
+  font-size: 18px;
+  position: absolute;
+  bottom: -23%;
+  right: 10%;
+  div {
+    cursor: pointer;
+    display: inline-block;
+  }
+}
