@@ -1,5 +1,8 @@
-app.directive('navMapButton', function () {
+app.directive('navMapButton', ['$location', function ($location) {
   var link = function (scope, element) {
+    scope.gotoPage = function (path) {
+      $location.path(path);
+    };
     var label = $('.nav-map-button span:nth-child(2)');
     var button = $('.nav-map-button span:first-child');
     label.hover(function() {
@@ -21,4 +24,4 @@ app.directive('navMapButton', function () {
     },
     templateUrl: 'app/shared/navigation/nav-map/nav-map-button.html'
   };
-});
+}]);
