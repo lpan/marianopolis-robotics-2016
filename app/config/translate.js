@@ -29,7 +29,7 @@ app.config(['languageServiceProvider', function (language) {
       },
       "nav": {
         "en": {
-          "JOUNRNAL": "Journal",
+          "JOURNAL": "Journal",
           "TEAM": "Team",
           "GALLERY": "Gallery",
           "GAME": "Game",
@@ -38,7 +38,7 @@ app.config(['languageServiceProvider', function (language) {
           "SCHOOL": "School"
         },
         "fr": {
-          "JOUNRNAL": "Journal",
+          "JOURNAL": "Journal",
           "TEAM": "Team",
           "GALLERY": "Gallery",
           "GAME": "Game",

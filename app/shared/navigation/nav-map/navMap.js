@@ -1,5 +1,5 @@
 app.directive('navMap', ['languageService', function(language) {
-  var link = function (scope, element, attrs, ctrl) {
+  var link = function (scope, element, attrs) {
     // create a list of buttons for ngRepeat
     var Btn = function (btnClass, position, name, page) {
       this.btnClass = btnClass;
@@ -12,25 +12,25 @@ app.directive('navMap', ['languageService', function(language) {
       new Btn('btn-blue', 'b1', 'Team', '/team'),
       new Btn('btn-blue', 'b2', 'Journal', '/journal'),
       new Btn('btn-blue', 'b3', 'Gallery', '/gallery'),
-      new Btn('btn-blue', 'b4', 'Tutorial', '/tutorial'),
+      new Btn('btn-blue', 'b4', 'Tutorials', '/tutorials'),
       new Btn('btn-blue', 'b5', 'School', '/school'),
       new Btn('btn-blue', 'b6', 'Game', '/game'),
       new Btn('btn-blue', 'b7', 'Help', '/info')
     ];
+    var isInfo = true;
     buttons.forEach(function (file) {
-      if (file.name === ctrl.page)
+      if (file.page === scope.page) {
+        isInfo = false;
         file.btnClass = 'btn-red';
+      }
     });
-    console.log(ctrl.page);
+    if (isInfo)
+      buttons[buttons.length-1].btnClass = 'btn-red';
     scope.buttons = buttons;
   };
 
   return {
-    require: '^navMushroom',
     restrict: 'E',
-    scope: {
-      page: '@'
-    },
     link: link,
     templateUrl: 'app/shared/navigation/nav-map/nav-map.html'
   };
