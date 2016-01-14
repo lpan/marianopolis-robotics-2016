@@ -12,6 +12,7 @@
   position: absolute;
   top: 4%;
   left: 6%;
+  z-index: -1;
 }
 #schoolcontainer{
   position: relative;
@@ -44,11 +45,17 @@ social-media {
   height: auto;
 }
 
-/* use the blurry edge for image and/or textbox*/
-.blurry-edge {
-    background-image: url('');
-    width: 200px;
-    height: 200px;
-    /* match the shadow color to the backgrounddddddddd */
-    box-shadow: 0 0 8px 8px #schoolf2cb02 inset;
+.schoolimg{
+  width: 30%;
+  height:68%;
+  position: absolute;
+  z-index: 999;
+  left: 22%;
+  top: 32%;
 }
+
+/*
+.blurry-edge {
+  background: url("")
+    box-shadow: 0 0 8px 8px #f2cb02 inset;
+}*/

@@ -23,7 +23,7 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
     when('/game', {
       templateUrl: 'app/components/game/gameView.html',
       controller: 'gameController',
-      css: ['assets/css/main.css']
+      css: ['assets/css/main.css', "assets/css/school/index.css"]
     }).
     when('/gallery', {
       templateUrl: 'app/components/gallery/galleryView.html',
