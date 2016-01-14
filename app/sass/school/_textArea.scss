@@ -46,19 +46,16 @@ social-media {
 }
 
 .schoolimg{
-  width: 150%;
-  height:200%;
+  width: 30%;
+  height:68%;
   position: absolute;
   z-index: 999;
-  left: 20%;
+  left: 22%;
   top: 32%;
-  border: 3px solid black;
 }
 
-/* use the blurry edge for image and/or textbox*/
+/*
 .blurry-edge {
-    width: 200px;
-    height: 200px;
-    /* match the shadow color to the backgrounddddddddd */
-    box-shadow: 0 0 8px 8px #schoolf2cb02 inset;
-}
+  background: url("")
+    box-shadow: 0 0 8px 8px #f2cb02 inset;
+}*/
