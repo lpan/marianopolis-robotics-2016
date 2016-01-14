@@ -47,3 +47,47 @@
   }
   @include filter(blur(5px));
 }
+
+.page-journal {
+  @extend .full-screen;
+  background: {
+    image: image-url("backgrounds/welcomeBackground.jpg");
+    repeat: repeat-x;
+    position: center;
+    size: auto 100%;
+  }
+  @include filter(blur(5px));
+}
+
+.page-gallery {
+  @extend .full-screen;
+  background: {
+    image: image-url("backgrounds/welcomeBackground.jpg");
+    repeat: repeat-x;
+    position: center;
+    size: auto 100%;
+  }
+  @include filter(blur(5px));
+}
+
+.page-tutorials {
+  @extend .full-screen;
+  background: {
+    image: image-url("backgrounds/welcomeBackground.jpg");
+    repeat: repeat-x;
+    position: center;
+    size: auto 100%;
+  }
+  @include filter(blur(5px));
+}
+
+.page-game {
+  @extend .full-screen;
+  background: {
+    image: image-url("backgrounds/welcomeBackground.jpg");
+    repeat: repeat-x;
+    position: center;
+    size: auto 100%;
+  }
+  @include filter(blur(5px));
+}
