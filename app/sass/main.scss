@@ -1,6 +1,7 @@
 // Global css shared among most pages
 @import 'compass/css3';
 @import 'backgrounds';
+@import 'transition';
 @import 'mushroom/mushroom';
 @import 'mushroom/chatBox';
 @import 'mushroom/navMap';
@@ -22,13 +23,13 @@ body {
 }
 
 @media (max-width: 1000px) {
-  body { 
-    font-size: large; 
+  body {
+    font-size: large;
   }
 }
 
 @media (max-width: 500px) {
-  body { 
-    font-size: medium; 
+  body {
+    font-size: medium;
   }
 }

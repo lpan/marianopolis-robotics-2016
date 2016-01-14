@@ -1,4 +1,9 @@
-app.controller('teamController', ['$scope', function ($scope) {
-  $scope.test = 'hello';
-  $scope.pageClass = 'page-team'
+app.controller('teamController', ['$scope', 'languageService', function ($scope, language) {
+  $scope.pageClass = 'page-team';
+  var trans = language.trans.nav;
+  var update = function () {
+    var lang = language.lang.toString();
+    $scope.startTitle = trans[lang].TEAM;
+  };
+  update();
 }]);

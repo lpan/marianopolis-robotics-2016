@@ -26,6 +26,26 @@ app.config(['languageServiceProvider', function (language) {
           ],
           "MAP_INFO": "Voici la carte! N'hésitez pas à naviguer dans le monde de MARIOnopolis!"
         }
+      },
+      "nav": {
+        "en": {
+          "JOUNRNAL": "Journal",
+          "TEAM": "Team",
+          "GALLERY": "Gallery",
+          "GAME": "Game",
+          "TUTORIALS": "Tutorials",
+          "HELP": "Help",
+          "SCHOOL": "School"
+        },
+        "fr": {
+          "JOUNRNAL": "Journal",
+          "TEAM": "Team",
+          "GALLERY": "Gallery",
+          "GAME": "Game",
+          "TUTORIAL": "Tutorial",
+          "HELP": "Help",
+          "SCHOOL": "School"
+        }
       }
     });
 }]);

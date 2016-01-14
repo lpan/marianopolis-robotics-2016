@@ -20,6 +20,26 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
       controller: 'schoolController',
       css: ['assets/css/main.css', 'assets/css/school/index.css']
     }).
+    when('/game', {
+      templateUrl: 'app/components/game/gameView.html',
+      controller: 'gameController',
+      css: ['assets/css/main.css']
+    }).
+    when('/gallery', {
+      templateUrl: 'app/components/gallery/galleryView.html',
+      controller: 'galleryController',
+      css: ['assets/css/main.css']
+    }).
+    when('/tutorials', {
+      templateUrl: 'app/components/tutorials/tutorialsView.html',
+      controller: 'tutorialsController',
+      css: ['assets/css/main.css']
+    }).
+    when('/journal', {
+      templateUrl: 'app/components/journal/journalView.html',
+      controller: 'journalController',
+      css: ['assets/css/main.css']
+    }).
     otherwise({
       redirectTo: '/'
     });
