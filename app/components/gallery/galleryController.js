@@ -7,4 +7,5 @@ app.controller('galleryController', ['$scope', 'languageService', function ($sco
     $scope.startTitle = trans[lang].GALLERY;
   };
   update();
+  $scope.$broadcast('pageName', $scope.pageName);
 }]);

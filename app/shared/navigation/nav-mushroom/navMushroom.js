@@ -35,10 +35,18 @@ app.directive('navMushroom', ['$timeout', function ($timeout) {
     });
   };
 
+  var controller = ['$scope', function ($scope) {
+    this.page = $scope.page;
+  }];
+
   return {
     restrict: 'E',
+    scope: {
+      page: '@'
+    },
     templateUrl: 'app/shared/navigation/nav-mushroom/nav-mushroom.html',
-    link: link
+    link: link,
+    controller: controller
   };
 }]);
 

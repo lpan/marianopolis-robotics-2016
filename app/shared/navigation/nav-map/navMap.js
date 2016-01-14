@@ -1,5 +1,5 @@
 app.directive('navMap', ['languageService', function(language) {
-  var link = function (scope, element, attrs) {
+  var link = function (scope, element, attrs, ctrl) {
     // create a list of buttons for ngRepeat
     var Btn = function (btnClass, position, name, page) {
       this.btnClass = btnClass;
@@ -17,11 +17,20 @@ app.directive('navMap', ['languageService', function(language) {
       new Btn('btn-blue', 'b6', 'Game', '/game'),
       new Btn('btn-blue', 'b7', 'Help', '/info')
     ];
+    buttons.forEach(function (file) {
+      if (file.name === ctrl.page)
+        file.btnClass = 'btn-red';
+    });
+    console.log(ctrl.page);
     scope.buttons = buttons;
   };
 
   return {
+    require: '^navMushroom',
     restrict: 'E',
+    scope: {
+      page: '@'
+    },
     link: link,
     templateUrl: 'app/shared/navigation/nav-map/nav-map.html'
   };
