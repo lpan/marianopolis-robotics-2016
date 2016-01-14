@@ -12,6 +12,7 @@
   position: absolute;
   top: 4%;
   left: 6%;
+  z-index: -1;
 }
 #schoolcontainer{
   position: relative;
@@ -44,9 +45,18 @@ social-media {
   height: auto;
 }
 
+.schoolimg{
+  width: 150%;
+  height:200%;
+  position: absolute;
+  z-index: 999;
+  left: 20%;
+  top: 32%;
+  border: 3px solid black;
+}
+
 /* use the blurry edge for image and/or textbox*/
 .blurry-edge {
-    background-image: url('');
     width: 200px;
     height: 200px;
     /* match the shadow color to the backgrounddddddddd */
