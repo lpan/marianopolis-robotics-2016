@@ -1,33 +1,55 @@
-<style>
+.active-button {
+  background-color: black;
+  color: white;
+}
+
+.team-buttons {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 90%;
+  left: 30%;
+}
+
+.team-card {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+}
+
+team-card {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
 .teamcard{
   position: relative;
   width: 20%;
   height:60%;
-  border: 3px solid black;
   border-radius: 5%;
-  /*border-style: ridge;
-  border-width: 8px;*/
   -webkit-box-shadow: 25px 22px 23px 5px rgba(0,0,0,0.60);
--moz-box-shadow: 25px 22px 23px 5px rgba(0,0,0,0.60);
-box-shadow: 25px 22px 23px 5px rgba(0,0,0,0.60);
+  -moz-box-shadow: 25px 22px 23px 5px rgba(0,0,0,0.60);
+  box-shadow: 25px 22px 23px 5px rgba(0,0,0,0.60);
 }
+
 .teamtext{
   position:absolute;
   width: 38%;
   height: 8%;
-  /*border: 3px solid black;*/
   left:30%;
   top:90%;
   background-color: white;
   opacity: 0.7;
   box-shadow: 0 0 8px 8px grey inset;
 }
+
 .moreinfo{
   text-align: center;
   position: absolute;
   top: -30%;
   left:10%
 }
+
 .teampic{
   position:absolute;
   width: 100%;
@@ -42,12 +64,13 @@ box-shadow: 25px 22px 23px 5px rgba(0,0,0,0.60);
 	transform-style: preserve-3d;
 }
 	/*  UPDATED! flip the pane when hovered */
-	.flip-container:hover .back {
-		transform: rotateY(0deg);
-	}
-	.flip-container:hover .front {
-	    transform: rotateY(180deg);
-	}
+.flip-container:hover .back {
+	transform: rotateY(0deg);
+}
+
+.flip-container:hover .front {
+    transform: rotateY(180deg);
+}
 
 .flip-container, .front, .back {
 	width: 320px;
@@ -87,25 +110,15 @@ box-shadow: 25px 22px 23px 5px rgba(0,0,0,0.60);
 .vertical.flip-container {
 	position: relative;
 }
+
 .vertical .back {
-		transform: rotateX(180deg);
-	}
+	transform: rotateX(180deg);
+}
 
-	.vertical.flip-container:hover .back {
-	    transform: rotateX(0deg);
-	}
+.vertical.flip-container:hover .back {
+  transform: rotateX(0deg);
+}
 
-	.vertical.flip-container:hover .front {
-	    transform: rotateX(180deg);
-	}
-</style>
-<div class="flip-container teamcard">
-	<div class="flipper">
-		<div class="front">
-      <img class="teampic" alt="img doesnt work" src="teampic.jpg">
-    </div>
-		<div style="background-color: blue" class="back">
-      <p>I am a bunch of text :)</p>
-		</div>
-	</div>
-</div>
+.vertical.flip-container:hover .front {
+  transform: rotateX(180deg);
+}

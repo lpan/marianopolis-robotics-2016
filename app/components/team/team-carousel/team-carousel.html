@@ -1,7 +1,62 @@
-<div style="height: 600px" id="carousel">
-  <img class="cloud9-item" src="../../../../assets/img/welcome/mario.png" alt="Item #1">
-  <img class="cloud9-item" src="../../../../assets/img/welcome/marioClicked.png" alt="Item #2">
-  <img class="cloud9-item" src="../../../../assets/img/welcome/marioClicked.png" alt="Item #3">
-  <img class="cloud9-item" src="../../../../assets/img/welcome/marioClicked.png" alt="Item #4">
-  <img class="cloud9-item" src="../../../../assets/img/welcome/marioClicked.png" alt="Item #5">
+<div class="rob slider-position" ng-show="showSlider === 'rob'">
+  <slick infinite="false" slides-to-show="3" auto-play="true"
+  prev-arrow=".team-prev" next-arrow=".team-next"
+  ng-if="teams.rob.length && showSlider === 'rob'">
+    <div class="team-card" ng-repeat="item in teams.rob">
+      <team-card member="item"></team-card>
+    </div>
+  </slick>
+  <div style="position: absolute;left: 40%">
+    <button type="button" class="team-prev">Previous</button>
+    <button type="button" class="team-next">Next</button>
+  </div>
+</div>
+
+<div class="web slider-position" ng-show="showSlider === 'web'">
+  <slick infinite="false" slides-to-show="3"
+  prev-arrow=".team-prev" next-arrow=".team-next"
+  ng-if="teams.web.length && showSlider === 'web'">
+    <div class="team-card" ng-repeat="item in teams.web">
+      <team-card member="item"></team-card>
+    </div>
+  </slick>
+  <div style="position: absolute;left: 40%">
+    <button type="button" class="team-prev">Previous</button>
+    <button type="button" class="team-next">Next</button>
+  </div>
+</div>
+
+<div class="kio slider-position" ng-show="showSlider === 'kio'">
+  <slick infinite="false" slides-to-show="3"
+  prev-arrow=".team-prev" next-arrow=".team-next"
+  ng-if="teams.kio.length && showSlider === 'kio'">
+    <div class="team-card" ng-repeat="item in teams.kio">
+      <team-card member="item"></team-card>
+    </div>
+  </slick>
+  <div style="position: absolute;left: 40%">
+    <button type="button" class="team-prev">Previous</button>
+    <button type="button" class="team-next">Next</button>
+  </div>
+</div>
+
+<div class="vid slider-position" ng-show="showSlider === 'vid'">
+  <slick infinite="false" slides-to-show="3"
+  prev-arrow=".team-prev" next-arrow=".team-next"
+  ng-if="teams.vid.length && showSlider === 'vid'">
+    <div class="team-card" ng-repeat="item in teams.vid">
+      <team-card member="item"></team-card>
+    </div>
+  </slick>
+  <div style="position: absolute;left: 40%">
+    <button type="button" class="team-prev">Previous</button>
+    <button type="button" class="team-next">Next</button>
+  </div>
+</div>
+
+<div class="team-buttons">
+  <button id="rob" ng-click="show('rob')">Robot</button>
+  <button id="web" ng-click="show('web')">Web and Journal</button>
+  <button id="kio" ng-click="show('kio')">Kiosk</button>
+  <button id="vid" ng-click="show('vid')">Video</button>
 </div>

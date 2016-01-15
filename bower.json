@@ -10,8 +10,7 @@
     "bootstrap": "~3.1.1",
     "arctext-js": "latest",
     "animate.css": "latest",
-    "letteringjs": "latest",
-    "cloud9carousel": "latest",
-    "typed.js": "latest"
+    "slick-carousel": "~1.5.9",
+    "angular-slick": "~0.2.1"
   }
 }

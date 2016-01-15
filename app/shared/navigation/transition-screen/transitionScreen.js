@@ -6,7 +6,7 @@ app.directive('transitionScreen', ['$timeout', function ($timeout) {
       $timeout(function () {
         $(element).css({zIndex: '-1'});
       }, 500);
-    }, 2000);
+    }, 1200);
   };
 
   return {
