@@ -38,7 +38,7 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
     when('/journal', {
       templateUrl: 'app/components/journal/journalView.html',
       controller: 'journalController',
-      css: ['assets/css/main.css']
+      css: ['assets/css/main.css', 'assets/css/timeline/index.css']
     }).
     otherwise({
       redirectTo: '/'
