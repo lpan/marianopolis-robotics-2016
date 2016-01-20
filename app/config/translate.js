@@ -165,7 +165,7 @@ app.config(['languageServiceProvider', function (language) {
                 program: "Honours Pure and Applied Science",
                 special: "Website Guru",
                 game: "Super Mario Bros",
-                experience: ""
+                experience: "Overall, being part of the robotics team was a fun experience. I brushed up my web development skill including learning frontend development with AngularJs, using Grunt to automate tasks, etc. However, my most valuable acquisition from this experience is the ability to collaborate with others when working on a large project. ﻿"
               },
               {
                 name: "Yixuan Wang",
