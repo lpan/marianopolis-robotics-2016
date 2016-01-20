@@ -3,8 +3,12 @@
 		<div class="front">
       <img class="teampic" ng-src="../../../../assets/img/team/{{member.imageUrl}}">
     </div>
-		<div style="background-color: blue" class="back">
-      <p>{{ member.name }}</p>
+		<div class="back team-info">
+      <p style="font-size: 24px">{{ member.name }}</p>
+      <p><span>Program:</span> {{ member.program }}</p>
+      <p><span>Favourite Game:</span> {{ member.game }}</p>
+      <p><span>Special skill:</span> {{ member.special }}</p>
+      <p><span>Experience: </span>{{ member.experience }}</p>
 		</div>
 	</div>
 </div>
