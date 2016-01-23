@@ -51,6 +51,22 @@ app.config(['languageServiceProvider', function (language) {
         fr: {
           rob: [
             {
+              name: "Paul Farquhar",
+              imageUrl: "paulf.jpg",
+              program: "Sciences Pures et Appliquées",
+              special: "Être Mario",
+              game: "Super mario world 2",
+              experience: "J'ai appris à apprécier qu'aucune tâche est accomplie par magie, seulement par le travail d'équipe. Après avoir aidé l'équipe de kiosque et de vidéo, j'ai pu poursuivre d'autres projets de construction et de montage vidéo. Ma partie préférée comprends certains tâches de contruction concernant le kiosque, parce que je suis très fier du résultat. Il y avait eu quelques moments d' essais et erreurs, ce qui nécessitait de nombreuses soirées sacrifiés pour respecter les délais."
+            },
+            {
+              name: "Mathew Kfouri",
+              imageUrl: "mathewk.jpg",
+              program: "Sciences Pures et Appliquées",
+              special: "Extrusion d'assemblage",
+              game: "Super Mario Galaxy",
+              experience: "J'ai appris à utiliser différents types de matériaux  particulièrement l'extrusion et les kits de mouvement linéaire. J'ai eu la chance de travailler sur un robot complètement différent avec des personnes que je n'aurais jamais rencontrer sans la competition.  La partie la plus difficile a été de concevoir un système d'ascension qui répond aux restrictions de hauteur. Les heures de la construction durant les fin de semaines ont valu la peine."
+            },
+            {
               name: "Alexandra Laskaris",
               imageUrl: "alexla.jpg",
               program: "Sciences de la Santé Honneur",
@@ -125,6 +141,22 @@ app.config(['languageServiceProvider', function (language) {
           ],
           kio: [
             {
+              name: "Angelica Le ",
+              imageUrl: "angelical.jpg",
+              program: "Sciences de la Santé",
+              special: "Design le kiosque et l'uniforme, dessiner et painturer",
+              game: "Super Smash Bros",
+              experience: "En tant que nouvelle membre de l'équipe de robotique de Marianopolis, je peux en toute confiance dire que cette experience a été tout à fait mémorable. Malgré les longues heures de travail, nous avons tous partagés de beaux moments. En travaillant sur un projet de ce grandeur,ceci nous a encouragé à travailler dur dans le but d'obtenir un kiosque duquel nous sommes tous fiers."
+            },
+            {
+              name: "Vanessa Seraspe",
+              imageUrl: "vanessas.jpg",
+              program: "Sciences de la Santé",
+              special: "Design, dessiner et painturer",
+              game: "Super Mario Bros",
+              experience: "Faire partie de l’équipe de Robotique de Marionopolis pour une deuxième année a été formidable. Nous avons rencontré des défis lors de la construction du kiosque, mais nous les avons facilement surmontés en équipe. En voyant l'evolution progressive de notre kiosque au courant des 10 jours, toutes les taches de peinture sur mes vetements (qui ne s'enlevent plus!) ont valu la peine. J'espère que le Collège sera fier de nous!"
+            },
+            {
                 name: "Sally Adam",
                 imageUrl: "sallya.jpg",
                 program: "Sciences Pures et Appliquées",
@@ -143,7 +175,7 @@ app.config(['languageServiceProvider', function (language) {
               {
                 name: "Amanda Morgan",
                 imageUrl: "amandam.jpg",
-                program: "Science de la Santé",
+                program: "Sciences de la Santé",
                 special: "Contribution",
                 game: "Mario Kart",
                 experience: "J'ai appris plus sur la construction, la peinture et travailler en équipe"
@@ -177,7 +209,7 @@ app.config(['languageServiceProvider', function (language) {
               {
                 name: "Yuting Jiang",
                 imageUrl: "yutingj.jpg",
-                program: "Science de la Santé",
+                program: "Sciences de la Santé",
                 special: "Aider les autres/rien de spécial",
                 game: "Mario Kart",
                 experience: "J’ai beaucoup appris de l’équipe de robotique. J’étais en charge du journal et des médias, mais j’ai également aidé un peu partout. Puisque j’ai aidé un peu partout, j’ai appris un peu de tout. J’ai sacrifié mon sommeil et mon précieux temps libre de mes vacances de Noel pour le club. Je me rappelle, à la fin, j’avais des cernes sous les yeux."
@@ -187,7 +219,7 @@ app.config(['languageServiceProvider', function (language) {
             {
                 name: "Mahad Janjua",
                 imageUrl: "mahadj.jpg",
-                program: "Science de la Santé Honneur",
+                program: "Sciences de la Santé Honneur",
                 special: "Filmage vidéo",
                 game: "Mario Kart 7",
                 experience: "J'ai appris davantage sur les différentes étapes de réalisation et de modification des vidéos. J'ai eu beacoup de plaisir à parler aux acteurs qui sont aussi dans l'équipe et de les filmer. Lors du tounage, il y a eu plusieurs moments comiques et peut-être même quelques bloopers pour la vidéo. En outre, la vidéo a nécessité beaucoup de temps et d'effort. Il a aussi fallut reprendre quelques scènes. Somme toute, j'ai passé un bon moment."
@@ -203,7 +235,7 @@ app.config(['languageServiceProvider', function (language) {
               {
                 name: "Qi Yue He",
                 imageUrl: "qiyueh.jpg",
-                program: "Science de la Santé Honneur",
+                program: "Sciences de la Santé Honneur",
                 special: "Modifier/Animer la vidéo",
                 game: "Mario 3D World",
                 experience: "J’ai appris l’importance de la communication pour comprendre l’opinion de mes coéquipiers. Ce qui est difficile avec les montages vidéo, c’est que l’on ne peut pas travailler sur des ordinateurs différents, puisque les fichiers doivent rester à la même place. De plus, faire le montage sur un ordinateur portatif est relativement lent. Un des sacrifices que j’ai fait, c’est devoir travailler à la maison durant les vacances et les pauses."
@@ -213,6 +245,22 @@ app.config(['languageServiceProvider', function (language) {
         en: {
           teams: {
             rob: [
+              {
+                name: "Paul Farquhar",
+                imageUrl: "paulf.jpg",
+                program: "Pure and Applied Science",
+                special: "Being Mario",
+                game: "Super mario world 2",
+                experience: "I learned to appreciate that no task is accomplished magically, only by teamwork. After working with the kiosk and video teams, I can pursue other projects in construction or video editing. My favorite part was directing some kiosk jobs, because I admire the result. There was some trial and error, which required many late nights sacrificed to meet deadlines."
+              },
+              {
+                name: "Mathew Kfouri",
+                imageUrl: "mathewk.jpg",
+                program: "Pure and Applied Science",
+                special: "Assembling Extrusion",
+                game: "Super Mario Galaxy",
+                experience: "I learned how to use different types of materials, extrusion and linear motion kits in particular. I enjoyed the chance to work on a completely different robot and meet people that I wouldn't have otherwise. The most difficult part was designing a lift system that fit within the height restrictions. The hours of building on the weekend were definitely worth it. "
+              },
               {
                 name: "Alexandra Laskaris",
                 imageUrl: "alexla.jpg",
@@ -287,6 +335,22 @@ app.config(['languageServiceProvider', function (language) {
               }
             ],
             kio: [
+              {
+                name: "Angelica Le ",
+                imageUrl: "angelical.jpg",
+                program: "Health Science",
+                special: "Designing kiosk and uniform, drawing and painting",
+                game: "Super Smash Bros",
+                experience: "As a new member of the Marianopolis Robotics team, i can confidently say that this experience has been extremely memorable from the exhausting early mornings to the crazy laughs we all shared. Working on such a great project pushed us to work as hard as we can to obtain a kiosk that we are all greatly proud of."
+              },
+              {
+                name: "Vanessa Seraspe",
+                imageUrl: "vanessas.jpg",
+                program: "Health Science",
+                special: "Designing, drawing and painting",
+                game: "Super Mario Bros",
+                experience: "Being part of the Marionopolis Robotics Team for a second year has been great. Building the kiosk has had its challenges, but as a team we easily overcame them. Being able to witness how it evolved in just ten days was worth every single paint stain on my clothes (seriously, they don’t come off). I hope we make the College proud!"
+              },
               {
                 name: "Sally Adam",
                 imageUrl: "sallya.jpg",
