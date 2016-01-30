@@ -47,6 +47,16 @@ app.config(['languageServiceProvider', function (language) {
           SCHOOL: "School"
         }
       },
+      school: {
+        en: {
+          para1: "Mario-nopolis College is an English-language private CEGEP located on a small hill in the World of Marionopolis. It's a small anglophone college that houses a student body of around 2,000 Mini-Marios. The school was established in 1908 as the first institution of higher learning for anglophone Catholic  women. Mario-nopolis College offers a variety of pre-university programs. Our current campus has twelve wings, two gyms, one fitness center, more than four computer labs, and multiple science laboratories. In addition, there's an enormous library in which all the students can comfortably study! ",
+          para2: "We have over a hundred clubs in our school and the student life at Mario-nopolis is supported by our student government called the Congress. "
+        },
+        fr: {
+          para1: "Mario-nopolis College est un cégep privé anglophone situé sur une petite colline dans le Monde de Marianopolis. C'est un petit collège avec une population étudiante d'environ 2,000 min-marios. L'école a été fondée en 1908 comme étant le premier établissement d'enseignement collégial pour les femmes catholiques anglophones. Mario-nopolis College offre plusieurs programmes préuniversitaires. Notre campus actuel comprend douze pavillons, deux gymnases, un centre de fitness, plus que quatre laboratoires d'ordinateurs, et plusieurs laboratoires scientifiques. De plus, il y a une immense bibliothèque dans laquelle les étudiants peuvent étudier confortablement!",
+          para2: "À Mario-nopolis, nous avons environ cent clubs et la vie étudiante est dirigée par Congress, notre propre gouvernement pour les étudiants par les étudiants."
+        }
+      },
       team: {
         fr: {
           rob: [
