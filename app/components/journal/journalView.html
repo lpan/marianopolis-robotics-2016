@@ -9,7 +9,7 @@
         <h4>{{ journal.date }}</h4>
       </div>
       <h2 class="designation">{{ journal.day }}</h2>
-      <p class="about">{{ journal.text }}</p>
+      <p ng-repeat="text in journal.text" class="about">{{ text }}</p>
     </div>
   </div>
 </div>
