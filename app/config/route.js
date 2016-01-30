@@ -13,7 +13,7 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
     when('/team', {
       templateUrl: 'app/components/team/teamView.html',
       controller: 'teamController',
-      css: ['assets/css/main.css']
+      css: ['assets/css/main.css', 'assets/css/team/index.css']
     }).
     when('/school', {
       templateUrl: 'app/components/school/schoolView.html',

@@ -1,4 +1,16 @@
 <div ng-class="pageClass"></div>
 <transition-screen name="{{ startTitle }}"></transition-screen>
-<book-journal></book-journal>
+<h1>Journal</h1>
+<div class="Americas">
+  <div class="shameful"></div>
+  <div class="acts">
+    <div ng-class="journal.class" ng-repeat="journal in journals">
+      <div class="year">
+        <h4>{{ journal.date }}</h4>
+      </div>
+      <h2 class="designation">{{ journal.day }}</h2>
+      <p class="about">{{ journal.text }}</p>
+    </div>
+  </div>
+</div>
 <nav-mushroom page="/journal"></nav-mushroom>

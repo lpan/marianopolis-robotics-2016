@@ -7,4 +7,24 @@ app.controller('journalController', ['$scope', 'languageService', function ($sco
     $scope.startTitle = trans[lang].JOURNAL;
   };
   update();
+  $scope.journals = [
+    {
+      date: "November 1",
+      day: "Day 1",
+      text: "fdfdfd df df dfd fd  dfd fd fd fd fd fdf df",
+      class: "civil left"
+    },
+    {
+      date: "November 1",
+      day: "Day 1",
+      text: "fdfdfd df df dfd fd  dfd fd fd fd fd fdf df",
+      class: "civil right"
+    },
+    {
+      date: "November 1",
+      day: "Day 1",
+      text: "fdfdfd df df dfd fd  dfd fd fd fd fd fdf df",
+      class: "civil left"
+    }
+  ];
 }]);
