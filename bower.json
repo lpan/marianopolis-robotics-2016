@@ -12,10 +12,6 @@
     "animate.css": "latest",
     "slick-carousel": "~1.5.9",
     "angular-slick": "~0.2.1",
-    "angular-timeline": "~1.6.2",
-    "angular-scroll-animate": "~0.9.8",
-    "turnjs": "*",
-    "angular-gist-embed": "~0.0.3",
     "angular-highlightjs": "~0.5.1"
   }
 }
