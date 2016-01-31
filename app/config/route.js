@@ -33,7 +33,7 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
     when('/tutorials', {
       templateUrl: 'app/components/tutorials/tutorialsView.html',
       controller: 'tutorialsController',
-      css: ['assets/css/main.css']
+      css: ['assets/css/main.css', 'assets/css/tutorials/index.css']
     }).
     when('/journal', {
       templateUrl: 'app/components/journal/journalView.html',

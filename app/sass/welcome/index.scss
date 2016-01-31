@@ -2,3 +2,10 @@
 @import 'langButton';
 @import 'startButton';
 @import 'logo';
+
+@include font-face("marioFont", font-files("SuperMario256.ttf"));
+
+* {
+  font-family: marioFont;
+}
+

@@ -1,0 +1,97 @@
+<h1 class="text-center" style="font-size:2em">Translation with AngularJs</h1>
+<h3 class="text-right">Lawrence Pan. January 29, 2016</h3>
+<br>
+<p>
+  Multilingual support is crucial in web developement as it has a substantial
+  impact on a site's user experience. Particularly, the Canadian Robotics
+  Competition explicitly requires websites submitted to be fully bilingual. 
+  Now a question arises, how to implement this feature efficiently and elegantly? 
+  Generally, there are two different ways to tackle this problem: separated template
+  approach and separated text approach. The two aforementioned methods will be
+  discussed and compared.
+</p>
+
+<h2>1. Separated Template Approach</h2>
+<p>
+  As part of the Marianopolis robotics team, I was granted access to the source code
+  of previous robotics websites submitted and surprisingly, I found out that this 
+  feature (bilingual support) was implemented uniformly with the separated template 
+  approach. This approach, in short, is when one duplicates the HTML template and then
+  translate the text in the replica template. For example, consider a template shown below.
+</p>
+<div hljs hljs-language="html">
+  <!-- hello.html -->
+  <p>Hello My name is Lawrence Pan</p>
+  <button>Start</button>
+</div>
+<p>
+  In order to implement this feature, one has to duplicate the hello.html template
+  to produce hello_en.html and hello_fr.html. Then, translate hello_fr.html as 
+  shown in this snippet.
+</p>
+<div hljs hljs-language="html">
+  <!-- hello_fr.html -->
+  <p>Bonjour, je m'appelle Lawrence Pan</p>
+  <button>Commencer</button>
+</div>
+<p>
+  Voila! Now our template supports both English and French! However, it is very clear that this approach lacks elegance and efficiency. The practice of file duplication already violates the highly regarded DRY principle. In addition to this, when switching between languages, the entire page has to be refreshed in order to fetch new templates which, drastically demean the user experience.
+</p>
+
+<h2>2. Separated Text Approach</h2>
+<p>
+  This is when AngularJs shines. When I was developing the translation framework 
+  of www.myrscore.com, I applied this technique. Angular's MVC logic enables us 
+  to separate the text from the View(the template) as shown below.
+</p>
+<div hljs>
+  // languageService.js
+  app.provider('languageService', function () {
+    var _trans;
+    this.setTrans = function (obj) {
+      _trans = obj;
+    };
+    this.$get = ('languageService', function () {
+      var language = {};
+      // lang will be either 'en' or 'fr'
+      // Default lang = 'en'
+      language.lang = 'en';
+      // assign trans to data obtained from app.config
+      language.trans = _trans;
+      // set language
+      language.setLang = function (lang) {
+        this.lang = lang;
+      };
+      return language;
+    });
+  });
+</div>
+<div hljs>
+  // languageServiceConfig.js
+  app.config(['languageServiceProvider', function (language) {
+    language.setTrans(
+      {
+        welcome: {
+          en: {
+            START: "Start"
+          },
+          fr: {
+            START: "Commencer"
+          }
+        }
+      });
+  }]);
+</div>
+<p>
+  Provider recipe in AngularJs 1.* not only creates a singleton object that can be 
+  shared among all controllers but also can be configured when the application 
+  bootstraps. Then, depending on the value of the variable “language.lang”, 
+  text corresponding to the "current" language will be loaded when the page is 
+  rendered. By using this approach, there is no need to duplicate the template 
+  since the text (Model) is separated from the template (View).
+</p>
+
+<p>
+If you have any question, feel free to send me an email:
+<b>lawrencefeipan@gmail.com</b>
+</p>
