@@ -1,0 +1,95 @@
+<h1 class="text-center" style="font-size:2em">Traduction avec AngularJs</h1>
+<h3 class="text-right">Lawrence Pan. 29 Janvier 2016</h3>
+<br>
+<p>
+  Le support multilingue est crucial dans le développement web puisqu'il a un impact direct sur l'expérience de l'utilisateur.
+  Plus particulièrement, le concours CRC (Robotique Canadien) exige explicitement que le site web à soumettre doit être entièrement bilingue.
+  Par contre une question se pose, comment mettre en place cette fonction de façon efficace et élégante?
+  Généralement, il y a deux solutions à ce problème: une approche séparée du texte ou une approche séparée du modèle.
+  Les deux manières de procéder vont être expliquées et comparées.
+</p>
+
+<h2>1.Modèle séparé</h2>
+<p>
+  En étant membre de l'équipe de robotique à Marianopolis, on m'a accordé l'accès au code source
+  des sites de robotique des années précédentes et étonnament, j'ai remarqué que l'option
+  du support bilingue a été mis en oeuvre de façon uniforme avec l'approche du modèle séparé.
+  Cette approche, en bref, est quand on duplique le modèle HTML et ensuite traduire le texte dans le modèle doublé.
+  Par exemple, considérez le modèle illustré ci-dessous.
+</p>
+<div hljs hljs-language="html">
+  <!-- hello.html -->
+  <p>Hello My name is Lawrence Pan</p>
+  <button>Start</button>
+</div>
+<p>
+  Pour mettre en place ce fonction, il faut dupliquer le modèle de hello.html pour produire hello_en.html et hello_fr.html.
+  Ensuite, traduire hello_fr.html comme montré ci-dessous.
+</p>
+<div hljs hljs-language="html">
+  <!-- hello_fr.html -->
+  <p>Bonjour, je m'appelle Lawrence Pan</p>
+  <button>Commencer</button>
+</div>
+<p>
+  Voilà! Maintenant notre modèle prend en charge à la fois en anglais et en français!
+  Cependant, il est très clair que cette approche manque d'élégance et d'efficacité.
+  La pratique de la duplication des fichiers viole le principe DRY.
+  De plus, lors du changement de language, le page entière doit être rafrîchi pour pouvoir sortir le modèle traduit.
+  Cela baisse dramatiquement l'expérience de l'utilisateur.
+</p>
+
+<h2>2.Texte séparé</h2>
+<p>
+  Ceci est le moment où AngularJS entre en scène.
+  Quand je développais le cadre de traduction de www.myrscore.com, j'ai utilisé cette technique.
+  La logique MVC de AngularJS nous permet de séparer le text de la vue(le modèle) comme illustré ci-dessous.
+</p>
+<div hljs>
+  // languageService.js
+  app.provider('languageService', function () {
+    var _trans;
+    this.setTrans = function (obj) {
+      _trans = obj;
+    };
+    this.$get = ('languageService', function () {
+      var language = {};
+      // lang will be either 'en' or 'fr'
+      // Default lang = 'en'
+      language.lang = 'en';
+      // assign trans to data obtained from app.config
+      language.trans = _trans;
+      // set language
+      language.setLang = function (lang) {
+        this.lang = lang;
+      };
+      return language;
+    });
+  });
+</div>
+<div hljs>
+  // languageServiceConfig.js
+  app.config(['languageServiceProvider', function (language) {
+    language.setTrans(
+      {
+        welcome: {
+          en: {
+            START: "Start"
+          },
+          fr: {
+            START: "Commencer"
+          }
+        }
+      });
+  }]);
+</div>
+<p>
+  La recette du fournisseur dans AngularJS 1.* crée non seulement un objet singleton qui peut être partagée entre tous les contrôleurs, mais peut également être configuré lors de l'application de Bootstraps.
+  Ensuite, dépendant de la valeur du variable "language.lang", le texte correspondant à la langue courante sera prêt lorsque la page aura apparu.
+  En utilisant cette approche, il n'y a plus la nécéssité de dupliquer le modèle puisque le texte(modèle) est séparée de la matrice(Vue).
+</p>
+
+<p>
+Si vous avez des questions, n'hésitez pas a m'envoyer un courriel:
+<b>lawrencefeipan@gmail.com</b>
+</p>
