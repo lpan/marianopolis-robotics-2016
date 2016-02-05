@@ -1,3 +1,21 @@
+.arrows {
+  position: absolute;
+  left: 45%;
+}
+
+.arrow-left {
+  left: -15em;
+}
+.arrow-right {
+  right: -15em;
+}
+.arrow {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  position: absolute;
+}
+
 .active-button {
   background-color: black;
   color: white;
@@ -6,7 +24,6 @@
 .team-buttons {
   position: absolute;
   height: 100%;
-  width: 100%;
   top: 90%;
   left: 30%;
 }
