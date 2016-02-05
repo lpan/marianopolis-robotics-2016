@@ -1,13 +1,23 @@
+@import 'compass/css3';
 * {
   box-sizing: border-box;
 }
 
+@include font-face("marioFont", font-files("SuperMario256.ttf"));
+
 body, html {
   width: 100%;
   height: 100%;
-  background-color: #C4CBB7;
   font-size: 16px;
   overflow: visible;
+  background: {
+    image: image-url("backgrounds/welcomeBackground.jpg");
+    repeat: repeat-x;
+    position: center;
+    size: auto 100%;
+    attachment: fixed;
+  };
+
 }
 body h1, html h1 {
   text-align: center;
@@ -26,6 +36,10 @@ body .acts, html .acts {
   max-width: 100%;
 }
 
+span {
+  font-family: marioFont;
+  font-size:150%
+}
 .shameful {
   position: absolute;
   width: 0.250em;
@@ -61,6 +75,7 @@ body .acts, html .acts {
 }
 
 .civil {
+  background-color:rgba(255,255,255,0.5);
   border: 1px solid #AAB3AB;
   border-radius: 2px;
   box-shadow: inset -1px -1px 1px rgba(0, 0, 0, 0.45);
