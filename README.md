@@ -1,13 +1,9 @@
 # MarioKart 2016
 Website for CRC Pythagorium 2016
+[robotics.lawrencepan.work](http://robotics.lawrencepan.work)
+[robotics.marianopolis.edu](http://robotics.marianopolis.edu)
 
 [![forthebadge](http://forthebadge.com/images/badges/does-not-contain-treenuts.svg)](http://forthebadge.com)
-
-## Table of Contents
-1. [About](#about)
-2. [CRC Robotics Competition](#crc)
-3. [Marianopolis Robotics](#mari)
-4. [License](#lic)
 
 ## About This site <a id="about"></a>
 ##### Written by
