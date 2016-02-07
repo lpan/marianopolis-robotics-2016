@@ -39,12 +39,12 @@ app.config(['languageServiceProvider', function (language) {
         },
         fr: {
           JOURNAL: "Journal",
-          TEAM: "Team",
-          GALLERY: "Gallery",
-          GAME: "Game",
-          TUTORIALS: "Tutorials",
-          HELP: "Help",
-          SCHOOL: "School"
+          TEAM: "Équipe",
+          GALLERY: "Galerie",
+          GAME: "Jeu",
+          TUTORIALS: "Tutoriels",
+          HELP: "Aide",
+          SCHOOL: "École"
         }
       },
       game: {
@@ -62,7 +62,7 @@ app.config(['languageServiceProvider', function (language) {
             "We have over a hundred clubs in our school and the student life at Mario-nopolis is supported by our student government called Congress.",
             "Location:",
             "4873 Avenue Westmount, H3Y 1X9",
-            "Westmount, World of Marionopolis (Westmount, Monde de Westmount)"
+            "Westmount, World of Marionopolis"
           ]
         },
         fr: {
@@ -71,7 +71,7 @@ app.config(['languageServiceProvider', function (language) {
             "À Mario-nopolis, nous avons environ cent clubs et la vie étudiante est dirigée par le Congress, notre propre gouvernement par les étudiants pour les étudiants.",
             "Location:",
             "4873 Avenue Westmount, H3Y 1X9",
-            "Westmount, World of Marionopolis (Westmount, Monde de Westmount)"
+            "Westmount, Monde de Westmount"
           ]
         }
       }
