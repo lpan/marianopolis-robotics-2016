@@ -88,7 +88,10 @@
      ],
 
 
-     "class": "civil left"
+     "class": "civil left",
+
+
+     "picture": "day3.jpg"
 
 
    },
@@ -115,7 +118,9 @@
      ],
 
 
-     "class": "civil right"
+     "class": "civil right",
+
+     "picture": "day4.jpg"
 
 
    },
@@ -177,7 +182,9 @@
      ],
 
 
-     "class": "civil right"
+     "class": "civil right",
+
+     "picture": "day6.jpg"
 
 
    },
@@ -231,7 +238,9 @@
      ],
 
 
-     "class": "civil right"
+     "class": "civil right",
+
+     "picture": "day8.jpg"
 
 
    },
@@ -255,7 +264,9 @@
      ],
 
 
-     "class": "civil left"
+     "class": "civil left",
+
+     "picture": "day9.jpg"
 
 
    },
@@ -470,7 +481,9 @@
      ],
 
 
-     "class": "civil left"
+     "class": "civil left",
+
+     "picture": "day3.jpg"
 
 
    },
@@ -497,7 +510,9 @@
      ],
 
 
-     "class": "civil right"
+     "class": "civil right",
+
+     "picture": "day4.jpg"
 
 
    },
@@ -550,7 +565,9 @@
      ],
 
 
-     "class": "civil right"
+     "class": "civil right",
+
+     "picture": "day6.jpg"
 
 
    },
@@ -609,7 +626,9 @@
      ],
 
 
-     "class": "civil right"
+     "class": "civil right",
+
+     "picture": "day8.jpg"
 
 
    },
@@ -633,7 +652,9 @@
      ],
 
 
-     "class": "civil left"
+     "class": "civil left",
+
+     "picture": "day9.jpg"
 
 
    },
