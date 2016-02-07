@@ -1,10 +1,9 @@
 app.controller('gameController', ['$scope', 'languageService', function ($scope, language) {
   // for background image
   $scope.pageClass = 'page-game';
-  var trans = language.trans.nav;
-  var update = function () {
-    var lang = language.lang.toString();
-    $scope.startTitle = trans[lang].GAME;
-  };
-  update();
+  // translation
+  var lang = language.lang.toString();
+  $scope.startTitle = language.trans.nav[lang].GAME;
+  $scope.text = language.trans.game[lang].text;
+  $scope.videoUrl = 'https://www.youtube.com/watch?v=X2KPVj53-yI';
 }]);

@@ -4,5 +4,6 @@ var app = angular.module('marioKart',
                            'ngRoute',
                            'door3.css', 
                            'slick',
-                           'hljs'
+                           'hljs',
+                           'youtube-embed'
                          ]);

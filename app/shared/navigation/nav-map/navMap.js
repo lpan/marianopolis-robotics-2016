@@ -16,7 +16,7 @@ app.directive('navMap', ['languageService', function(language) {
       new Btn('btn-blue', 'b4', navs.TUTORIALS, '/tutorials'),
       new Btn('btn-blue', 'b5', navs.SCHOOL, '/school'),
       new Btn('btn-blue', 'b6', navs.GAME, '/game'),
-      new Btn('btn-blue', 'b7', navs.INFO, '/info')
+      new Btn('btn-blue', 'b7', navs.HELP, '/info')
     ];
     var isInfo = true;
     buttons.forEach(function (file) {

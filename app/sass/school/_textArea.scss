@@ -1,8 +1,7 @@
 #schoollogo{
   position: absolute;
-  top:-7%;
-  left: 6%;
-  width:50%;
+  left: 13%;
+  width:30%;
   height: auto;
 }
 
@@ -14,12 +13,14 @@
   left: 6%;
   z-index: -1;
 }
+
 #schoolcontainer{
   position: relative;
   width: 85%;
   height: 70%;
   top: 6%;
 }
+
 #schooltextarea{
   width: 38%;
   height: 66%;
@@ -28,29 +29,36 @@
   left: 58%;
   /*border: 3px solid white;*/
   overflow-y: scroll;
-   resize: none;
+  resize: none;
 }
 
-social-media {
-  height: 100%;
-  width: 100%;
+#social-box {
   position: absolute;
-  border-radius: 100%;
-  left: 82%;
-  top: 15%
+  right: 0.5em;
+  top: 3.5em;
+  a {
+    text-decoration: none;
+  }
+  img {
+    height: 2em;
+    width: 2em;
+  }
 }
 
-.schoolsocialmedia{
-  width: 4%;
-  height: auto;
+// Youtube video
+.game-explication {
+  width: 35%;
+  height: 70%;
+  position: absolute;
+  left: 20%;
+  top: 32%;
 }
 
 .schoolimg{
-  width: 30%;
-  height:68%;
+  height: 70%;
+  width: 50%;
   position: absolute;
-  z-index: -1;
-  left: 22%;
+  left: 18%;
   top: 32%;
 }
 

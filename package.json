@@ -2,7 +2,9 @@
   "name": "marianopolis-robotics-2016",
   "version": "1.0.0",
   "description": "Website for Marianopolis Robotics",
-  "dependencies": {},
+  "dependencies": {
+    "angular-youtube-embed": "^1.1.1"
+  },
   "devDependencies": {
     "bower": "^1.7.7",
     "browser-sync": "^2.11.1",
