@@ -8,14 +8,15 @@ app.directive('navMap', ['languageService', function(language) {
       this.page = page;
       this.labelClass = 'label label-warning label-position';
     };
+    var navs = language.trans.nav[language.lang.toString()];
     var buttons = [
-      new Btn('btn-blue', 'b1', 'Team', '/team'),
-      new Btn('btn-blue', 'b2', 'Journal', '/journal'),
-      new Btn('btn-blue', 'b3', 'Gallery', '/gallery'),
-      new Btn('btn-blue', 'b4', 'Tutorials', '/tutorials'),
-      new Btn('btn-blue', 'b5', 'School', '/school'),
-      new Btn('btn-blue', 'b6', 'Game', '/game'),
-      new Btn('btn-blue', 'b7', 'Help', '/info')
+      new Btn('btn-blue', 'b1', navs.TEAM, '/team'),
+      new Btn('btn-blue', 'b2', navs.JOURNAL, '/journal'),
+      new Btn('btn-blue', 'b3', navs.GALLERY, '/gallery'),
+      new Btn('btn-blue', 'b4', navs.TUTORIALS, '/tutorials'),
+      new Btn('btn-blue', 'b5', navs.SCHOOL, '/school'),
+      new Btn('btn-blue', 'b6', navs.GAME, '/game'),
+      new Btn('btn-blue', 'b7', navs.INFO, '/info')
     ];
     var isInfo = true;
     buttons.forEach(function (file) {
