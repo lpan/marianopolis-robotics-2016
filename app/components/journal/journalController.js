@@ -5,6 +5,7 @@ app.controller('journalController', [
   function ($scope, language, jsons) {
     // for background image
     $scope.pageClass = 'page-journal';
+    // translation framework
     var lang = language.lang.toString();
     $scope.startTitle = language.trans.nav[lang].JOURNAL;
     $scope.journalTitle = language.trans.journal[lang].TITLE;

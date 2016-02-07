@@ -10,6 +10,9 @@
       </div>
       <h2 class="designation">{{ journal.day }}</h2>
       <p ng-repeat="text in journal.text" class="about">{{ text }}</p>
+      <img ng-show="journal.picture !== 'undefined'" 
+           class="img-responsive"
+           ng-src="../../../assets/img/journal/{{ journal.picture }}">
     </div>
   </div>
 </div>
