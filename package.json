@@ -1,0 +1,28 @@
+{
+  "name": "marianopolis-robotics-2016",
+  "version": "1.0.0",
+  "description": "Website for Marianopolis Robotics",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "express": "^4.13.4",
+    "gulp": "^3.9.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorix-lpan/marianopolis-robotics-2016.git"
+  },
+  "author": "Lawrence Pan, Yixuan Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lorix-lpan/marianopolis-robotics-2016/issues"
+  },
+  "homepage": "https://github.com/lorix-lpan/marianopolis-robotics-2016#readme",
+  "scripts": {
+    "start": "gulp"
+  }
+}

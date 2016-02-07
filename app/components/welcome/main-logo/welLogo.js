@@ -1,4 +1,4 @@
-app.directive('welLogo', function ($timeout) {
+app.directive('welLogo', ['$timeout', function ($timeout) {
   var link = function (scope, element, attrs) {
     var curved = angular.element(element.children()[0]);
     var robotics = angular.element(element.children()[2]);
@@ -18,4 +18,4 @@ app.directive('welLogo', function ($timeout) {
     restrict: 'E',
     link: link
   };
-});
+}]);
