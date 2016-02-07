@@ -5,6 +5,19 @@ Website for CRC Pythagorium 2016
 
 [![forthebadge](http://forthebadge.com/images/badges/does-not-contain-treenuts.svg)](http://forthebadge.com)
 
+## Installation Guide
+Make sure you have npm and ruby installed
+
+* $ gem install compass
+* $ git clone https://github.com/lorix-lpan/marianopolis-robotics-2016
+* $ cd marianopolis-robotics-2016
+* $ npm install
+* $ bower install
+* $ npm start
+
+Note: npm start will invoke the gulp script. For production, after all tasks are
+completed, simply press ctrl-c to stop the server.
+
 ## About This site <a id="about"></a>
 ##### Written by
 * [Lawrence Pan](http://github.com/lorix-lpan "Lawrence's Github")

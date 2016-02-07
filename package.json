@@ -4,6 +4,7 @@
   "description": "Website for Marianopolis Robotics",
   "dependencies": {},
   "devDependencies": {
+    "bower": "^1.7.7",
     "browser-sync": "^2.11.1",
     "express": "^4.13.4",
     "gulp": "^3.9.0",
