@@ -9,6 +9,12 @@ app.directive('teamCarousel', [
         scope.teams = data[language.lang.toString()];
       });
 
+      $('.arrow').hover(function () {
+        $(this).addClass('animated wobble');
+      }, function () {
+        $(this).removeClass('animated wobble');
+      });
+
       // default is robot team;
       scope.showSlider = 'rob';
       $('#'+scope.showSlider).addClass('active-button');
