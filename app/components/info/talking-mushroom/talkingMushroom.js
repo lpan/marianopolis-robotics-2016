@@ -68,7 +68,7 @@ app.directive('talkingMushroom', ['languageService', '$timeout', function (langu
             $timeout(function () {
               dialog.css({zIndex: '-1'});
             }, 1200);
-          }, 5000);
+          }, 3000);
         },500);
       }, 1500);
     };
