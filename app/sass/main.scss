@@ -16,10 +16,25 @@ html, body {
   overflow: hidden;
 }
 
+// chang-lang position
 #ch-lang {
   position: fixed;
   top: 5px;
   right: 5px;
+}
+
+// social media
+#social-cornered {
+  position: fixed;
+  top: 0.8em;
+  left: 0.8em;
+  a {
+    text-decoration: none;
+  }
+  img {
+    height: 2em;
+    width: 2em;
+  }
 }
 
 * {
