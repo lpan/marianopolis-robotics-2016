@@ -5,6 +5,7 @@
 @import 'mushroom/mushroom';
 @import 'mushroom/chatBox';
 @import 'mushroom/navMap';
+@import 'welcome/langButton';
 
 @include font-face("marioFont", font-files("SuperMario256.ttf"));
 @include font-face("Exo-Medium", font-files("Exo-Medium.otf"));
@@ -17,8 +18,8 @@ html, body {
 
 #ch-lang {
   position: fixed;
-  top: 20px;
-  right: 20px;
+  top: 5px;
+  right: 5px;
 }
 
 * {

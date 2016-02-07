@@ -42,7 +42,7 @@ app.config(['languageServiceProvider', function (language) {
           TEAM: "Team",
           GALLERY: "Gallery",
           GAME: "Game",
-          TUTORIAL: "Tutorial",
+          TUTORIALS: "Tutorials",
           HELP: "Help",
           SCHOOL: "School"
         }
