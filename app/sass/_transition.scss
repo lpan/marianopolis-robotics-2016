@@ -1,12 +1,16 @@
 transition-screen {
-  position: fixed;
   background-color: black;
   height: 100%;
   width: 100%;
   z-index: 999999999;
+  position:fixed !important;
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
 }
 .mario-transition {
-  font-family: marioFont;
   color: white;
   text-align: center;
   font-size: 500%;
