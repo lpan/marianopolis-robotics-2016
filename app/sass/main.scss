@@ -15,6 +15,12 @@ html, body {
   overflow: hidden;
 }
 
+#ch-lang {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
 * {
   font-family: "Exo-Medium";
 }
