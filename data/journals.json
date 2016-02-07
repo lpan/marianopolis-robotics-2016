@@ -195,10 +195,7 @@
 
        "Seeing that our arm can pick up noodles, the robot team will work on making the arm place the noodles in the slots. The problem we initially had was that the arm wasn't able to reach high enough; to the fourth level. With a little bit of tuning, that problem is easily fixed by the geniuses of the robot team.",
 
-
-       "Another problem comes up; the chains on the wheels of the base of the robot. The chains aren’t aligned properly and that causes the robot to move very awkwardly or almost not at all. Fixing the chains is a pretty complex and precarious task. Mathew has worked on it for a long  time and, fortunately, got the problem under control by bending the chain to the position we want with a pair of pliers. The programming team is still working on making the robot's automatic system more efficient. The result is pretty amazing. The robot is able to follow the line pretty well.
-Another problem comes up; the chains on the wheels of the base of the robot. The chains aren’t aligned properly and that causes the robot to move very awkwardly or almost not at all. Fixing the chains is a pretty complex and precarious task. Mathew has worked on it for a long  time and, fortunately, got the problem under control by bending the chain to the position we want with a pair of pliers. The programming team is still working on making the robot's automatic system more efficient. The result is pretty amazing. The robot is able to follow the line pretty well.",
-
+       "Another problem comes up; the chains on the wheels of the base of the robot. The chains aren’t aligned properly and that causes the robot to move very awkwardly or almost not at all. Fixing the chains is a pretty complex and precarious task. Mathew has worked on it for a long  time and, fortunately, got the problem under control by bending the chain to the position we want with a pair of pliers. The programming team is still working on making the robot's automatic system more efficient. The result is pretty amazing. The robot is able to follow the line pretty well.",
 
        " At the end of the day, we did a big recapitulation today because it's our last work day for November 2015. The base of the robot is pretty much done, the chains are working just fine. The robot can move very well. The arm that intakes noodles will come out from the front of the robot and we will work on connecting that arm and the one on the top of our robot used to unload the noodles. The driving system works very well and the programming team made the automatic system a lot smoother."
 
@@ -380,7 +377,9 @@ Another problem comes up; the chains on the wheels of the base of the robot. The
      "class": "civil right"
 
 
-   }],
+   }
+
+ ],
 
 
  "fr": [

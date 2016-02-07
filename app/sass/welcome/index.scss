@@ -4,8 +4,8 @@
 @import 'logo';
 
 @include font-face("marioFont", font-files("SuperMario256.ttf"));
+@include font-face("RandomFont", font-files("Exo-Medium.otf"));
 
 * {
   font-family: marioFont;
 }
-
