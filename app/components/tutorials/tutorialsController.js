@@ -1,16 +1,20 @@
 app.controller('tutorialsController', [
   '$scope',
+  '$route',
   'languageService', 
-  function ($scope, language) {
+  function ($scope, $route, language) {
     // for background image
     $scope.pageClass = 'page-tutorials';
-    var trans = language.trans.nav;
-    var update = function () {
-      var lang = language.lang.toString();
-      $scope.startTitle = trans[lang].TUTORIALS;
+    // translation framework
+    var lang = language.lang.toString();
+    $scope.startTitle = language.trans.nav[lang].TUTORIALS;
+    $scope.articles = language.trans.tutorials[lang].articles;
+    // Switching between tutorials
+    var current = '/robot.html';
+    $scope.currentLink = 'app/components/tutorials/tutorials/' + language.lang.toString() + current;
+    $scope.changeArticle = function (desitination) {
+      current = desitination;
+      $scope.currentLink = 'app/components/tutorials/tutorials/' + language.lang.toString() + current;
     };
-    update();
-    var robot = '/robot.html';
-    var website = '/website.html';
-    $scope.currentLink = 'app/components/tutorials/tutorials/' + language.lang.toString() + robot;
-}]);
+  }
+]);

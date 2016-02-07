@@ -1,6 +1,16 @@
 <div ng-class="pageClass"></div>
 <transition-screen name="{{ startTitle }}"></transition-screen>
 <div class="container">
+  <div class="row">
+    <div class="text-center">
+      <div ng-click="changeArticle('/robot.html')" 
+        style="font-size: 0.8em"
+        class="languageBtn langorange">{{ articles[1].name }}</div>
+      <div ng-click="changeArticle('/website.html')" 
+        style="font-size: 0.8em"
+        class="languageBtn langorange">{{ articles[0].name }}</div>
+    </div>
+  </div>
   <div ng-include="currentLink"></div>
 </div>
 <ch-lang></ch-lang>
