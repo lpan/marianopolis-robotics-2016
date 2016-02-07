@@ -1,365 +1,755 @@
+
 {
-  "en": [
-    {
-      "day": "Day 1",
-      "date": "November 9th 2015",
-      "text": [
-        "Something really bad has happened! All the Mini-Marios were kidnapped by Bowser while we, the robotics club, were shopping for supplies for our robot. The leader and most powerful of the Koopa race has taken all twenty-thousand Mini-Marios as hostages in his castle. We must save them as soon as possible! To help Mario save the other Mini-Marios, we will have to think of a rescue plan. It's not like we can refuse to help our friends who were kidnapped! Poor them, we're sure they're scared and hungry inside of Bowser's cold and sinister castle. Can't believe that such a terrible thing has happened!"
-      ],
-      "class": "civil left"
-    },
-    {
-      "day": "Day 2",
-      "date": "November 28th 2015",
-      "text": [
-        "My name is Yuting and I will take you through our journey to save our friends. First of all, our school is currently located in Westmount World in a city called Mario-nopolis. Our school is called Mario-nopolis College and it sits on the top of a small hill. As Mini-Marios ourselves, we cannot believe that Bowser has really abducted all of our companions. He's pure evil. All of us are missing our buddies very much.",
-        "The first thing we have done is to organize and inventorize everything we have. After all, we need to be organized for us to be able to rescue our friends! After classifying all the things we have left from former years, we do a little brainstorming for ideas on how to save the Mini-Marios. Of course, we have to come up with a plan that involves the least amount of risk possible. We don't want to put the Mini-Marios in more danger!",
-        "It has almost been three whole weeks. We found out where the castle is located by following the trail Bowser and his underlings have left behind. We plan to build a robot that will help us through our first obstacle.",
-        "We want to be well prepared when the time comes, so we already started disassembling last year's robot. We need the parts that are on it to build a new robot that will be able to do the tasks needed to pass over the first challenge Bowser has given us. No time for procrastination!"
-      ],
-      "class": "civil right"
-    },
-    {
-      "day": "Day 3",
-      "date": "December 17th 2015",
-      "text": [
-        "The disassembling of the former robot is going well and we have almost finished the whole process. Taking apart the robot takes longer than expected and that's exactly why we started in advance. The team has also started putting some of the parts back together in order to test some ideas. Those are just ideas, but we don't have any concrete design yet. Still, it never hurts to try. A list of things to buy has been written after we inventoried everything we had left from last year. A lot of things have been done today!",
-        "The new walls we bought have arrived today! We have successfully fixed the new walls to the frames and have painted all the outer surfaces of the kiosk a pale blue. The kiosk team is making a lot of progress today!",
-        "The video team, which includes Mahad Janjua, Fany Chen, and Qi Yue He has already started working on the video. They have started writing a script for the video. Hopefully, the script will be done in a few days."
-      ],
-      "class": "civil left"
-    },
-    {
-      "day": "Day 4",
-      "date": "December 18th 2015",
-      "text": [
-        "The robot-building team is trying out a few designs with some of the parts that had been disassembled from the old robot. The team has already started making a few prototypes yesterday but now they have to match them with the design. We have actually started testing a prototype of the arm that will be picking up the game pieces that are also called noodles.",
-        "We have done so many things today. Every single person is busy. Everything has been sketched on the walls of the kiosk. We are actually ahead of schedule compared to what we had planned. We did so well that Sally, the big boss, gave us the sweet treat of coming in at 9:30 instead of 8:30 tomorrow morning! I guess we deserve it after all the work we've done today! "
-      ],
-      "class": "civil right"
-    },
-    {
-      "day": "Day 5",
-      "date": "December 19th 2015",
-      "text": [
-        "The prototype of the arm has been finalized and it will be the final arm we will use on our robot. The arm is able to pick up noodles and we are very satisfied with the result. We only need to work on putting the noodles into the slots now. Prototypes of the wheels and of the driving system are being made today. Plus, the programming team has been working on making the robot's movements automatic since last Thursday.",
-        "We are also finished painting the sky in the interior of the kiosk! A wall has also been attached to the kiosk for us to make a castle. The kiosk team is so overwhelmed with the tasks they have at hand that most of its members, and a few people from the other teams, have stayed after 16:00 to help paint the kiosk. We did overtime work!",
-        "I can't believe it, but our video team has actually finished the script! We will be ready to film by next Monday! I know I haven’t talked that much about our website team but they’ve just pretty much finished the landing page today! Lawrence and Yixuan are always working hard on the website."
-      ],
-      "class": "civil left"
-    },
-    {
-      "day": "Day 6",
-      "date": "December 21st 2015",
-      "text": [
-        "A few members of the robot team have finalized their decision about the driving system. They could've used drills or Banebots. They’ve actually tested both of these driving systems and they came to the conclusion that Banebots are better because they are much easier to mount on the robot and can handle more weight than drills. In addition, the drills can be better put to use somewhere else. The programming team is also collaborating with the robot team to polish the driving system of the robot. In addition, the programming team has been working on making the robot automatic since last Saturday; we are now working on it's efficiency. In other words, the robot is able to follow a white line on the flow by itself, without manual control.",
-        "Every single inch of the kiosk has been painted! The hard thing about kiosk is that, if you want the paint to look good, you have to be super careful and precise when painting. An example of the hard work of kiosk; in order for the clouds to look as realistic as possible, we do not paint them on the walls. Instead, we use little sponges to dab the white paint on the walls. The result is actually very nice; the clouds look like fluffy cotton candy. The yellow hills are painted stroke by stroke and it took forever to hide the pencil marks we drew made on the walls as guidelines.",
-        "The video team has started filming today. They’ve gathered everyone and they’ve shot a few scenes. From my point of view, it’s almost like a small-scale Hollywood movie because of all the equipment they use."
-      ],
-      "class": "civil right"
-    },
-    {
-      "day": "Day 7",
-      "date": "December 22nd 2015",
-      "text": [
-        "Seeing that our arm can pick up noodles, the robot team will work on making the arm place the noodles in the slots. The problem we initially had was that the arm wasn't able to reach high enough; to the fourth level. With a little bit of tuning, that problem is easily fixed by the geniuses of the robot team.",
-        "Another problem comes up; the chains on the wheels of the base of the robot. The chains aren’t aligned properly and that causes the robot to move very awkwardly or almost not at all. Fixing the chains is a pretty complex and precarious task. Mathew has worked on it for a long time and, fortunately, got the problem under control by bending the chain to the position we want with a pair of pliers. The programming team is still working on making the robot's automatic system more efficient. The result is pretty amazing. The robot is able to follow the line pretty well.",
-        "At the end of the day, we did a big recapitulation today because it's our last work day for November 2015. The base of the robot is pretty much done, the chains are working just fine. The robot can move very well. The arm that intakes noodles will come out from the front of the robot and we will work on connecting that arm and the one on the top of our robot used to unload the noodles. The driving system works very well and the programming team made the automatic system a lot smoother."
-      ],
-      "class": "civil left"
-    },
-    {
-      "day": "Day 8",
-      "date": "January 6th 2016",
-      "text": [
-        "The base of the robot is almost ready! All we have to do is to mount the arm on the robot. The problem I have previously mentioned about the arms not able to reach high enough has been fixed in the last two days. At first, they wanted to make the base higher so that the base could reach higher. However, by heightening the base, we would go over the restrictions of the dimension of the robot. The team has decided to add another extension of the raising arm. The extensions are, in a way, parts that are folded against each other and slide to reach the maximum height. The type of metal used for such a structure is called extruded metal. The feeding arm is made up of two feeding arms in which the noodles pass through. They loosened the VEX that connects the two feeding systems of the arm in order to pull the two systems as close as possible to each other, so that we satisfy to the dimension restrictions and can feed more properly the tubes."
-      ],
-      "class": "civil right"
-    },
-    {
-      "day": "Day 9",
-      "date": "January 7th 2016",
-      "text": [
-        "Today, we have decided the angles at which the arm would be able to tend. After making a few prototypes, we’ve decided to have three angles at which the arm would be able to bend manually. The three angles will be 0˚, 45˚, and 70˚-80˚. The electrical board of the robot has been finalized by Hakim who is in the programming team. The only thing left is to attach it to the base. Yesterday, as I’ve mentioned, we have decided to make extensions that would go up. Consequently, the robot team has assembled [the up and down hold the arms and has attached erase] the second extension for the lift system. "
-      ],
-      "class": "civil left"
-    },
-    {
-      "day": "Day 10",
-      "date": "January 8th 2016",
-      "text": [
-        "The robot team has finally added the third extension to the lift system that will make reaching the fourth level of the score board possible. Plus, they’ve also started working on the pulley system that will make lifting the arms of the robot achievable.",
-        "We have been filming for video since yesterday. The video team is going to be filming and editing for the rest of the week! It’s actually a pretty big task. The setup looks like a small-scale Hollywood movie filming!"
-      ],
-      "class": "civil right"
-    },
-    {
-      "day": "Day 11",
-      "date": "January 9th 2016",
-      "text": [
-        "The pulley system has been finalized. The robot should be able to lift its arm to the fourth level. We will run some tests on it. The tests will be done tomorrow, after the robot team checks the robot a million times. Initially, we only had one motor but, after testing, we’ve concluded that lifting the arm causes too much strain on it. Therefore, we have added another motor. The lifting mechanism is now running on two motors. Putting all this together was the robot team’s task. Hakim has also finished planning the electrical board that will be on the base of the robot. He has planned everything that will be on the board. All that’s left is to wire everything together!"
-      ],
-      "class": "civil left"
-    },
-    {
-      "day": "Day 12",
-      "date": "January 10th 2016",
-      "text": [
-        "Today, the programming team, with the robot team, has been working on the control they have on the lift system. The programming challenge, which is all about whether the robot can automatically not only follow lines but also put noodles in the slots. They’ve also partially tested the codes for the driving that involves following lines on the actual base of the robot. The electrical board that will be on the base and controlling everything has been finished by Hakim. That board will be the “brain” of the base that will be controlling the robot’s motors’ speed. We did some troubleshooting for the lift. The lift is not working properly and it’s slightly slanted. To correct that, we’ve tried to bend it back to it’s original shape by force but that really didn’t work and is kind of unrealistic. We come to the conclusion that the weight on top of the lift, which is pretty much the feeding arms, is way too much for the lifting mechanism to hold. Removing a bunch of metal from the top is our solution. The feeding arm is extremely sturdy because of all the extra support we’ve put on it but it can work just fine without it and it’s very unnecessary to have such a bulky feeding arm. Therefore, we have removed the extra metal to make it lighter and fix the problem with the lift. Afterward, we’ve tested the lift and the arm as if we are in the playing field."
-      ],
-      "class": "civil right"
-    },
-    {
-      "day": "Day 13",
-      "date": "January 11h 2016",
-      "text": [
-        "Today isn’t as busy as the other days. The robot team even got to go shopping for new pulleys in the middle of the day. At least, they got some fresh air. The pulleys we had did not turn properly and this caused too much friction. As a result, they cause way too much strain on the motor. Hence, the installing of a new pulley system has been done today. The programming team has been working hard; most of the programming for the robot has been finished. However, there’s a big issue with our electrical circuits. Our main board is at the base of the robot and our robot extends upwards which means that when the robot is not extended to it’s full length, the electrical cords can get tangled and this can cause multiple problems with the lift, which can be ultimately disastrous."
-      ],
-      "class": "civil left"
-    },
-    {
-      "day": "Day 14",
-      "date": "January 12th 2016",
-      "text": [
-        "Today is the last day we will work during the holidays! It’s going to be a big day and the whole team will be super busy wrapping up everything. We have to take apart the kiosk and store all the parts in a room till the big day. That is a lot of work! Today, finalizing the robot is the biggest task. With the pulleys we bought yesterday, the robot people have finished the new pulley system. However, the robot is still not able to reach high enough to get to the fourth level of the wall. That’s a big problem because we are certain it will be impossible for us to win the game if our robot is limited to a certain height and the others aren’t. We had assumed the weight of the old pulleys and old the feeding arm on the top were the problem. However, because we changed those components and the robot didn’t get better, we don’t know what the source of the problem is anymore. We can only do troubleshooting in that kind of situation; such as changing the electrical circuit or the batteries in the motors. The motors and circuit work very well on their own so they are not the problem. Our greatest suspicion is that the feeding arm is poorly aligned, so when it goes up, it becomes more crooked and that is what’s causing a huge strain on the motors. The only solution is the align it by taking off and replacing the base of the feeding arm. Luckily, that works and our robot is finally good to go! "
-      ],
-      "class": "civil right"
-    }
-  ],
-  "fr": [
-    {
-      "day": "Day 1",
-      "date": "November 9th 2015",
-      "text": [
-        "Something really bad has happened! All the Mini-Marios were kidnapped by Bowser while we, the robotics club, were shopping for supplies for our robot. The leader and most powerful of the Koopa race has taken all twenty-thousand Mini-Marios as hostages in his castle. We must save them as soon as possible! To help Mario save the other Mini-Marios, we will have to think of a rescue plan. It's not like we can refuse to help our friends who were kidnapped! Poor them, we're sure they're scared and hungry inside of Bowser's cold and sinister castle. Can't believe that such a terrible thing has happened!"
-      ]
-    },
-    {
-      "day": "Day 2",
-      "date": "November 28th 2015",
-      "text": [
-        "My name is Yuting and I will take you through our journey to save our friends. First of all, our school is currently located in Westmount World in a city called Mario-nopolis. Our school is called Mario-nopolis College and it sits on the top of a small hill. As Mini-Marios ourselves, we cannot believe that Bowser has really abducted all of our companions. He's pure evil. All of us are missing our buddies very much.",
-        "The first thing we have done is to organize and inventorize everything we have. After all, we need to be organized for us to be able to rescue our friends! After classifying all the things we have left from former years, we do a little brainstorming for ideas on how to save the Mini-Marios. Of course, we have to come up with a plan that involves the least amount of risk possible. We don't want to put the Mini-Marios in more danger!",
-        "It has almost been three whole weeks. We found out where the castle is located by following the trail Bowser and his underlings have left behind. We plan to build a robot that will help us through our first obstacle.",
-        "We want to be well prepared when the time comes, so we already started disassembling last year's robot. We need the parts that are on it to build a new robot that will be able to do the tasks needed to pass over the first challenge Bowser has given us. No time for procrastination!"
-      ]
-    },
-    {
-      "day": "Day 3",
-      "date": "December 17th 2015",
-      "test": [
-        "The disassembling of the former robot is going well and we have almost finished the whole process. Taking apart the robot takes longer than expected and that's exactly why we started in advance. The team has also started putting some of the parts back together in order to test some ideas. Those are just ideas, but we don't have any concrete design yet. Still, it never hurts to try. A list of things to buy has been written after we inventoried everything we had left from last year. A lot of things have been done today!",
-        "The new walls we bought have arrived today! We have successfully fixed the new walls to the frames and have painted all the outer surfaces of the kiosk a pale blue. The kiosk team is making a lot of progress today!",
-        "The video team, which includes Mahad Janjua, Fany Chen, and Qi Yue He has already started working on the video. They have started writing a script for the video. Hopefully, the script will be done in a few days."
-      ]
-    },
-    {
-      "day": "Day 4",
-      "date": "December 18th 2015",
-      "text": [
-        "The robot-building team is trying out a few designs with some of the parts that had been disassembled from the old robot. The team has already started making a few prototypes yesterday but now they have to match them with the design. We have actually started testing a prototype of the arm that will be picking up the game pieces that are also called noodles.",
-        "We have done so many things today. Every single person is busy. Everything has been sketched on the walls of the kiosk. We are actually ahead of schedule compared to what we had planned. We did so well that Sally, the big boss, gave us the sweet treat of coming in at 9:30 instead of 8:30 tomorrow morning! I guess we deserve it after all the work we've done today! "
-      ]
-    },
-    {
-      "day": "Day 5",
-      "date": "December 19th 2015",
-      "text": [
-        "The prototype of the arm has been finalized and it will be the final arm we will use on our robot. The arm is able to pick up noodles and we are very satisfied with the result. We only need to work on putting the noodles into the slots now. Prototypes of the wheels and of the driving system are being made today. Plus, the programming team has been working on making the robot's movements automatic since last Thursday.",
-        "We are also finished painting the sky in the interior of the kiosk! A wall has also been attached to the kiosk for us to make a castle. The kiosk team is so overwhelmed with the tasks they have at hand that most of its members, and a few people from the other teams, have stayed after 16:00 to help paint the kiosk. We did overtime work!",
-        "I can't believe it, but our video team has actually finished the script! We will be ready to film by next Monday! I know I haven’t talked that much about our website team but they’ve just pretty much finished the landing page today! Lawrence and Yixuan are always working hard on the website."
-      ]
-    },
-    {
-      "day": "Day 6",
-      "date": "December 21st 2015",
-      "text": [
-        "A few members of the robot team have finalized their decision about the driving system. They could've used drills or Banebots. They’ve actually tested both of these driving systems and they came to the conclusion that Banebots are better because they are much easier to mount on the robot and can handle more weight than drills. In addition, the drills can be better put to use somewhere else. The programming team is also collaborating with the robot team to polish the driving system of the robot. In addition, the programming team has been working on making the robot automatic since last Saturday; we are now working on it's efficiency. In other words, the robot is able to follow a white line on the flow by itself, without manual control.",
-        "Every single inch of the kiosk has been painted! The hard thing about kiosk is that, if you want the paint to look good, you have to be super careful and precise when painting. An example of the hard work of kiosk; in order for the clouds to look as realistic as possible, we do not paint them on the walls. Instead, we use little sponges to dab the white paint on the walls. The result is actually very nice; the clouds look like fluffy cotton candy. The yellow hills are painted stroke by stroke and it took forever to hide the pencil marks we drew made on the walls as guidelines.",
-        "The video team has started filming today. They’ve gathered everyone and they’ve shot a few scenes. From my point of view, it’s almost like a small-scale Hollywood movie because of all the equipment they use."
-      ]
-    },
-    {
-      "day": "Day 7",
-      "date": "December 22nd 2015",
-      "text": [
-        "Seeing that our arm can pick up noodles, the robot team will work on making the arm place the noodles in the slots. The problem we initially had was that the arm wasn't able to reach high enough; to the fourth level. With a little bit of tuning, that problem is easily fixed by the geniuses of the robot team.",
-        "Another problem comes up; the chains on the wheels of the base of the robot. The chains aren’t aligned properly and that causes the robot to move very awkwardly or almost not at all. Fixing the chains is a pretty complex and precarious task. Mathew has worked on it for a long time and, fortunately, got the problem under control by bending the chain to the position we want with a pair of pliers. The programming team is still working on making the robot's automatic system more efficient. The result is pretty amazing. The robot is able to follow the line pretty well.",
-        "At the end of the day, we did a big recapitulation today because it's our last work day for November 2015. The base of the robot is pretty much done, the chains are working just fine. The robot can move very well. The arm that intakes noodles will come out from the front of the robot and we will work on connecting that arm and the one on the top of our robot used to unload the noodles. The driving system works very well and the programming team made the automatic system a lot smoother."
-      ]
-    },
-    {
-      "day": "Day 8",
-      "date": "January 6th 2016",
-      "text": [
-        "The base of the robot is almost ready! All we have to do is to mount the arm on the robot. The problem I have previously mentioned about the arms not able to reach high enough has been fixed in the last two days. At first, they wanted to make the base higher so that the base could reach higher. However, by heightening the base, we would go over the restrictions of the dimension of the robot. The team has decided to add another extension of the raising arm. The extensions are, in a way, parts that are folded against each other and slide to reach the maximum height. The type of metal used for such a structure is called extruded metal. The feeding arm is made up of two feeding arms in which the noodles pass through. They loosened the VEX that connects the two feeding systems of the arm in order to pull the two systems as close as possible to each other, so that we satisfy to the dimension restrictions and can feed more properly the tubes."
-      ]
-    },
-    {
-      "day": "Day 9",
-      "date": "January 7th 2016",
-      "text": [
-        "Today, we have decided the angles at which the arm would be able to tend. After making a few prototypes, we’ve decided to have three angles at which the arm would be able to bend manually. The three angles will be 0˚, 45˚, and 70˚-80˚. The electrical board of the robot has been finalized by Hakim who is in the programming team. The only thing left is to attach it to the base. Yesterday, as I’ve mentioned, we have decided to make extensions that would go up. Consequently, the robot team has assembled [the up and down hold the arms and has attached erase] the second extension for the lift system. "
-      ]
-    },
-    {
-      "day": "Day 10",
-      "date": "January 8th 2016",
-      "text": [
-        "The robot team has finally added the third extension to the lift system that will make reaching the fourth level of the score board possible. Plus, they’ve also started working on the pulley system that will make lifting the arms of the robot achievable.",
-        "We have been filming for video since yesterday. The video team is going to be filming and editing for the rest of the week! It’s actually a pretty big task. The setup looks like a small-scale Hollywood movie filming!"
-      ]
-    },
-    {
-      "day": "Day 11",
-      "date": "January 9th 2016",
-      "text": [
-        "The pulley system has been finalized. The robot should be able to lift its arm to the fourth level. We will run some tests on it. The tests will be done tomorrow, after the robot team checks the robot a million times. Initially, we only had one motor but, after testing, we’ve concluded that lifting the arm causes too much strain on it. Therefore, we have added another motor. The lifting mechanism is now running on two motors. Putting all this together was the robot team’s task. Hakim has also finished planning the electrical board that will be on the base of the robot. He has planned everything that will be on the board. All that’s left is to wire everything together!"
-      ]
-    },
-    {
-      "day": "Day 12",
-      "date": "January 10th 2016",
-      "text": [
-        "Today, the programming team, with the robot team, has been working on the control they have on the lift system. The programming challenge, which is all about whether the robot can automatically not only follow lines but also put noodles in the slots. They’ve also partially tested the codes for the driving that involves following lines on the actual base of the robot. The electrical board that will be on the base and controlling everything has been finished by Hakim. That board will be the “brain” of the base that will be controlling the robot’s motors’ speed. We did some troubleshooting for the lift. The lift is not working properly and it’s slightly slanted. To correct that, we’ve tried to bend it back to it’s original shape by force but that really didn’t work and is kind of unrealistic. We come to the conclusion that the weight on top of the lift, which is pretty much the feeding arms, is way too much for the lifting mechanism to hold. Removing a bunch of metal from the top is our solution. The feeding arm is extremely sturdy because of all the extra support we’ve put on it but it can work just fine without it and it’s very unnecessary to have such a bulky feeding arm. Therefore, we have removed the extra metal to make it lighter and fix the problem with the lift. Afterward, we’ve tested the lift and the arm as if we are in the playing field."
-      ]
-    },
-    {
-      "day": "Day 13",
-      "date": "January 11h 2016",
-      "text": [
-        "Today isn’t as busy as the other days. The robot team even got to go shopping for new pulleys in the middle of the day. At least, they got some fresh air. The pulleys we had did not turn properly and this caused too much friction. As a result, they cause way too much strain on the motor. Hence, the installing of a new pulley system has been done today. The programming team has been working hard; most of the programming for the robot has been finished. However, there’s a big issue with our electrical circuits. Our main board is at the base of the robot and our robot extends upwards which means that when the robot is not extended to it’s full length, the electrical cords can get tangled and this can cause multiple problems with the lift, which can be ultimately disastrous."
-      ]
-    },
-    {
-      "day": "Day 14",
-      "date": "January 12th 2016",
-      "text": [
-        "Today is the last day we will work during the holidays! It’s going to be a big day and the whole team will be super busy wrapping up everything. We have to take apart the kiosk and store all the parts in a room till the big day. That is a lot of work! Today, finalizing the robot is the biggest task. With the pulleys we bought yesterday, the robot people have finished the new pulley system. However, the robot is still not able to reach high enough to get to the fourth level of the wall. That’s a big problem because we are certain it will be impossible for us to win the game if our robot is limited to a certain height and the others aren’t. We had assumed the weight of the old pulleys and old the feeding arm on the top were the problem. However, because we changed those components and the robot didn’t get better, we don’t know what the source of the problem is anymore. We can only do troubleshooting in that kind of situation; such as changing the electrical circuit or the batteries in the motors. The motors and circuit work very well on their own so they are not the problem. Our greatest suspicion is that the feeding arm is poorly aligned, so when it goes up, it becomes more crooked and that is what’s causing a huge strain on the motors. The only solution is the align it by taking off and replacing the base of the feeding arm. Luckily, that works and our robot is finally good to go! "
-      ]
-    }
-  ],
-  "fr": [
-    {
-      "day": "Jour 1",
-      "date": "9 Novembre 2015",
-      "text": [
-        "Quelque chose de très sérieux vient d’arriver aujourd’hui! Tous les Mini-Marios ont été kidnappés par Bowser alors que nous, l'équipe de robotique, étions au lancement de la compétition 2015-2016 de robotique appelée Pythagorium 2015-2016. Le meneur et le plus puissant des Koopas a pris les quelque vingt mille Mini-Marios comme otages dans son château. On doit absolument les sauver! Donc, nous, l'équipe de robotique, nous allons devoir concevoir un plan pour les secourir le plus tôt possible. Nous n'arrivons pas à croire qu'un événement aussi épouvantable a pris place!"
-      ],
-      "class": "civil left"
-    },
-    {
-      "day": "Jour 2",
-      "date": "28 Novembre 2015",
-      "text": [
-        "La première tâche que nous avons faite est d'organiser et d'inventorier tout ce que nous avons. Après tout, il faut être organisé pour être capable d'aller sauver nos amis! Après avoir classifié tout le matériel que nous avons en main, nous avons fait un remue-méninges pour des idées afin d'élaborer un plan qui implique le moins de risque possible pour sauver les autres Mini-Marios.",
-        "Depuis le 9 novembre 2015, cela fait presque trois semaines que nous pensons rien qu'à une façon de sauver les autres Mini-Marios. Nous sommes situés à Westmount, au haut d'une petite colline, dans un Cégep appelé Mario-nopolis College en l'honneur de Mario, le fondateur de Marionopolis la ville. Vu que nous même nous sommes des Mini-Marios, nous n'arrivons pas à croire que Bowser a vraiment enlevé nos amis. Il est vraiment malveillant. Les autres nous manquent tellement...",
-        "Nous avons trouvé où les autres Mini-Marios sont en suivant la piste que Bowser et ses subordonnés ont laissée derrière eux. Nos amis sont emprisonnés dans le château de Bowser. Il va falloir qu'on construit un robot pour nous aider à travers notre premier obstacle. Bowser a l'assez derrière une grande roue rouge que nous devrons traverser pour atteindre les deux murs qui sont de chaque côté de la grande roue. Notre but est d'arriver à un mur avec une pièce de jeux que nous allons mettre dans les ouvertures faites exprès pour les pièces de jeux. Après avoir examiné les murs de près pour presque trois semaines, nous avons déterminé que ce que Bowser a laissé est, en quelque sorte, un jeu. Notre robot, avec des robots qui appartiennent à notre ennemie, va devoir aller chercher des pièces de jeux et les mettre dans les trous des murs triangulaires appelés  les panneaux de pointage. Le but ultime est d'accumuler le plus de points possible. Les pièces de jeu n'ont pas toutes la même longueur et chaque unité de longueur vaut un point. Il faut être vigilant! Les pièces qui sont placées plus haut valent plus de points! En total, il y a quatre niveaux sur les murs. Le premier niveau vaut 10 points par unité de longueur, le deuxième niveau vaut 20 points par unité de longueur, le troisième niveau vaut 30 points par unité de longueur, et, finalement, le quatrième niveau vaut 40 points par unité de longueur. Par exemple, si on avait une pièce de jeux qui nous appartient de 2 unités de longueur sur le deuxième niveau, cela nous donnerait 40 points. Il y a également quelque chose d'autre de très important! Le multiplicateur peut multiplier le score final de notre équipe. C'est en créant un triangle dans le mur, avec nos pièces de jeu, de la même couleur, qui doivent crées une base de 2, 3, ou 4 pièces de jeu dans la première couche (avant plan) du triangle , que nous pouvons multiplier nos points. Par exemple, si on forme un triangle avec une base de deux pièces de jeu (trois pièces de jeu en tout), nos points vont être multipliés par trois. Notre score va être comparé à celui des autres équipes et l'équipe avec le plus haut score gagne. Nettement, Bowser nous a laissé un jeu très compliqué appelé Pythagorium.",
-        "Nous voulons tout préparé en avance pour le robot, alors nous avons commencé à démonter le robot de l'année passée, car nous avons utilisé les mêmes parts pour construire le nouveau robot qui peut faire toutes les tâches qu'il doit être capable de faire."
-      ],
-      "class": "civil right"
-    },
-    {
-      "day": "Jour 3",
-      "date": "17 Décembre 2015",
-      "text": [
-        "Le démontage du robot de l'année passée est toujours en cours et nous devrons finir bientôt. Démonter le robot prend plus longtemps que nous avons planifié et c'est exactement pour cela que nous avons commencé en avance. On a également commencé à rassembler quelques pièces pour tester quelques idées. Ce ne sont que des idées; nous n'avons pas de conception encore. Après que nous avons inventorié tout ce qui restait de l'année dernière, on a fait une liste des affaires que nous devons acheter. "
-      ],
-      "class": "civil left"
-    },
-    {
-      "day": "Jour 4",
-      "date": "18 Décembre 2015",
-      "text": [
-        "L'équipe qui se charge du robot est arrivée à l'école avec de nouveaux plans à tester avec les pièces provenant du vieux robot. L'équipe avait déjà commencé quelques prototypes hier, mais maintenant, les membres doivent essayer de correspondre les prototypes aux croquis. Avec tous nos plans, nous avons commencé à tester le bras du robot qui va soulever les pièces de jeu pour les mettre dans les trous sur les panneaux de pointage.",
-        "Nous avons accompli tellement beaucoup de choses aujourd'hui. Tout le monde était occupé; pas de temps à perdre! Nous avons travaillé tellement fort que Sally, la grande patronne, nous a dit que demain nous pouvons commencer à 9:30 au lieu de 8:30! Il est vrai qu'après tout le travail que nous avons fait, on mérite d'avoir un petit plaisir. "
-      ],
-      "class": "civil right"
-    },
-    {
-      "day": "Jour 5",
-      "date": "19 Décembre 2015",
-      "text": [
-        "Le prototype du bras a été finalisé et il va être le bras que nous allons utiliser sur notre robot pour le combat. Le bras est capable de soulever les pièces de jeu et nous sommes très satisfaits des résultats obtenus. Maintenant, nous avons juste à travailler sur le bras d’en haut pour qu'il soit capable de mettre les pièces dans les trous. Les prototypes des roues et du système de locomotion ont été créés. ",
-        "Depuis deux journées, l'équipe des programmeurs a été en train de travailler sur les mouvements du robot; on veut les rendre automatiques. Ils ont finalisé le programme aujourd'hui et je suis fière de vous dire que notre robot est officiellement automatique! Je sais que je n’ai pas parlé beaucoup de l’équipe en charge du site web, mais Yixuan et Lawrence viennent juste de finaliser la page d’atterrissage (landing page in french)!"
-      ],
-      "class": "civil left"
-    },
-    {
-      "day": "Jour 6",
-      "date": "21 Décembre 2015",
-      "text": [
-        "L'équipe responsable du robot a finalisé leur décision à propos du système de locomotion. On aurait pu utiliser soit le système qu’on trouve dans les perceuses ou des bane bots. Les membres de l'équipe ont fait des essais avec les deux systèmes de locomotion et ils sont venus à la conclusion que les bane bots fonctionnent mieux. De plus, les bane bots sont plus faciles à positionner sur le robot et le système qu’on retrouve des perceuses pourrait être mieux mis à profit ailleurs. Depuis samedi passé, l'équipe des programmeurs qui inclus Derek et Babilun a pu rendre le robot automatique à 100% automatique; ils travaillent maintenant à produire un meilleur système qui est plus efficace. Dans le fond, notre robot est capable de suivre une ligne blanche, sans aucune commande manuelle, qui est sur le sol grâce à un détecteur placé sur la plateforme de la base. Les programmeurs ont collaboré avec les personnes qui sont responsables du robot pour pouvoir compléter et peaufiner le système de locomotion de la machine. Les programmeurs ont rendu le robot automatique depuis samedi passé et ils sont maintenant en train de travailler sur l’efficacité (ou l’efficience) de la navigation. Autrement dit, notre robot est capable de suivre une ligne blanche automatiquement, sans aucun contrôle manuel. "
-      ],
-      "class": "civil right"
-    },
-    {
-      "day": "Jour 7",
-      "date": "22 Décembre 2015",
-      "text": [
-        "Vu que notre bras est capable de prendre des pièces de jeu aisément. Il va falloir qu'on trouve une solution pour que le robot soit capable de mettre ces derniers dans les trous du quatrième niveau du panneau de pointage.",
-        "Un problème est survenu ce matin. Le bras de notre robot est capable de prendre les pièces de jeu, mais il n’est pas capable d’atteindre la hauteur du quatrième niveau. Tout de même, avec un petit peu de réglage de la part des génies de l’équipe responsable du robot, le problème a été réglé sous peu.",
-        "Je crois bien qu’il est clair que nous avons eu beaucoup de problèmes aujourd’hui, car les chaînes qui font tourner les roues du robot ne sont pas alignées comme il faut. Une des conséquences de cette complication est que le robot bouge très maladroitement ou presque pas du tout. Régler ce problème est assez complexe. Mathew, qui est dans l’équipe responsable du robot, a dû courber les attaches jusqu’à la position voulue avec une paire de pinces. À propos des programmeurs, ils sont toujours en train de travailler sur l’efficacité du robot à suivre une ligne. Le résultat est impressionnant. Notre machine est capable de suivre les lignes adroitement.  ",
-        "À la fin de la journée, toute l’équipe au complet, on a fait une récapitulation puisque nous sommes à notre dernier jour de travail pour l’année 2015. Le socle est pas mal fini et les chaînes fonctionnent correctement. Le robot est capable de se déplacer très facilement et il est même ses virages ne sont pas serré du tout. On va avoir un appareil de levage sur le devant du robot qui va soulever les bras dans lesquels se trouveront les pièces de jeu. Les bras vont recevoir les pièces d’un bord (le derrière) et ils vont les projeter de dans les trous après que les nouilles ont traversé la longueur du bras. Il reste à joindre le bras et les extensions des extensions qui vont soulever le tout."
-      ],
-      "class": "civil left"
-    },
-    {
-      "day": "Jour 8",
-      "date": "6 Janvier 2016",
-      "text": [
-        "La base qui supporte le bras est presque finalisée! Tout ce que nous avons à faire est de joindre le bras du robot. Le problème que j’ai mentionné il y a quelques journées à propos des extensions a été réglé. Les extensions n’étaient pas capables d’atteindre la hauteur désirée, alors nous avons voulu augmenter la hauteur du socle. Cependant, en haussant la base, les dimensions du robot vont dépasser les restrictions données par le personnel de la compétition. C’est pour cela que l’équipe décide finalement d’ajouter une autre extension aux bras qui vont lever le bras qui reçoit les nouilles. Les extensions sont des pièces de métal qui glissent les une contre les autres pour pouvoir atteindre la hauteur voulue. De plus, on a également desserré les vexs qui rejoignent deux bouts du bras qui reçoit les nouilles pour que les deux systèmes se reprochent. Ainsi, il est impossible que nous dépassons les restrictions de taille et les pièces de jeu peuvent passer plus aisément entre les deux systèmes. "
-      ],
-      "class": "civil right"
-    },
-    {
-      "day": "Jour 9",
-      "date": "7 Janvier 2016",
-      "text": [
-        "Aujourd’hui, nous avons décidé à quels angles les bras avec les pièces de jeu pourront courber. Les angles sont 90˚, 45˚, et 70˚-80˚. La planche avec tous les circuits électriques qui va être placée dans le robot a été planifiée par Hakim. Il reste juste à tout brancher et le mettre dans le robot. Hier, j’avais dit que nous allons faire une autre extension pour le robot. Nous n’avons pas pu mettre la dernière extension, mais on a tout de même assemblé le système qui va faire glisser les extensions des deux extensions que nous avons fixées hier."
-      ],
-      "class": "civil left"
-    },
-    {
-      "day": "Jour 10",
-      "date": "8 Janvier 2016",
-      "text": [
-        "L'équipe robot a finalement ajouté le troisième extension au système de levage, qui va devoir s'étendre jusqu'au quatrième niveau du panneau de pointage si possible. De plus, ils ont aussi commencé à travailler sur le système de poulie qui va faire lever les bras du robot.",
-        "Nous sommes en train de filmer depuis hier. L’équipe de video va continuer à filmer et modifier les vidéos pour le reste de la semaine! C'est un vraiment gros travail. La mise en place ressemble à une mise en scène à petite échelle des films d'Hollywood."
-      ],
-      "class": "civil right"
-    },
-    {
-      "day": "Jour 11",
-      "date": "9 Janvier 2016",
-      "text": [
-        "Le système de poulie a été complété. Le robot devrait pouvoir lever son bras jus u'au quatrième niveau. Nous allons faire des essais sur le robot. Les essais seront faits demain, après que l'équipe de robot vérifie le robot un million de fois. Au début, nous avions seulement un moteur, mais après avoir testé, nous avons conclu que lever le bras du robot créer trop de friction. Nous avons donc ajouté un moteur supplémentaire. Le mécanisme pour lever le bras du robot utilise maintenant deux moteurs. Assembler le tout ensemble était le travail de l'équipe robot. Hakim a aussi fini de planifier la carte électrique, qui va être bientôt assemblée à la base du robot. Il a déjà une idée de quoi mettre sur la carte. Tout ce qui reste à faire est d’assembler le tout."
-      ],
-      "class": "civil left"
-    },
-    {
-      "day": "Jour 12",
-      "date": "10 Janvier 2016",
-      "text": [
-        "Aujourd'hui, l'équipe de programmation a travaillé avec l'équipe de robot sur le contrôle du système de levage de notre robot. Le défi que les programmeurs doivent faire face est de faire en sorte que le robot peut automatiquement non seulement suivre les lignes, mais aussi mettre les pièces de jeu dans les fentes. Les informaticiens ont déjà partiellement testé les codes sur la base réelle du robot pour la conduite qui implique de suivre des lignes sur le sol. La carte électrique qui sera sur le support et qui contrôle tout a été finalisée par Hakim. Ce réseau électrique sera le 'cerveau' du robot qui contrôlera la vitesse des moteurs du robot. Nous avons également fait un peu de dépannage pour l’ascenseur qui soulève le bras qui va saisir et insérer les pièces de jeu. L'ascenseur ne fonctionne pas correctement et il est légèrement incliné. Pour corriger cela, nous avons essayé de le plier par la force pour qu’il revient à sa forme initiale, mais cela ne fonctionne clairement pas. Nous arrivons à la conclusion que le poids au-dessus de l'ascenseur, ce qui est, en gros, le bras d’alimentation (le bras qui prend les pièces de jeu), est beaucoup trop pour les bras de levage à tenir. Ôter un peu de métal du sommet est notre solution. Le bras d'alimentation est extrêmement robuste en raison de tout le soutien supplémentaire que nous avons ajouté, mais ils peuvent très bien fonctionner sans le soutien et il n’est pas nécessaire d'avoir un tel bras d'alimentation aussi encombrant. Par conséquent, nous avons retiré des pièces de métal du bras d’en haut pour les rendre plus légers et corriger le problème avec l'ascenseur. Ensuite, nous avons testé l'ascenseur et le bras comme si nous sommes dans le domaine du jeu."
-      ],
-      "class": "civil right"
-    },
-    {
-      "day": "Jour 13",
-      "date": "11 Janvier 2016",
-      "text": [
-        "Aujourd'hui, nous n'étions pas aussi occupés que les autres journées. L'équipe de robot a dû aller acheter des nouvelles poulies en milieu de journée. Au moins ils ont eu de l'air frais. Les poulies que nous possédons déjà ne tournaient pas bien et cela causait beaucoup de friction. En conséquence, ces poulies causent beaucoup trop de pression sur le moteur. De plus, l'installation des nouvelles poulies a été complétée aujourd'hui même. L'équipe de programmation a travaillé fort aussi; une grande partie du travail de programmation du robot a été effectuée. Par contre, nous avons rencontré un problème concernant nos circuits électriques, notre tableau principal est à la base du robot et notre robot s'étend vers le haut, ce qui veut dire que quand le robot n'est pas étendu à sa longueur maximale, les cordons électriques peuvent s'emmêler et cela peut causer plusieurs problèmes aux extensions qui soulèvent les bras principaux, pouvant être très désastreuses!"
-      ],
-      "class": "civil left"
-    },
-    {
-      "day": "Jour 14",
-      "date": "12 Janvier 2016",
-      "text": [
-        "Aujourd'hui est la dernière journée de travail avant que les vacances d'hiver finissent! Ça va être une grosse journée et l'équipe complète va être très occupée pour conclure le travail. Nous devons défaire le kiosque en petites parties et les ranger dans une salle en attendant le grand jour. C'est beaucoup de travail! Aujourd'hui, finir le robot est le plus gros travail. Avec les poulies que nous avons achetées hier, l'équipe robot a pu terminer le nouveau système de poulie. Par contre, le robot est encore incapable de s'étirer assez haut pour atteindre le quatrième niveau du mur. Cela est un gros problème, car nous ne pouvons pas gagner le jeu si notre robot est limité à une certaine hauteur tandis que les autres non. Nous avons assumer le poids des anciens poulies et bras d’alimentation était la source du problème. Cependant, parce que nous avons changé ces composants et le robot n'a tout de même pas été capable d’atteindre la hauteur désirer, nous ne savons plus quelle est la cause du problème. Nous ne pouvons que du faire dépannage dans ce genre de solution; comme la modification du circuit électrique ou les batteries dans les moteurs. Les moteurs et les travaux de circuit très bien lorsque nous les testons individuellement, donc ils ne sont pas le problème. Notre plus grande suspicion est que le bras d'alimentation est mal aligné, alors quand il monte, il devient plus tordu et cela cause une pression énorme sur les moteurs. La seule solution est de l’aligner en enlevant et remplaçant la base du bras d'alimentation. Heureusement, ça fonctionne! Notre robot est enfin prêt!"
-      ],
-      "class": "civil right"
-    }
-  ]
+
+
+
+
+ "en": [
+
+
+   {
+
+
+     "day": "Day 1",
+
+
+     "date": "November 9th 2015",
+
+
+     "text": [
+
+
+       "Something really bad has happened! All the Mini-Marios were kidnapped by Bowser while we, the robotics club, were shopping for supplies for our robot. The leader and most powerful of the Koopa race has taken all twenty-thousand Mini-Marios as hostages in his castle. We must save them as soon as possible! To help Mario save the other Mini-Marios, we will have to think of a rescue plan. It's not like we can refuse to help our friends who were kidnapped! Poor them, we're sure they're scared and hungry inside of Bowser's cold and sinister castle. Can't believe that such a terrible thing has happened!"
+
+
+     ],
+
+
+     "class": "civil left"
+
+
+   },
+
+
+   {
+
+
+     "day": "Day 2",
+
+
+     "date": "November 28th 2015",
+
+
+     "text": [
+
+
+       "My name is Yuting and I will take you through our journey to save our friends. First of all, our school is currently located in Westmount World in a city called Mario-nopolis. Our school is called Mario-nopolis College and it sits on the top of a small hill. As Mini-Marios ourselves, we cannot believe that Bowser has really abducted all of our companions. He's pure evil. All of us are missing our buddies very much.",
+
+
+       "The first thing we have done is to organize and inventorize everything we have. After all, we need to be organized for us to be able to rescue our friends! After classifying all the things we have left from former years, we do a little brainstorming for ideas on how to save the Mini-Marios. Of course, we have to come up with a plan that involves the least amount of risk possible. We don't want to put the Mini-Marios in more danger!",
+
+
+       "It has almost been three whole weeks. We found out where the castle is located by following the trail Bowser and his underlings have left behind. We plan to build a robot that will help us through our first obstacle.",
+
+
+       "We want to be well prepared when the time comes, so we already started disassembling last year's robot. We need the parts that are on it to build a new robot that will be able to do the tasks needed to pass over the first challenge Bowser has given us. No time for procrastination!"
+
+
+     ],
+
+
+     "class": "civil right"
+
+
+   },
+
+
+   {
+
+
+     "day": "Day 3",
+
+
+     "date": "December 17th 2015",
+
+
+     "text": [
+
+
+       "The disassembling of the former robot is going well and we have almost finished the whole process. Taking apart the robot takes longer than expected and that's exactly why we started in advance. The team has also started putting some of the parts back together in order to test some ideas. Those are just ideas, but we don't have any concrete design yet. Still, it never hurts to try. A list of things to buy has been written after we inventoried everything we had left from last year. A lot of things have been done today!",
+
+
+       "The new walls we bought have arrived today! We have successfully fixed the new walls to the frames and have painted all the outer surfaces of the kiosk a pale blue. The kiosk team is making a lot of progress today!",
+
+
+       "The video team, which includes Mahad Janjua, Fany Chen, and Qi Yue He has already started working on the video. They have started writing a script for the video. Hopefully, the script will be done in a few days."
+
+
+     ],
+
+
+     "class": "civil left"
+
+
+   },
+
+
+   {
+
+
+     "day": "Day 4",
+
+
+     "date": "December 18th 2015",
+
+
+     "text": [
+
+
+       "The robot-building team is trying out a few designs with some of the parts that had been disassembled from the old robot. The team has already started making a few prototypes yesterday but now they have to match them with the design. We have actually started testing a prototype of the arm that will be picking up the game pieces that are also called noodles.",
+
+
+       "We have done so many things today. Every single person is busy. Everything has been sketched on the walls of the kiosk. We are actually ahead of schedule compared to what we had planned. We did so well that Sally, the big boss, gave us the sweet treat of coming in at 9:30 instead of 8:30 tomorrow morning! I guess we deserve it after all the work we've done today!"
+
+
+     ],
+
+
+     "class": "civil right"
+
+
+   },
+
+
+   {
+
+
+     "day": "Day 5",
+
+
+     "date": "December 19th 2015",
+
+
+     "text": [
+
+
+       "The prototype of the arm has been finalized and it will be the final arm we will use on our robot. The arm is able to pick up noodles and we are very satisfied with the result. We only need to work on putting the noodles into the slots now. Prototypes of the wheels and of the driving system are being made today. Plus, the programming team has been working on making the robot's movements automatic since last Thursday.",
+
+
+       "We are also finished painting the sky in the interior of the kiosk! A wall has also been attached to the kiosk for us to make a castle. The kiosk team is so overwhelmed with the tasks they have at hand that most of its members, and a few people from the other teams, have stayed after 16:00 to help paint the kiosk. We did overtime work!",
+
+
+       " I can't believe it, but our video team has actually finished the script! We will be ready to film by next Monday! I know I haven’t talked that much about our website team but they’ve just pretty much finished the landing page today! Lawrence and Yixuan are always working hard on the website."
+
+
+     ],
+
+
+     "class": "civil left"
+
+
+   },
+
+
+   {
+
+
+     "day": "Day 6",
+
+
+     "date": "December 21st 2015",
+
+
+     "text": [
+
+
+       "A few members of the robot team have finalized their decision about the driving system. They could've used drills or Banebots. They’ve actually tested both of these driving systems and they came to the conclusion that Banebots are better because they are much easier to mount on the robot and can handle more weight than drills. In addition, the drills can be better put to use somewhere else. The programming team is also collaborating with the robot team to polish the driving system of the robot. In addition, the programming team has been working on making the robot automatic since last Saturday; we are now working on it's efficiency. In other words, the robot is able to follow a white line on the flow by itself, without manual control.",
+
+
+       "Every single inch of the kiosk has been painted! The hard thing about kiosk is that, if you want the paint to look good, you have to be super careful and precise when painting. An example of the hard work of kiosk; in order for the clouds to look as realistic as possible, we do not paint them on the walls. Instead, we use little sponges to dab the white paint on the walls. The result is actually very nice; the clouds look like fluffy cotton candy. The yellow hills are painted stroke by stroke and it took forever to hide the pencil marks we drew made on the walls as guidelines.",
+
+
+       "The video team has started filming today. They’ve gathered everyone and they’ve shot a few scenes. From my point of view, it’s almost like a small-scale Hollywood movie because of all the equipment they use."
+
+
+     ],
+
+
+     "class": "civil right"
+
+
+   },
+
+
+   {
+
+
+     "day": "Day 7",
+
+
+     "date": "December 22nd 2015",
+
+
+     "text": [
+
+
+       "Seeing that our arm can pick up noodles, the robot team will work on making the arm place the noodles in the slots. The problem we initially had was that the arm wasn't able to reach high enough; to the fourth level. With a little bit of tuning, that problem is easily fixed by the geniuses of the robot team.",
+
+
+       "Another problem comes up; the chains on the wheels of the base of the robot. The chains aren’t aligned properly and that causes the robot to move very awkwardly or almost not at all. Fixing the chains is a pretty complex and precarious task. Mathew has worked on it for a long  time and, fortunately, got the problem under control by bending the chain to the position we want with a pair of pliers. The programming team is still working on making the robot's automatic system more efficient. The result is pretty amazing. The robot is able to follow the line pretty well.
+Another problem comes up; the chains on the wheels of the base of the robot. The chains aren’t aligned properly and that causes the robot to move very awkwardly or almost not at all. Fixing the chains is a pretty complex and precarious task. Mathew has worked on it for a long  time and, fortunately, got the problem under control by bending the chain to the position we want with a pair of pliers. The programming team is still working on making the robot's automatic system more efficient. The result is pretty amazing. The robot is able to follow the line pretty well.",
+
+
+       " At the end of the day, we did a big recapitulation today because it's our last work day for November 2015. The base of the robot is pretty much done, the chains are working just fine. The robot can move very well. The arm that intakes noodles will come out from the front of the robot and we will work on connecting that arm and the one on the top of our robot used to unload the noodles. The driving system works very well and the programming team made the automatic system a lot smoother."
+
+
+     ],
+
+
+     "class": "civil left"
+
+
+   },
+
+
+   {
+
+
+     "day": "Day 8",
+
+
+     "date": "January 6th 2016",
+
+
+     "text": [
+
+
+       "The base of the robot is almost ready! All we have to do is to mount the arm on the robot. The problem I have previously mentioned about the arms not able to reach high enough has been fixed in the last two days. At first, they wanted to make the base higher so that the base could reach higher. However, by heightening the base, we would go over the restrictions of the dimension of the robot. The team has decided to add another extension of the raising arm. The extensions are, in a way, parts that are folded against each other and slide to reach the maximum height. The type of metal used for such a structure is called extruded metal. The feeding arm is made up of two feeding arms in which the noodles pass through. They loosened the VEX that connects the two feeding systems of the arm in order to pull the two systems as close as possible to each other, so that we satisfy to the dimension restrictions and can feed more properly the tubes."
+
+
+     ],
+
+
+     "class": "civil right"
+
+
+   },
+
+
+   {
+
+
+     "day": "Day 9",
+
+
+     "date": "January 7th 2016",
+
+
+     "text": [
+
+
+       "Today, we have decided the angles at which the arm would be able to tend. After making a few prototypes, we’ve decided to have three angles at which the arm would be able to bend manually. The three angles will be 0˚, 45˚, and 70˚-80˚. The electrical board of the robot has been finalized by Hakim who is in the programming team. The only thing left is to attach it to the base. Yesterday, as I’ve mentioned, we have decided to make extensions that would go up. Consequently, the robot team has assembled the second extension for the lift system."
+
+
+     ],
+
+
+     "class": "civil left"
+
+
+   },
+
+
+   {
+
+
+     "day": "Day 10",
+
+
+     "date": "January 8th 2016",
+
+
+     "text": [
+
+
+       "The robot team has finally added the third extension to the lift system that will make reaching the fourth level of the scoreboard possible. Plus, they’ve also started working on the pulley system that will make lifting the arms of the robot achievable.",
+
+
+       "We have been filming for video since yesterday. The video team is going to be filming and editing for the rest of the week! It’s actually a pretty big task. The setup looks like a small-scale Hollywood movie filming!"
+
+
+     ],
+
+
+     "class": "civil right"
+
+
+   },
+
+
+   {
+
+
+     "day": "Day 11",
+
+
+     "date": "January 9th 2016",
+
+
+     "text": [
+
+
+       " The pulley system has been finalized. The robot should be able to lift its arm to the fourth level. We will run some tests on it. The tests will be done tomorrow, after the robot team checks the robot a million times. Initially, we only had one motor but, after testing, we’ve concluded that lifting the arm causes too much strain on it. Therefore, we have added another motor. The lifting mechanism is now running on two motors. Putting all this together was the robot team’s task. Hakim has also finished planning the electrical board that will be on the base of the robot. He has planned everything that will be on the board. All that’s left is to wire everything together!"
+
+
+     ],
+
+
+     "class": "civil left"
+
+
+   },
+
+
+   {
+
+
+     "day": "Day 12",
+
+
+     "date": "January 10th 2016",
+
+
+     "text": [
+
+
+       "Today, the programming team, with the robot team, has been working on the control they have on the lift system. The programming challenge, which is all about whether the robot can automatically not only follow lines but also put noodles in the slots. They’ve also partially tested the codes on the actual base of the robot, for the driving that involves following lines. The electrical board that will be on the base and controlling everything has been finished by Hakim. That board will be the “brain” of the base that will be controlling the robot’s motors’ speed. We did some troubleshooting for the lift.  The lift is not working properly and it’s slightly slanted. To correct that, we’ve tried to bend it back to it’s original shape by force but that didn’t really work. We come to the conclusion that the weight on top of the lift, which is pretty much the feeding arms, is way too much for the lifting mechanism to hold. Removing a bunch of metal from the top is our solution. The feeding arm is extremely sturdy because of all the extra support we’ve put on it but it can work just fine without it and it’s very unnecessary to have such a bulky feeding arm. Therefore, we have removed the extra metal to make it lighter and fix the problem with the lift. Afterward, we’ve tested the lift and the arm as if we are in the playing field."
+
+
+     ],
+
+
+     "class": "civil right"
+
+
+   },
+
+
+   {
+
+
+     "day": "Day 13",
+
+
+     "date": "January 11h 2016",
+
+
+     "text": [
+
+
+       "Today isn’t as busy as the other days. The robot team even got to go shopping for new pulleys in the middle of the day. At least, they got some fresh air. The pulleys we had did not turn properly and this caused too much friction. As a result, they cause way too much strain on the motor. Hence, the installing of a new pulley system has been done today. The programming team has been working hard; most of the programming for the robot has been finished. However, there’s a big issue with our electrical circuits. Our main board is at the base of the robot and our robot extends upwards which means that when the robot is not extended to it’s full length, the electrical cords can get tangled and this can cause multiple problems with the lift, which can be ultimately disastrous."
+
+
+     ],
+
+
+     "class": "civil left"
+
+
+   },
+
+
+   {
+
+
+     "day": "Day 14",
+
+
+     "date": "January 12th 2016",
+
+
+     "text": [
+
+
+       "Today is the last day we will work during the holidays! It’s going to be a big day and the whole team will be super busy wrapping up everything. We have to take apart the kiosk and store all the parts in a room till the big day. That is a lot of work! Today, finalizing the robot is the biggest task. With the pulleys we bought yesterday, the robot people have finished the new pulley system. However, the robot is still not able to reach high enough to get to the fourth level of the wall. That’s a big problem because we are certain it will be impossible for us to win the game if our robot is limited to a certain height and the others aren’t. We had assumed the weight of the old pulleys and old the feeding arm on the top were the problem. However, because we changed those components and the robot didn’t get better, we don’t know what the source of the problem is anymore. We can only do troubleshooting in that kind of situation; such as changing the electrical circuit or the batteries in the motors. The motors and circuit work very well on their own so they are not the problem. Our greatest suspicion is that the feeding arm is poorly aligned, so when it goes up, it becomes more crooked and that is what’s causing a huge strain on the motors. The only solution is to align it by taking off and replacing the base of the feeding arm. Luckily, that works and our robot is finally good to go!"
+
+
+     ],
+
+
+     "class": "civil right"
+
+
+   }],
+
+
+ "fr": [
+
+
+   {
+
+
+     "day": "Jour 1",
+
+
+     "date": "9 Novembre 2015",
+
+
+     "text": [
+
+
+       "Quelque chose de très sérieux vient d’arriver aujourd’hui! Tous les Mini-Marios ont été kidnappés par Bowser alors que nous, l'équipe de robotique, étions au lancement de la compétition de robotique appelée Pythagorium 2015-2016. Le meneur et le plus puissant des Koopas a pris les quelque vingt mille Mini-Marios en otages dans son château. On doit absolument les sauver! Donc, nous allons devoir concevoir un plan pour les secourir le plus tôt possible. Nous n'arrivons pas à croire qu'un événement aussi épouvantable a eu lieu!"
+
+
+     ],
+
+
+     "class": "civil left"
+
+
+   },
+
+
+   {
+
+
+     "day": "Jour 2",
+
+
+     "date": "28 Novembre 2015",
+
+
+     "text": [
+
+
+       "La première tâche que nous avons accomplie est d'organiser et d'inventorier tout ce que nous avons. Après tout, il faut être organisé pour être capable d'aller sauver nos amis! Après avoir classifié tout le matériel que nous avons en main, nous avons fait un remue-méninges pour trouver des idées afin d'élaborer un plan qui implique le moins de risque possible.",
+
+
+       "Depuis le 9 novembre 2015, cela fait presque trois semaines que nous ne pensons rien qu'à une façon de sauver les autres Mini-Marios. Nous sommes situés à Westmount, en haut d'une petite colline, dans un Collège appelé Mario-nopolis Collège en l'honneur de Mario, le fondateur de Marionopolis, la ville. Vu que nous-mêmes nous sommes des Mini-Marios, nous n'arrivons pas à croire que Bowser a vraiment enlevé nos amis. Il est vraiment malveillant. Les autres nous manquent tellement...",
+
+
+       "En suivant la piste que Bowser et ses subordonnés ont laissée derrière eux, nous avons trouvé où les Mini-Marios sont. Nos amis sont emprisonnés dans le château de Bowser. Il va falloir qu'on construise un robot pour nous aider à surmonter notre premier obstacle.",
+
+
+       "Nous voulons tout préparé à l’avance pour le robot, alors nous avons commencé à démonter le robot de l'année passée, car nous allons utiliser les mêmes pièces pour construire le nouveau robot qui doit être capable de faire toutes les tâches demandées."
+
+
+     ],
+
+
+     "class": "civil right"
+
+
+   },
+
+
+   {
+
+
+     "day": "Jour 3",
+
+
+     "date": "17 Décembre 2015",
+
+
+     "text": [
+
+
+       "Le démontage du robot de l'année passée est toujours en cours et nous devrons finir bientôt. Démonter le robot prend plus temps que nous avons prévu et c'est exactement pour cela que nous avons commencé à l’avance. On a également commencé à rassembler quelques pièces pour tester quelques idées. Ce ne sont que des idées; nous n'avons pas encore de conception concrète. Après avoir inventorié tout ce qui restait de l'année dernière, on a fait une liste des affaires que nous devrons acheter."
+
+
+     ],
+
+
+     "class": "civil left"
+
+
+   },
+
+
+   {
+
+
+     "day": "Jour 4",
+
+
+     "date": "18 Décembre 2015",
+
+
+     "text": [
+
+
+       "L'équipe qui se charge du robot est arrivée à l'école avec de nouveaux plans à tester avec les pièces provenant du vieux robot. L'équipe avait déjà commencé quelques prototypes hier, mais maintenant, les membres doivent essayer de faire correspondre les prototypes aux croquis. Avec tous nos plans, nous avons commencé à tester le bras du robot qui va soulever les pièces de jeu pour les mettre dans les trous sur les panneaux de pointage.",
+
+
+       "Nous avons accompli beaucoup de choses aujourd'hui. Tout le monde était occupé; pas de temps à perdre! Nous avons travaillé tellement fort que Sally, la grande patronne, nous a dit que demain nous pouvons commencer à 9:30 au lieu de 8:30! Il est vrai qu'après tout le travail que nous avons fait, nous méritons d'avoir un petit plaisir."
+
+
+     ],
+
+
+     "class": "civil right"
+
+
+   },
+
+
+   {
+
+
+     "day": "Jour 5",
+
+
+     "date": "19 Décembre 2015",
+
+
+     "text": [
+
+
+       "Le prototype du bras a été finalisé et ce sera être le bras que nous utiliserons sur notre robot. Le bras est capable de soulever une certaine masse et nous sommes très satisfaits des résultats obtenus. Maintenant, il ne nous reste plus qu’à travailler sur le bras d’alimentation qui va être soulevé par le bras que j’ai mentionné précédemment. Le bras d’alimentation va permettre à notre robot de mettre les pièces dans les trous. Les prototypes des roues et du système de locomotion ont été créés.",
+
+
+       " Cela fait deux journées que l'équipe des programmeurs travaille sur les mouvements du robot; on veut les rendre automatiques. Ils ont finalisé le programme aujourd'hui et je suis fière de vous dire que notre robot est officiellement automatique! Je sais que je n’ai pas parlé beaucoup de l’équipe responsable du site web, mais Yixuan et Lawrence viennent juste de finaliser la page de renvoi! Ils ont passé beaucoup de temps à peaufiner la page pour la rendre aussi belle."
+
+
+     ],
+
+
+     "class": "civil left"
+
+
+   },
+
+
+   {
+
+
+     "day": "Jour 6",
+
+
+     "date": "21 Décembre 2015",
+
+
+     "text": [
+
+
+       "L'équipe responsable du robot a pris une décision à propos du système de locomotion. On aurait pu utiliser soit le système qu’on trouve dans les perceuses ou des « Banebots .» Les membres de l'équipe ont fait des essais avec les deux systèmes de locomotion et ils sont venus à la conclusion que les « Banebots » fonctionnent mieux. De plus, les « Banebots » sont plus faciles à positionner sur le robot et peuvent supporter plus de poids. De plus, le système qu’on retrouve dans les perceuses pourrait être mis à profit ailleurs. Depuis samedi passé, l'équipe des programmeurs qui inclut Derek et Babilun a pu rendre le robot automatique à 100%. Maintenant, ils travaillent sur l’efficacité de la navigation du robot. Bref, notre robot est capable de suivre une ligne blanche, sans aucune commande manuelle, grâce à un détecteur placé sur la plateforme de la base. Les programmeurs ont collaboré avec les membres qui sont responsables du robot pour pouvoir compléter et peaufiner le système de locomotion de la machine."
+
+
+     ],
+
+
+     "class": "civil right"
+
+
+   },
+
+
+   {
+
+
+     "day": "Jour 7",
+
+
+     "date": "22 Décembre 2015",
+
+
+     "text": [
+
+
+       "Vu que notre bras est maintenant capable de prendre des pièces de jeu aisément, il va falloir qu'on trouve une solution pour que le robot soit capable de mettre ces derniers dans les trous du quatrième niveau du panneau de pointage, car un problème est survenu ce matin. Le bras de notre robot est capable de prendre les pièces de jeu, mais il n’est pas capable d’atteindre la hauteur du quatrième niveau. Tout de même, avec un petit peu de réglage de la part des génies de l’équipe responsable du robot, le problème a été réglé sous peu.",
+
+
+       "Je crois bien qu’il est clair que nous avons eu beaucoup de problèmes aujourd’hui, car les chaînes qui font tourner les roues du robot ne sont pas alignées comme il faut. Une des conséquences de cette complication est que le robot bouge très maladroitement ou presque pas du tout. Régler ce problème est assez complexe. Mathew, qui est dans l’équipe responsable du robot, a dû courber les attaches jusqu’à la position voulue avec une paire de pinces.",
+
+
+       "À propos des programmeurs, ils sont toujours en train de travailler sur l’efficacité du robot à suivre une ligne. Le résultat est impressionnant. Notre machine est capable de suivre les lignes sur le plancher avec agilité.",
+
+
+       "À la fin de la journée, toute l’équipe au complet, on a fait une récapitulation puisque nous sommes à notre dernier jour de travail pour l’année 2015. Le socle du robot est presque fini et les chaînes fonctionnent correctement. Le robot est capable de se déplacer très facilement et il est même ses virages ne sont pas serrés du tout. On va avoir un appareil de levage sur le devant du robot qui va soulever les bras d’alimentation dans lesquels se trouveront les nouilles. Un bras va recevoir les pièces d’un bord (le derrière) et un autre bras va les projeter dans les trous après que les nouilles ont traversé la longueur de deux bras. Il reste à joindre les deux morceaux du système d’alimentation."
+
+
+     ],
+
+
+     "class": "civil left"
+
+
+   },
+
+
+   {
+
+
+     "day": "Jour 8",
+
+
+     "date": "6 Janvier 2016",
+
+
+     "text": [
+
+
+       "La base qui supporte le bras est presque finalisée! Tout ce que nous avons à faire est de joindre le bras d’alimentation à « l’ascenseur » du robot. Le problème que j’ai mentionné il y a quelques journées à propos des extensions a été réglé. Les extensions n’étaient pas capables d’atteindre la hauteur désirée, alors nous avons voulu augmenter la hauteur du socle. Cependant, en haussant la base, les dimensions du robot vont dépasser les restrictions imposées par le personnel de la compétition. C’est pour cela que l’équipe décide finalement d’ajouter une autre extension aux bras qui vont lever le système d’alimentation. Les extensions sont des pièces de métal qui glissent les unes contre les autres pour pouvoir atteindre la hauteur voulue. Ces pièces de métal sont appelées des profilés métallique extrudés. De plus, on a également desserré les VEXS qui rejoignent les deux bouts du bras qui reçoit les nouilles, pour que les deux systèmes se reprochent. Ainsi, il est impossible que nous dépassions les restrictions de taille. De plus, les nouilles peuvent passer plus aisément entre les deux systèmes."
+
+
+     ],
+
+
+     "class": "civil right"
+
+
+   },
+
+
+   {
+
+
+     "day": "Jour 9",
+
+
+     "date": "7 Janvier 2016",
+
+
+     "text": [
+
+
+       "Aujourd’hui, nous avons décidé à quels angles les bras dans lesquels les pièces de jeu vont se retrouver pourront courber. Les angles sont de 90˚, 45˚, et 70˚-80˚. La planche avec tous les circuits électriques qui va être placée dans le robot a été planifiée par Hakim. Il reste juste à tout brancher et à la mettre dans le robot. Hier, j’avais dit que nous allons faire une autre extension pour le robot. Nous n’avons pas pu mettre la dernière extension, mais on a tout de même assemblé le système qui va faire glisser les extensions des deux extensions que nous avons fixées hier."
+
+
+     ],
+
+
+     "class": "civil left"
+
+
+   },
+
+
+   {
+
+
+     "day": "Jour 10",
+
+
+     "date": "8 Janvier 2016",
+
+
+     "text": [
+
+
+       "L’équipe du robot a finalement ajouté le troisième extension au système de levage, qui va devoir s'étendre jusqu'au quatrième niveau du panneau de pointage, si possible. De plus, les membres de l’équipe ont aussi commencé à travailler sur le système de poulies qui va faire lever les bras du robot.",
+
+
+       "Nous sommes en train de filmer depuis hier. L’équipe de vidéo va continuer à filmer et modifier les vidéos pour le reste de la semaine! C'est vraiment un gros travail. La mise en place ressemble à une mise en scène à petite échelle des films d'Hollywood."
+
+
+     ],
+
+
+     "class": "civil right"
+
+
+   },
+
+
+   {
+
+
+     "day": "Jour 11",
+
+
+     "date": "9 Janvier 2016",
+
+
+     "text": [
+
+
+       " Le système de poulies a été complété. Le robot devrait pouvoir lever son bras jusqu'au quatrième niveau. Nous allons faire des essais sur le robot. Les essais seront faits demain, après que l'équipe du robot vérifie le robot un million de fois. Au début, nous avions seulement un moteur, mais après avoir testé, nous avons conclu que lever le bras du robot créait trop de friction. Nous avons donc ajouté un moteur supplémentaire. Le mécanisme pour lever le bras du robot utilise maintenant deux moteurs. Assembler le tout était le travail de l’équipe du robot. Hakim a aussi fini de planifier la carte électrique, qui va être bientôt assemblée à la base du robot. Il a déjà une idée de ce qu’il va mettre sur la carte. Tout ce qui reste à faire est d’assembler le tout."
+
+
+     ],
+
+
+     "class": "civil left"
+
+
+   },
+
+
+   {
+
+
+     "day": "Jour 12",
+
+
+     "date": "10 Janvier 2016",
+
+
+     "text": [
+
+
+       "Aujourd'hui, l'équipe de programmation a travaillé avec l'équipe de robot sur le contrôle du système de levage de notre robot. Le défi que les programmeurs doivent faire face est de faire en sorte que le robot puisse non seulement suivre des lignes d’une certaine couleur automatiquement, mais aussi mettre les pièces de jeu dans les fentes. Les informaticiens ont déjà partiellement testé les codes sur la base réelle du robot pour la conduite qui implique de suivre des lignes sur le sol. La carte électrique qui sera sur le support et qui contrôle tout a été finalisée par Hakim. Ce réseau électrique sera le « cerveau » du robot qui contrôlera la vitesse des moteurs. Nous avons également fait un peu de dépannage pour l’ascenseur qui soulève le bras qui va saisir et insérer les pièces de jeu. L'ascenseur ne fonctionne pas correctement et il est légèrement incliné. Pour corriger cela, nous avons essayé de le plier par la force pour qu’il revienne à sa forme initiale, mais cela ne fonctionne clairement pas. Nous arrivons à la conclusion que le poids au-dessus de l'ascenseur, ce qui est, en gros, le bras d’alimentation (le bras qui prend les pièces de jeu), est beaucoup trop lourd pour les bras de levage à tenir. Notre solution est d’ôter un peu de métal du sommet est. Le bras d'alimentation est extrêmement robuste en raison de tout le soutien supplémentaire que nous avons ajouté, mais ils peuvent très bien fonctionner sans le soutien additionnel et il n’est pas nécessaire d'avoir un tel bras d'alimentation aussi encombrant. Par conséquent, nous avons retiré des pièces de métal du bras d’en haut pour le rendre plus léger et corriger le problème avec l'ascenseur. Ensuite, nous avons testé l'ascenseur et le bras comme si nous étions dans le domaine du jeu."
+
+
+     ],
+
+
+     "class": "civil right"
+
+
+   },
+
+
+   {
+
+
+     "day": "Jour 13",
+
+
+     "date": "11 Janvier 2016",
+
+
+     "text": [
+
+
+       "Aujourd'hui, nous n'étions pas aussi occupés que les autres journées. L'équipe de robot a dû aller acheter des nouvelles poulies en milieu de journée. Au moins, ils ont eu de l'air frais. Les poulies que nous possédions déjà ne tournaient pas bien et cela causait beaucoup de friction. En conséquence, ces poulies causent beaucoup trop de pression sur le moteur. De plus, l'installation des nouvelles poulies a été complétée aujourd'hui même. L'équipe de programmation a travaillé fort aussi: une grande partie du travail de programmation du robot a été effectuée. Par contre, nous avons rencontré un problème concernant nos circuits électriques. Notre tableau principal est à la base du robot et notre robot s’élève vers le haut, ce qui veut dire que quand le robot n'est pas étendu à sa longueur maximale, les cordons électriques peuvent s'emmêler et cela peut causer plusieurs problèmes aux extensions qui soulèvent les bras principaux, créant une situation très désastreuse!"
+
+
+     ],
+
+
+     "class": "civil left"
+
+
+   },
+
+
+   {
+
+
+     "day": "Jour 14",
+
+
+     "date": "12 Janvier 2016",
+
+
+     "text": [
+
+
+       "Aujourd'hui est la dernière journée de travail avant que les vacances d'hiver finissent! Ça va être une grosse journée et l'équipe complète va être très occupée pour conclure le travail. Nous devons défaire le kiosque en petites parties et les ranger dans une salle en attendant le grand jour. C'est beaucoup de travail! Aujourd'hui, finir le robot est le plus gros travail. Avec les poulies que nous avons achetées hier, l'équipe robot a pu terminer le nouveau système de poulies. Par contre, le robot est encore incapable de s’élever assez haut pour atteindre le quatrième niveau du mur. Cela est un gros problème, car nous ne pouvons pas gagner le jeu si notre robot est limité à une certaine hauteur tandis que les autres non. Nous avons présumé que le poids des anciennes poulies et bras d’alimentation était la source du problème. Cependant, parce que nous avons changé ces composants et le robot n'a tout de même pas été capable d’atteindre la hauteur désirée, nous ne savons plus quelle est la cause du problème. Dans ce genre de situation, tout ce que nous avons pu faire est du dépannage. Par exemple, la modification du circuit électrique ou le changement des batteries dans les moteurs. Les moteurs et la carte de circuit électronique fonctionnent très bien lorsque nous les testons individuellement, donc ils ne sont pas le problème. Notre plus grande soupçon est que le bras d'alimentation est mal aligné, alors quand il monte, il devient plus tordu et cela cause une pression énorme sur les moteurs. La seule solution est de l’aligner en enlevant et en remplaçant la base du bras d'alimentation. Heureusement, ça fonctionne! Notre robot est enfin prêt!"
+
+
+     ],
+
+
+     "class": "civil right"
+
+
+   }
+
+
+ ]
+
+
 }
