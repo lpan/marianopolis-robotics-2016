@@ -5,9 +5,11 @@ app.directive('teamCarousel', [
   function (language, jsons, $timeout) {
     var link = function (scope, element, attrs) {
       // Bilingual algorithm
+      var lang = language.lang.toString();
       jsons.getTeam(function (data) {
-        scope.teams = data[language.lang.toString()];
+        scope.teams = data[lang];
       });
+      scope.buttons = language.trans.team[lang].buttons;
 
       $('.arrow').hover(function () {
         $(this).addClass('animated wobble');
@@ -30,6 +32,7 @@ app.directive('teamCarousel', [
     return {
       restrict: 'E',
       templateUrl: 'app/components/team/team-carousel/team-carousel.html',
-      link: link
+      link: link,
+      scope: true
     };
 }]);

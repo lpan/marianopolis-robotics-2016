@@ -81,6 +81,24 @@ app.config(['languageServiceProvider', function (language) {
           ]
         }
       },
+      team: {
+        en: {
+          buttons: {
+            rob: "Robot",
+            web: "Website and Journalism",
+            kio: "Kiosk",
+            vid: "Video"
+          },
+        },
+        fr: {
+          buttons: {
+            rob: "Robot",
+            web: "Site Internet et Journalisme",
+            kio: "Kiosque",
+            vid: "Vidéo"
+          },
+        }
+      },
       game: {
         en: {
           text: "The Great Demon King Koopa has left behind a wheel that we would have to cross before we can arrive at the walls. The walls are our ultimate goal and that's where the robot comes into play. After investigating the walls for almost three weeks, we've come to the conclusion that it involves some sort of game to get over. Our robot, along with a few robots from our enemies, will have to pick up and gather game pieces of a certain colour and insert them into the slots that will appear in the two triangular walls called scoreboards. The turning wheel is between the two walls. The goal of the game is to obtain the maximum amount of points possible. All the game pieces do not have the same length and each unit of length is worth one point. Be careful! The pieces that are placed higher in the wall are worth more points! There are four total levels on the wall. The first level is worth 10 points per unit of length, the second level is worth 20 points per unit of length, the third level is worth 30 points per unit of length, and the fourth level is worth 40 points per unit of length. For example, if we had a game piece of 2 units of length on the second level, that would give us 40 points. There is also something else we need to be very careful about; it's that there's something called the multiplier that can multiply the score of our team. By creating a triangle in the wall with a base that is either 2, 3 or 4 game pieces of the same colour in the outermost layer of the triangle. For example, if you form a triangle with three game pieces, your score will me multiplied by two. This is what we have concluded from investigating . Clearly, Bowser has left us a complicated game. Our total score will be compared to other teams in this game, so we must do our best to win! We can also get other points from the kiosk, web page, and video we will do for this game. Clearly, Bowser has left us a complicated game. We will be compared to other teams, so we must do our best to win!"

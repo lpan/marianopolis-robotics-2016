@@ -29,7 +29,6 @@
     arrow-right">  
   </div>
 </div>
-
 <div class="kio slider-position" ng-show="showSlider === 'kio'">
   <slick infinite="false" slides-to-show="3"
   prev-arrow=".team-prev" next-arrow=".team-next"
@@ -63,8 +62,8 @@
 </div>
 
 <div class="team-buttons">
-  <button id="rob" ng-click="show('rob')">Robot</button>
-  <button id="web" ng-click="show('web')">Web and Journal</button>
-  <button id="kio" ng-click="show('kio')">Kiosk</button>
-  <button id="vid" ng-click="show('vid')">Video</button>
+  <button id="rob" ng-click="show('rob')">{{ buttons.rob }}</button>
+  <button id="web" ng-click="show('web')">{{ buttons.web }}</button>
+  <button id="kio" ng-click="show('kio')">{{ buttons.kio }}</button>
+  <button id="vid" ng-click="show('vid')">{{ buttons.vid }}</button>
 </div>
