@@ -125,7 +125,7 @@ app.config(['languageServiceProvider', function (language) {
         },
         fr: {
           text: [
-            "Mario-nopolis College est un collège privé anglophone situé sur une petite colline dans le Monde de Marianopolis. C'est un petit collège avec une population étudiante d'environ 2 000 min-marios. L'école a été fondée en 1908 comme étant le premier établissement d'enseignement collégial pour les femmes catholiques anglophones. Mario-nopolis College offre plusieurs programmes préuniversitaires. Notre campus actuel comprend douze pavillons, deux gymnases, un centre de fitness, plus de quatre laboratoires d'ordinateurs, et plusieurs laboratoires scientifiques. De plus, il y a une immense bibliothèque dans laquelle les étudiants peuvent étudier confortablement!",
+            "Mario-nopolis College est un collège privé anglophone situé sur une petite colline dans le Monde de Marianopolis. C'est un petit collège avec une population étudiante d'environ 2 000 mini-marios. L'école a été fondée en 1908 comme étant le premier établissement d'enseignement collégial pour les femmes catholiques anglophones. Mario-nopolis College offre plusieurs programmes préuniversitaires. Notre campus actuel comprend douze pavillons, deux gymnases, un centre de fitness, plus de quatre laboratoires d'ordinateurs, et plusieurs laboratoires scientifiques. De plus, il y a une immense bibliothèque dans laquelle les étudiants peuvent étudier confortablement!",
             "À Mario-nopolis, nous avons environ cent clubs et la vie étudiante est dirigée par le Congress, notre propre gouvernement par les étudiants pour les étudiants.",
             "Location:",
             "4873 Avenue Westmount, H3Y 1X9",
