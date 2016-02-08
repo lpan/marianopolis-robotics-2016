@@ -1,7 +1,6 @@
 app.directive('teamCard', function () {
   return {
     restrict: 'E',
-    link: link,
     scope: {
       member: '='
     },
