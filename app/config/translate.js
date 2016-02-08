@@ -25,7 +25,7 @@ app.config(['languageServiceProvider', function (language) {
           INTRO: [
             "Bonjour, je m'appelle Toad. Bienvenue à MARIOnopolis!",
             "Je vais être votre guide sur ce site internet.",
-            "Appuyez sur moi lorsque vous avez besoin d'aide."
+            "Appuyez sur moi pour ouvrir la barre de navigation."
           ],
           MAP_INFO: "Voici la carte! N'hésitez pas à naviguer dans le monde de MARIOnopolis!",
           NEXT: "suiv",
