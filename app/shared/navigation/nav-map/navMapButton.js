@@ -1,6 +1,7 @@
 app.directive('navMapButton', ['$location', function ($location) {
   var link = function (scope, element) {
     scope.gotoPage = function (path) {
+      window.scrollTo(0, 0);
       $location.path(path);
     };
     var label = $('.nav-map-button span:nth-child(2)');
