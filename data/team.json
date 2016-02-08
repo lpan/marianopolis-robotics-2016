@@ -2,6 +2,30 @@
   "fr": {
     "rob": [
       {
+        "name": "Hadi Bigdely",
+        "imageUrl": "hadi.jpg",
+        "mentor": "Professeur de Mathématiques",
+        "mentorClass": "team-mentor",
+        "game": "J'ai joué au jeu Super Mario quelques fois quand j'étais petit, et j'avais aimé la musique du jeu plus que le jeu lui-même.",
+        "experience": "J'ai apprécié considérablement avoir un rôle administrative de l'équipe. Personellement, les moments les plus mémorables étaient quand les membres de l'équipe ont pu penser à des idées imaginatives pour surmonter leurs défis. J'ai hâte à voir l'équipe performer à leur mieux à la compétition."
+      },
+      {
+        "name": "Behi Fatholahzadeh",
+        "imageUrl": "behi.jpg",
+        "mentor": "Professeur de Physique",
+        "mentorClass": "team-mentor",
+        "game": "Super Mario Bros",
+        "experience": "En tant que membre de la faculté, je détiens un rôle administratif au sein de l'équipe. Faire passer des entrevues dans le but de sélectionner les candidats pour l'équipe, faire des demandes de financement, soumettre des demandes de salles et de location de matériels et assurer que toute l'équipe suit le protocole de sécurité. Autre que ces rôles-ci, tous les aspects créatifs et techniques de la compétition étaient réalisés des étudiants!"
+      },
+      {
+        "name": "Alexandra Laskaris",
+        "imageUrl": "alexla.jpg",
+        "program": "Sciences de la Santé Honneur",
+        "special": "Capitaine",
+        "game": "Super Mario Bros",
+        "experience": "J'ai appris que participer à la competition robotique CRC exige de la persévérance et d'innombrables heures de travail. Par contre, à la fin, les résultats valent toutes les blessures et toutes les heures de sommeil manquées."
+      },
+      {
         "name": "Paul Farquhar",
         "imageUrl": "paulf.jpg",
         "program": "Sciences Pures et Appliquées",
@@ -16,14 +40,6 @@
         "special": "Extrusion d'assemblage",
         "game": "Super Mario Galaxy",
         "experience": "J'ai appris à utiliser différents types de matériaux  particulièrement l'extrusion et les kits de mouvement linéaire. J'ai eu la chance de travailler sur un robot complètement différent avec des personnes que je n'aurais jamais rencontrer sans la competition.  La partie la plus difficile a été de concevoir un système d'ascension qui répond aux restrictions de hauteur. Les heures de la construction durant les fin de semaines ont valu la peine."
-      },
-      {
-        "name": "Alexandra Laskaris",
-        "imageUrl": "alexla.jpg",
-        "program": "Sciences de la Santé Honneur",
-        "special": "Capitaine",
-        "game": "Super Mario Bros",
-        "experience": "J'ai appris que participer à la competition robotique CRC exige de la persévérance et d'innombrables heures de travail. Par contre, à la fin, les résultats valent toutes les blessures et toutes les heures de sommeil manquées."
       },
       {
         "name": "Bilun Sun",
@@ -196,6 +212,30 @@
   "en": {
     "rob": [
       {
+        "name": "Hadi Bigdely",
+        "imageUrl": "hadi.jpg",
+        "mentor": "Math Professor",
+        "mentorClass": "team-mentor",
+        "game": " I played Super Mario couple of times, when I was a kid and I liked the music more than the actual game itself.",
+        "experience": "I really enjoyed being one of the faculty supervisors of the team. For me the most interesting moments were when the team members had a new idea to overcome a challenging problem that they were facing. I am looking forward to seeing our team doing their best in the competition."
+      },
+      {
+        "name": "Behi Fatholahzadeh",
+        "imageUrl": "behi.jpg",
+        "mentor": "Physics Professor",
+        "mentorClass": "team-mentor",
+        "game": "Super Mario Bros",
+        "experience": "As a faculty supervisor, my main tasks were administrative. Interviewing and selecting team members, Getting funding, booking rooms, booking equipment, ensuring that the team was working on a reasonable schedule and keeping up with the pace. Making sure that no one got hurt and all safety protocols were followed. Other than that, all creative and technical aspects of the competition were fully in the hands of students!"
+      },
+      {
+        "name": "Alexandra Laskaris",
+        "imageUrl": "alexla.jpg",
+        "program": "Honours Health Science",
+        "special": "Captain",
+        "game": "Super Mario Bros",
+        "experience": "I learnt that particiting in CRC requires countless hours and perseverance. In the end the results are worth all the injuries  and lack of sleep. "
+      },
+      {
         "name": "Paul Farquhar",
         "imageUrl": "paulf.jpg",
         "program": "Pure and Applied Science",
@@ -210,14 +250,6 @@
         "special": "Assembling Extrusion",
         "game": "Super Mario Galaxy",
         "experience": "I learned how to use different types of materials, extrusion and linear motion kits in particular. I enjoyed the chance to work on a completely different robot and meet people that I wouldn't have otherwise. The most difficult part was designing a lift system that fit within the height restrictions. The hours of building on the weekend were definitely worth it. "
-      },
-      {
-        "name": "Alexandra Laskaris",
-        "imageUrl": "alexla.jpg",
-        "program": "Honours Health Science",
-        "special": "Captain",
-        "game": "Super Mario Bros",
-        "experience": "I learnt that particiting in CRC requires countless hours and perseverance. In the end the results are worth all the injuries  and lack of sleep. "
       },
       {
         "name": "Bilun Sun",

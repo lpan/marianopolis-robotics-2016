@@ -3,12 +3,13 @@
 		<div class="front">
       <img class="teampic" ng-src="../../../../assets/img/team/{{member.imageUrl}}">
     </div>
-		<div class="back team-info">
+		<div ng-class="member.mentorClass" class="back team-info">
       <p style="font-size: 24px">{{ member.name }}</p>
-      <p><span>Program:</span> {{ member.program }}</p>
-      <p><span>Favourite Game:</span> {{ member.game }}</p>
-      <p><span>Special skill:</span> {{ member.special }}</p>
-      <p><span>Experience: </span>{{ member.experience }}</p>
+      <p ng-hide="member.mentor"><span>{{ infos.program }}:</span> {{ member.program }}</p>
+      <p ng-show="member.mentor"><span>{{ infos.title }}:</span> {{ member.mentor }}</p>
+      <p><span>{{ infos.game }}:</span> {{ member.game }}</p>
+      <p ng-hide="member.mentor"><span>{{ infos.special }}:</span> {{ member.special }}</p>
+      <p><span>{{ infos.exp }}: </span>{{ member.experience }}</p>
 		</div>
 	</div>
 </div>

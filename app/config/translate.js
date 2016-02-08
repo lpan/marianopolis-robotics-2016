@@ -95,6 +95,14 @@ app.config(['languageServiceProvider', function (language) {
             kio: "Kiosk",
             vid: "Video"
           },
+          infos: {
+            program: "Program",
+            game: "Favourite Game",
+            special: "Special Skill",
+            exp: "Experience",
+            // Mentors only
+            title: "Title"
+          }
         },
         fr: {
           buttons: {
@@ -103,6 +111,14 @@ app.config(['languageServiceProvider', function (language) {
             kio: "Kiosque",
             vid: "Vidéo"
           },
+          infos: {
+            program: "Programme",
+            game: "Jeu Préféré",
+            special: "Compétence Spéciale",
+            exp: "Expérience",
+            // Mentors only
+            title: "Titre"
+          }
         }
       },
       game: {
