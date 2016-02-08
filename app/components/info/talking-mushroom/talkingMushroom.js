@@ -7,17 +7,15 @@ app.directive('talkingMushroom', ['languageService', '$timeout', function (langu
     var update = function () {
       intro = trans[language.lang.toString()].INTRO;
       scope.info = trans[language.lang.toString()].MAP_INFO;
+      scope.next = trans[language.lang.toString()].NEXT;
+      scope.prev = trans[language.lang.toString()].PREV;
+      scope.got = trans[language.lang.toString()].GOT;
     };
     // assign value to intro variable
     update();
-    scope.$watch(function () {
-      return language.lang;
-    }, function () {
-      update();
-    });
     // update text according to counter
     scope.counter = 0;
-    scope.next = function () {
+    scope.nextOne = function () {
       if (scope.counter !== intro.length)
         scope.counter ++;
     };
@@ -76,13 +74,13 @@ app.directive('talkingMushroom', ['languageService', '$timeout', function (langu
     scope.$watch('counter', function () {
       if (scope.counter === intro.length-1) {
         goAhead();
-        button2Text.html('Got it');
+        button2Text.html(scope.got);
         button2Text.addClass('animated swing');
       } else if (scope.counter === intro.length) {
         moveHide();
       } else {
         goAhead();
-        button2Text.html('Next');
+        button2Text.html(scope.next);
         button2Text.removeClass('animated swing');
       }
     });

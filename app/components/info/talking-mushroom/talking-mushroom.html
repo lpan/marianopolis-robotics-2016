@@ -4,8 +4,8 @@
     <div class="bubble-arrow bubble-bottom"></div>
     <p class="mushroom-text mushroom-speech">{{ text }}</p>
     <div ng-cloak class="flow-buttons" ng-show="moved">
-      <div class="mushroom-text" ng-click="previous()">Prev</div>
-      <div class="mushroom-text" ng-click="next()">Next</div>
+      <div class="mushroom-text" ng-click="previous()">{{ prev }}</div>
+      <div class="mushroom-text" ng-click="nextOne()">{{ next }}</div>
     </div>
   </div>
   <div ng-cloak class="speech-bubble" ng-show="speechBubble">
