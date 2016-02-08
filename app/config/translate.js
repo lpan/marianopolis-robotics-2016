@@ -91,7 +91,7 @@ app.config(['languageServiceProvider', function (language) {
         en: {
           buttons: {
             rob: "Robot",
-            web: "Website and Journalism",
+            web: "Web and Journal",
             kio: "Kiosk",
             vid: "Video"
           },
@@ -99,7 +99,7 @@ app.config(['languageServiceProvider', function (language) {
         fr: {
           buttons: {
             rob: "Robot",
-            web: "Site Internet et Journalisme",
+            web: "Site Web et Journal",
             kio: "Kiosque",
             vid: "Vidéo"
           },
