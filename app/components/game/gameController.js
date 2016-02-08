@@ -5,5 +5,5 @@ app.controller('gameController', ['$scope', 'languageService', function ($scope,
   var lang = language.lang.toString();
   $scope.startTitle = language.trans.nav[lang].GAME;
   $scope.text = language.trans.game[lang].text;
-  $scope.videoUrl = 'https://www.youtube.com/watch?v=X2KPVj53-yI';
+  $scope.videoUrl = 'https://www.youtube.com/watch?v=TDwoUGVXc9I';
 }]);
