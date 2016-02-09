@@ -1,4 +1,4 @@
-# MarioKart 2016
+# Mario-nopolis 2016
 Website for CRC Pythagorium 2016
 [robotics.lawrencepan.work](http://robotics.lawrencepan.work)
 [robotics.marianopolis.edu](http://robotics.marianopolis.edu)
@@ -6,14 +6,19 @@ Website for CRC Pythagorium 2016
 [![forthebadge](http://forthebadge.com/images/badges/does-not-contain-treenuts.svg)](http://forthebadge.com)
 
 ## Installation Guide
-Make sure you have npm and ruby installed
+Make sure:
+* You have npm and ruby installed
+* Port 3000 is free
 
+On your command line:
 * $ gem install compass
 * $ git clone https://github.com/lorix-lpan/marianopolis-robotics-2016
 * $ cd marianopolis-robotics-2016
 * $ npm install
 * $ bower install
 * $ npm start
+
+visit localhost:3000 on your browser
 
 Note: npm start will invoke the gulp script. For production, after all tasks are
 completed, simply press ctrl-c to stop the server.
@@ -28,6 +33,23 @@ Powered by [angularjs](https://angularjs.org/) and [bootstrap](http://getbootstr
 For security and and confidentiality purposes, this website is currently
 hosted on a private repository. It will be **opensourced** after the
 submission deadline(Feburary 8, 2016).
+
+### Features
+* Responsiveness
+  * All units are either in em or %
+  * Supports devices from 7' tablets (landscape mode) to standard size desktop
+    monitors
+* Smooth Transition
+  * No need to refresh when switching between pages
+  * Text is seperated from the template => No need to refresh when changing
+    languages
+
+### Bugs and Issues
+* Iframe elements does not follow Z-index rule on IE on Windows 7 => Navigation
+  map is hidden by the youtube video on "Gallery" and "Game"
+* Youtube API constantly polling for cast.js => It is one of the known bugs
+  which indeed does not affect user experience but logs error messages on
+  the console.
 
 ## Canadian Robotics Competitoin <a id="crc"></a>
 The CRC is an annual event in Quebec. For more information, visit their
