@@ -1,11 +1,8 @@
 # Mario-nopolis 2016
 Website for CRC Pythagorium 2016
 
-### Synced with this Git Repo
-[robotics.lawrencepan.work](http://robotics.lawrencepan.work)
-
-### Site submitted to the CRC judges
-[robotics.marianopolis.edu](http://robotics.marianopolis.edu)
+* Synced with this Git Repo: [robotics.lawrencepan.work](http://robotics.lawrencepan.work)
+* Site submitted to the CRC judges: [robotics.marianopolis.edu](http://robotics.marianopolis.edu)
 
 [![forthebadge](http://forthebadge.com/images/badges/does-not-contain-treenuts.svg)](http://forthebadge.com)
 
