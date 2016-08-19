@@ -26,7 +26,7 @@ completed, simply press ctrl-c to stop the server.
 
 ## About This site <a id="about"></a>
 ##### Written by
-* [Lawrence Pan](http://github.com/lorix-lpan "Lawrence's Github")
+* [Lawrence Pan](http://github.com/lpan "Lawrence's Github")
 * [Yixuan Wang](http://github.com/yixuanwang "Yixuan's Github")
 
 Powered by [angularjs](https://angularjs.org/) and [bootstrap](http://getbootstrap.com/).
